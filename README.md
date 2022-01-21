@@ -2,4 +2,4 @@
 
 ## pip3 install -r requirements.txt
 
-## pytest -v --tb=line
+## pytest -v --tb=line --language=en -m need_review
