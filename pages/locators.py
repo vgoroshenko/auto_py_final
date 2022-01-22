@@ -3,7 +3,6 @@ from selenium.webdriver.common.by import By
 
 class MainPageLocators():
     LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
-    BASKET_BUTTON = (By.CSS_SELECTOR, ".btn-group >a")
 
 class LoginPageLocators():
     LOGIN_EMAIL = (By.CSS_SELECTOR, "#id_login-username")
@@ -27,6 +26,7 @@ class ProductPageLocators():
     PRODUCT_MESSAGE_TOTAL_RICE = (By.CSS_SELECTOR, ".alert-info strong")
 
 class BasePageLocators():
+    BASKET_BUTTON = (By.CSS_SELECTOR, ".btn-group >a")
     LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
     LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_link_inc")
     USER_ICON = (By.CSS_SELECTOR, ".icon-user")

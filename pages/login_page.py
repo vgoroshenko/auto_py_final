@@ -11,13 +11,6 @@ class LoginPage(BasePage):
     def should_be_login_url(self):
         assert "login" in self.browser.current_url, "invalid login url"
 
-    def register_new_user(self, email, password):
-        self.browser.find_element(*LoginPageLocators.REGISTER_EMAIL).send_keys(email)
-        self.browser.find_element(*LoginPageLocators.REGISTER_PASS).send_keys(password)
-        self.browser.find_element(*LoginPageLocators.REGISTER_CONFIRM_PASS).send_keys(password)
-        register_button = self.browser.find_element(*LoginPageLocators.REGISTER_BUTTON)
-        register_button.click()
-
 
     def should_be_login_form(self):
         assert self.is_element_present(*LoginPageLocators.LOGIN_EMAIL), "Login email address field is not present"
@@ -27,3 +20,10 @@ class LoginPage(BasePage):
         assert self.is_element_present(*LoginPageLocators.REGISTER_EMAIL), "Register email address field is not present"
         assert self.is_element_present(*LoginPageLocators.REGISTER_PASS), "Register password field is not present"
         assert self.is_element_present(*LoginPageLocators.REGISTER_CONFIRM_PASS), "Register password field is not present"
+
+    def register_new_user(self, email, password):
+        self.browser.find_element(*LoginPageLocators.REGISTER_EMAIL).send_keys(email)
+        self.browser.find_element(*LoginPageLocators.REGISTER_PASS).send_keys(password)
+        self.browser.find_element(*LoginPageLocators.REGISTER_CONFIRM_PASS).send_keys(password)
+        register_button = self.browser.find_element(*LoginPageLocators.REGISTER_BUTTON)
+        register_button.click()
