@@ -1,12 +1,12 @@
 {
-  "uid" : "8cbd4fbeb2ab796",
-  "name" : "test_guest_can_add_product_to_basket",
-  "fullName" : "test_product_page#test_guest_can_add_product_to_basket",
-  "historyId" : "1bb4b07e7ed3c69a55e00b665028ee3a",
+  "uid" : "da29d09aec3a7b4a",
+  "name" : "test_guest_cant_see_product_in_basket_opened_from_product_page",
+  "fullName" : "test_product_page#test_guest_cant_see_product_in_basket_opened_from_product_page",
+  "historyId" : "bb1b500842a0de7c49716234702d6640",
   "time" : {
-    "start" : 1643560079950,
-    "stop" : 1643560082767,
-    "duration" : 2817
+    "start" : 1643560357885,
+    "stop" : 1643560369381,
+    "duration" : 11496
   },
   "status" : "passed",
   "flaky" : false,
@@ -18,9 +18,9 @@
   "beforeStages" : [ {
     "name" : "browser",
     "time" : {
-      "start" : 1643560078657,
-      "stop" : 1643560079948,
-      "duration" : 1291
+      "start" : 1643560356603,
+      "stop" : 1643560357884,
+      "duration" : 1281
     },
     "status" : "passed",
     "steps" : [ ],
@@ -35,11 +35,11 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "8fef3fdb11d92941",
+      "uid" : "943656331ddeac12",
       "name" : "stdout",
-      "source" : "8fef3fdb11d92941.txt",
+      "source" : "943656331ddeac12.txt",
       "type" : "text/plain",
-      "size" : 169
+      "size" : 16
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -50,9 +50,9 @@
   "afterStages" : [ {
     "name" : "browser::0",
     "time" : {
-      "start" : 1643560082768,
-      "stop" : 1643560082826,
-      "duration" : 58
+      "start" : 1643560369382,
+      "stop" : 1643560369437,
+      "duration" : 55
     },
     "status" : "passed",
     "steps" : [ ],
@@ -71,7 +71,7 @@
     "value" : "test_product_page"
   }, {
     "name" : "host",
-    "value" : "5857623f982e"
+    "value" : "de0c3374bd19"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -98,6 +98,6 @@
     "categories" : [ ],
     "tags" : [ "need_review" ]
   },
-  "source" : "8cbd4fbeb2ab796.json",
+  "source" : "da29d09aec3a7b4a.json",
   "parameterValues" : [ ]
 }
