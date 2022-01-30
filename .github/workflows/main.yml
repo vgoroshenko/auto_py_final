@@ -18,3 +18,8 @@ jobs:
           mkdir publish
           unzip results.zip -d ./publish
           ls ./publish
+      - uses: JamesIves/github-pages-deploy-action@v4.2.2
+      - name: Deploy 🚀
+        with:
+          branch: main # The branch the action should deploy to.
+          folder: publish # The folder the action should deploy.
