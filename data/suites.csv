@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Jan 30 18:12:03 UTC 2022","Sun Jan 30 18:12:06 UTC 2022","2866","","test_product_page","TestUserAddToBasketFromProductPage","","","test_user_can_add_product_to_basket",""
+"passed","Sun Jan 30 18:11:44 UTC 2022","Sun Jan 30 18:11:55 UTC 2022","10941","","test_product_page","TestUserAddToBasketFromProductPage","","","test_user_cant_see_success_message",""

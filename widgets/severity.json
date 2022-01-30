@@ -1,0 +1,21 @@
+[ {
+  "uid" : "ff17692ca01a9f69",
+  "name" : "test_user_cant_see_success_message",
+  "time" : {
+    "start" : 1643566304983,
+    "stop" : 1643566315924,
+    "duration" : 10941
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ced277c6b1f9dde",
+  "name" : "test_user_can_add_product_to_basket",
+  "time" : {
+    "start" : 1643566323719,
+    "stop" : 1643566326585,
+    "duration" : 2866
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
