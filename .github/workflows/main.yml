@@ -13,6 +13,6 @@ jobs:
           docker ps -a
           mkdir ./result
           ls
-          docker cp pytest$GITHUB_RUN_NUMBER:./app/results.zip ./result
+          docker cp pytest$GITHUB_RUN_NUMBER:./app/results.zip:./result
           docker rm pytest$GITHUB_RUN_NUMBER --force
           docker rmi temp/temp --force
