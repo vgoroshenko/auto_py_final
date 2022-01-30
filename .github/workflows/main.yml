@@ -10,11 +10,6 @@ jobs:
         run: |
           docker build -t temp/temp .
           docker create temp/temp --name pytest$GITHUB_RUN_NUMBER 
-          docker run --name pytest$GITHUB_RUN_NUMBER -d temp/temp
-          docker ps -a
-          mkdir ./result
-          ls
-          docker exec pytest$GITHUB_RUN_NUMBER ls
           docker cp pytest$GITHUB_RUN_NUMBER:./app/allure-report/results.zip ./result
           docker rm pytest$GITHUB_RUN_NUMBER --force
           docker rmi temp/temp --force
