@@ -23,8 +23,8 @@ jobs:
           flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
       - name: Test with pytest
         run: |
-          pytest -v --tb=line --language=en -m new --alluredir=reports
-      - name: Install Allure
+          pytest -v --tb=line --language=en --alluredir=reports
+      - name: Generate report
         run: |
           sudo mkdir /allure
           sudo wget https://github.com/allure-framework/allure2/releases/download/2.17.2/allure-2.17.2.tgz
@@ -32,9 +32,9 @@ jobs:
           export PATH="/allure/allure-2.17.2/bin:${PATH}"
           allure generate reports
 
-      - name: Deploy 🚀
+      - name: Deploy report🚀
         uses: JamesIves/github-pages-deploy-action@v4.2.2
         with:
-          branch: gh-pages-py
+          branch: gh-pages
           folder: allure-report
           clean: true
