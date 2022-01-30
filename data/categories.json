@@ -1,5 +1,30 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: Success message is presented, but should not be",
+      "children" : [ {
+        "name" : "test_guest_cant_see_success_message_after_adding_product_to_basket",
+        "uid" : "10040d0ac3c9ce78",
+        "parentUid" : "bb98d780e7a24c618b00db42ef2db6e2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1643567502129,
+          "stop" : 1643567503747,
+          "duration" : 1618
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "bb98d780e7a24c618b00db42ef2db6e2"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
   "name" : "categories"
 }

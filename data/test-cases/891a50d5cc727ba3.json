@@ -1,12 +1,12 @@
 {
-  "uid" : "875995ddcef7a4c2",
-  "name" : "test_guest_cant_see_success_message",
-  "fullName" : "test_product_page#test_guest_cant_see_success_message",
-  "historyId" : "732c37275f9f9b35dfa8085ac81d9f2c",
+  "uid" : "891a50d5cc727ba3",
+  "name" : "test_guest_cant_see_product_in_basket_opened_from_main_page",
+  "fullName" : "test_main_page#test_guest_cant_see_product_in_basket_opened_from_main_page",
+  "historyId" : "eaf658ee5fcb91f1fa206befd2fd205f",
   "time" : {
-    "start" : 1643567271874,
-    "stop" : 1643567282700,
-    "duration" : 10826
+    "start" : 1643567479506,
+    "stop" : 1643567491108,
+    "duration" : 11602
   },
   "status" : "passed",
   "flaky" : false,
@@ -18,9 +18,9 @@
   "beforeStages" : [ {
     "name" : "browser",
     "time" : {
-      "start" : 1643567270739,
-      "stop" : 1643567271874,
-      "duration" : 1135
+      "start" : 1643567478386,
+      "stop" : 1643567479505,
+      "duration" : 1119
     },
     "status" : "passed",
     "steps" : [ ],
@@ -35,9 +35,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "f8e632fadb27a13f",
+      "uid" : "354fbcdfaddc5ed7",
       "name" : "stdout",
-      "source" : "f8e632fadb27a13f.txt",
+      "source" : "354fbcdfaddc5ed7.txt",
       "type" : "text/plain",
       "size" : 16
     } ],
@@ -50,8 +50,8 @@
   "afterStages" : [ {
     "name" : "browser::0",
     "time" : {
-      "start" : 1643567282701,
-      "stop" : 1643567282757,
+      "start" : 1643567491108,
+      "stop" : 1643567491164,
       "duration" : 56
     },
     "status" : "passed",
@@ -65,13 +65,13 @@
   } ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "test_product_page"
+    "value" : "test_main_page"
   }, {
     "name" : "host",
-    "value" : "fv-az39-643"
+    "value" : "fv-az135-965"
   }, {
     "name" : "thread",
-    "value" : "1662-MainThread"
+    "value" : "1651-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -80,7 +80,7 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "test_product_page"
+    "value" : "test_main_page"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -95,6 +95,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "875995ddcef7a4c2.json",
+  "source" : "891a50d5cc727ba3.json",
   "parameterValues" : [ ]
 }

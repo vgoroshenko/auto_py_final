@@ -1,12 +1,12 @@
 {
-  "uid" : "d19f075df3b5b36",
-  "name" : "test_guest_cant_see_product_in_basket_opened_from_main_page",
-  "fullName" : "test_main_page#test_guest_cant_see_product_in_basket_opened_from_main_page",
-  "historyId" : "eaf658ee5fcb91f1fa206befd2fd205f",
+  "uid" : "27d647647d705f39",
+  "name" : "test_guest_should_see_login_link_on_product_page",
+  "fullName" : "test_product_page#test_guest_should_see_login_link_on_product_page",
+  "historyId" : "951ca461214fb73e60011e23f01653ef",
   "time" : {
-    "start" : 1643567250353,
-    "stop" : 1643567261547,
-    "duration" : 11194
+    "start" : 1643567530511,
+    "stop" : 1643567531148,
+    "duration" : 637
   },
   "status" : "passed",
   "flaky" : false,
@@ -18,9 +18,9 @@
   "beforeStages" : [ {
     "name" : "browser",
     "time" : {
-      "start" : 1643567249214,
-      "stop" : 1643567250352,
-      "duration" : 1138
+      "start" : 1643567529392,
+      "stop" : 1643567530511,
+      "duration" : 1119
     },
     "status" : "passed",
     "steps" : [ ],
@@ -35,9 +35,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "4b7540be04ea3eef",
+      "uid" : "3f4cf0eadaf4cb79",
       "name" : "stdout",
-      "source" : "4b7540be04ea3eef.txt",
+      "source" : "3f4cf0eadaf4cb79.txt",
       "type" : "text/plain",
       "size" : 16
     } ],
@@ -50,9 +50,9 @@
   "afterStages" : [ {
     "name" : "browser::0",
     "time" : {
-      "start" : 1643567261548,
-      "stop" : 1643567261604,
-      "duration" : 56
+      "start" : 1643567531148,
+      "stop" : 1643567531203,
+      "duration" : 55
     },
     "status" : "passed",
     "steps" : [ ],
@@ -65,13 +65,13 @@
   } ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "test_main_page"
+    "value" : "test_product_page"
   }, {
     "name" : "host",
-    "value" : "fv-az39-643"
+    "value" : "fv-az135-965"
   }, {
     "name" : "thread",
-    "value" : "1662-MainThread"
+    "value" : "1651-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -80,7 +80,7 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "test_main_page"
+    "value" : "test_product_page"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -95,6 +95,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "d19f075df3b5b36.json",
+  "source" : "27d647647d705f39.json",
   "parameterValues" : [ ]
 }

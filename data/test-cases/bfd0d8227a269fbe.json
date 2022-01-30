@@ -1,12 +1,12 @@
 {
-  "uid" : "e5928e0d608a5559",
-  "name" : "test_guest_should_see_login_link",
-  "fullName" : "test_main_page.TestLoginFromMainPage#test_guest_should_see_login_link",
-  "historyId" : "cfa5e66f6fc7be1333458fd635095aa2",
+  "uid" : "bfd0d8227a269fbe",
+  "name" : "test_guest_cant_see_product_in_basket_opened_from_product_page",
+  "fullName" : "test_product_page#test_guest_cant_see_product_in_basket_opened_from_product_page",
+  "historyId" : "bb1b500842a0de7c49716234702d6640",
   "time" : {
-    "start" : 1643567264627,
-    "stop" : 1643567264982,
-    "duration" : 355
+    "start" : 1643567517288,
+    "stop" : 1643567529334,
+    "duration" : 12046
   },
   "status" : "passed",
   "flaky" : false,
@@ -18,9 +18,9 @@
   "beforeStages" : [ {
     "name" : "browser",
     "time" : {
-      "start" : 1643567263491,
-      "stop" : 1643567264626,
-      "duration" : 1135
+      "start" : 1643567516169,
+      "stop" : 1643567517287,
+      "duration" : 1118
     },
     "status" : "passed",
     "steps" : [ ],
@@ -35,9 +35,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "ebac6703b1a6370",
+      "uid" : "f7ca59e875ac878f",
       "name" : "stdout",
-      "source" : "ebac6703b1a6370.txt",
+      "source" : "f7ca59e875ac878f.txt",
       "type" : "text/plain",
       "size" : 16
     } ],
@@ -50,8 +50,8 @@
   "afterStages" : [ {
     "name" : "browser::0",
     "time" : {
-      "start" : 1643567264983,
-      "stop" : 1643567265038,
+      "start" : 1643567529335,
+      "stop" : 1643567529390,
       "duration" : 55
     },
     "status" : "passed",
@@ -65,19 +65,16 @@
   } ],
   "labels" : [ {
     "name" : "tag",
-    "value" : "login_guest"
+    "value" : "need_review"
   }, {
     "name" : "suite",
-    "value" : "test_main_page"
-  }, {
-    "name" : "subSuite",
-    "value" : "TestLoginFromMainPage"
+    "value" : "test_product_page"
   }, {
     "name" : "host",
-    "value" : "fv-az39-643"
+    "value" : "fv-az135-965"
   }, {
     "name" : "thread",
-    "value" : "1662-MainThread"
+    "value" : "1651-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -86,7 +83,7 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "test_main_page"
+    "value" : "test_product_page"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -99,8 +96,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "login_guest" ]
+    "tags" : [ "need_review" ]
   },
-  "source" : "e5928e0d608a5559.json",
+  "source" : "bfd0d8227a269fbe.json",
   "parameterValues" : [ ]
 }

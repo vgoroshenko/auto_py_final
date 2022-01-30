@@ -1,12 +1,12 @@
 {
-  "uid" : "740acca241849236",
-  "name" : "test_guest_can_go_to_login_page",
-  "fullName" : "test_main_page.TestLoginFromMainPage#test_guest_can_go_to_login_page",
-  "historyId" : "678e27d6baefbd97a051c8593caf1f4d",
+  "uid" : "44367d65b061bc95",
+  "name" : "test_user_can_add_product_to_basket",
+  "fullName" : "test_product_page.TestUserAddToBasketFromProductPage#test_user_can_add_product_to_basket",
+  "historyId" : "9172ddc0d6b907a80ba7befefcba349e",
   "time" : {
-    "start" : 1643567262746,
-    "stop" : 1643567263433,
-    "duration" : 687
+    "start" : 1643567562026,
+    "stop" : 1643567564875,
+    "duration" : 2849
   },
   "status" : "passed",
   "flaky" : false,
@@ -18,9 +18,24 @@
   "beforeStages" : [ {
     "name" : "browser",
     "time" : {
-      "start" : 1643567261606,
-      "stop" : 1643567262745,
-      "duration" : 1139
+      "start" : 1643567555604,
+      "stop" : 1643567556726,
+      "duration" : 1122
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1643567556726,
+      "stop" : 1643567562025,
+      "duration" : 5299
     },
     "status" : "passed",
     "steps" : [ ],
@@ -35,11 +50,11 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "66654586a2ea723",
+      "uid" : "f8a14b7874f0447c",
       "name" : "stdout",
-      "source" : "66654586a2ea723.txt",
+      "source" : "f8a14b7874f0447c.txt",
       "type" : "text/plain",
-      "size" : 16
+      "size" : 170
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -50,8 +65,8 @@
   "afterStages" : [ {
     "name" : "browser::0",
     "time" : {
-      "start" : 1643567263433,
-      "stop" : 1643567263489,
+      "start" : 1643567564875,
+      "stop" : 1643567564931,
       "duration" : 56
     },
     "status" : "passed",
@@ -65,19 +80,22 @@
   } ],
   "labels" : [ {
     "name" : "tag",
-    "value" : "login_guest"
+    "value" : "new"
+  }, {
+    "name" : "tag",
+    "value" : "need_review"
   }, {
     "name" : "suite",
-    "value" : "test_main_page"
+    "value" : "test_product_page"
   }, {
     "name" : "subSuite",
-    "value" : "TestLoginFromMainPage"
+    "value" : "TestUserAddToBasketFromProductPage"
   }, {
     "name" : "host",
-    "value" : "fv-az39-643"
+    "value" : "fv-az135-965"
   }, {
     "name" : "thread",
-    "value" : "1662-MainThread"
+    "value" : "1651-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -86,7 +104,7 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "test_main_page"
+    "value" : "test_product_page"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -99,8 +117,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "login_guest" ]
+    "tags" : [ "new", "need_review" ]
   },
-  "source" : "740acca241849236.json",
+  "source" : "44367d65b061bc95.json",
   "parameterValues" : [ ]
 }

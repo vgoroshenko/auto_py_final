@@ -4,9 +4,9 @@
     "uid" : "2ac69296d25a79e4a24517462ae8926f",
     "name" : "test_product_page",
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
-      "skipped" : 2,
+      "skipped" : 1,
       "passed" : 7,
       "unknown" : 0,
       "total" : 9

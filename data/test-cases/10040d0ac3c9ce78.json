@@ -1,14 +1,16 @@
 {
-  "uid" : "ddfdd9dad8c45c28",
-  "name" : "test_user_can_add_product_to_basket",
-  "fullName" : "test_product_page.TestUserAddToBasketFromProductPage#test_user_can_add_product_to_basket",
-  "historyId" : "9172ddc0d6b907a80ba7befefcba349e",
+  "uid" : "10040d0ac3c9ce78",
+  "name" : "test_guest_cant_see_success_message_after_adding_product_to_basket",
+  "fullName" : "test_product_page#test_guest_cant_see_success_message_after_adding_product_to_basket",
+  "historyId" : "a6a0d3bb6cb6bc822eaf40d4fb29666d",
   "time" : {
-    "start" : 1643567327279,
-    "stop" : 1643567329463,
-    "duration" : 2184
+    "start" : 1643567502129,
+    "stop" : 1643567503747,
+    "duration" : 1618
   },
-  "status" : "passed",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Success message is presented, but should not be",
+  "statusTrace" : "E   AssertionError: Success message is presented, but should not be",
   "flaky" : false,
   "newFailed" : false,
   "newBroken" : false,
@@ -18,24 +20,9 @@
   "beforeStages" : [ {
     "name" : "browser",
     "time" : {
-      "start" : 1643567320627,
-      "stop" : 1643567321758,
-      "duration" : 1131
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "setup",
-    "time" : {
-      "start" : 1643567321758,
-      "stop" : 1643567327279,
-      "duration" : 5521
+      "start" : 1643567501009,
+      "stop" : 1643567502128,
+      "duration" : 1119
     },
     "status" : "passed",
     "steps" : [ ],
@@ -47,27 +34,29 @@
     "hasContent" : false
   } ],
   "testStage" : {
-    "status" : "passed",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: Success message is presented, but should not be",
+    "statusTrace" : "E   AssertionError: Success message is presented, but should not be",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "6c9fdd5a7f125db4",
+      "uid" : "4a04b279c175e349",
       "name" : "stdout",
-      "source" : "6c9fdd5a7f125db4.txt",
+      "source" : "4a04b279c175e349.txt",
       "type" : "text/plain",
-      "size" : 170
+      "size" : 16
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
     "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false,
+    "shouldDisplayMessage" : true,
     "hasContent" : true
   },
   "afterStages" : [ {
     "name" : "browser::0",
     "time" : {
-      "start" : 1643567329464,
-      "stop" : 1643567329519,
-      "duration" : 55
+      "start" : 1643567503748,
+      "stop" : 1643567503804,
+      "duration" : 56
     },
     "status" : "passed",
     "steps" : [ ],
@@ -79,23 +68,14 @@
     "hasContent" : false
   } ],
   "labels" : [ {
-    "name" : "tag",
-    "value" : "new"
-  }, {
-    "name" : "tag",
-    "value" : "need_review"
-  }, {
     "name" : "suite",
     "value" : "test_product_page"
   }, {
-    "name" : "subSuite",
-    "value" : "TestUserAddToBasketFromProductPage"
-  }, {
     "name" : "host",
-    "value" : "fv-az39-643"
+    "value" : "fv-az135-965"
   }, {
     "name" : "thread",
-    "value" : "1662-MainThread"
+    "value" : "1651-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -116,9 +96,13 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ ],
-    "categories" : [ ],
-    "tags" : [ "new", "need_review" ]
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
   },
-  "source" : "ddfdd9dad8c45c28.json",
+  "source" : "10040d0ac3c9ce78.json",
   "parameterValues" : [ ]
 }

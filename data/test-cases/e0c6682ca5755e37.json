@@ -1,12 +1,12 @@
 {
-  "uid" : "db55354a4979ef7c",
+  "uid" : "e0c6682ca5755e37",
   "name" : "test_guest_can_go_to_login_page_from_product_page",
   "fullName" : "test_product_page#test_guest_can_go_to_login_page_from_product_page",
   "historyId" : "5e653e20fe9c29799d1dec592190f2a4",
   "time" : {
-    "start" : 1643567268276,
-    "stop" : 1643567268742,
-    "duration" : 466
+    "start" : 1643567500037,
+    "stop" : 1643567500952,
+    "duration" : 915
   },
   "status" : "passed",
   "flaky" : false,
@@ -18,9 +18,9 @@
   "beforeStages" : [ {
     "name" : "browser",
     "time" : {
-      "start" : 1643567267149,
-      "stop" : 1643567268276,
-      "duration" : 1127
+      "start" : 1643567498916,
+      "stop" : 1643567500036,
+      "duration" : 1120
     },
     "status" : "passed",
     "steps" : [ ],
@@ -35,9 +35,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "94ef3037de5234db",
+      "uid" : "7b367cdf8d86d304",
       "name" : "stdout",
-      "source" : "94ef3037de5234db.txt",
+      "source" : "7b367cdf8d86d304.txt",
       "type" : "text/plain",
       "size" : 16
     } ],
@@ -50,9 +50,9 @@
   "afterStages" : [ {
     "name" : "browser::0",
     "time" : {
-      "start" : 1643567268743,
-      "stop" : 1643567268799,
-      "duration" : 56
+      "start" : 1643567500953,
+      "stop" : 1643567501008,
+      "duration" : 55
     },
     "status" : "passed",
     "steps" : [ ],
@@ -71,10 +71,10 @@
     "value" : "test_product_page"
   }, {
     "name" : "host",
-    "value" : "fv-az39-643"
+    "value" : "fv-az135-965"
   }, {
     "name" : "thread",
-    "value" : "1662-MainThread"
+    "value" : "1651-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -98,6 +98,6 @@
     "categories" : [ ],
     "tags" : [ "need_review" ]
   },
-  "source" : "db55354a4979ef7c.json",
+  "source" : "e0c6682ca5755e37.json",
   "parameterValues" : [ ]
 }
