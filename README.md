@@ -4,6 +4,6 @@
 
 ## pytest -v --tb=line --language=en -m need_review
 
-### http://selenium1py.pythonanywhere.com/
+### Link for test http://selenium1py.pythonanywhere.com/
 
-## https://vgoroshenko.github.io/auto_py_final/ Allure result page
+## Link to reports after test run https://vgoroshenko.github.io/auto_py_final/ 
