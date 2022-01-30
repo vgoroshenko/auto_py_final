@@ -9,7 +9,8 @@ jobs:
       - name: Build the Docker image
         run: |
           docker build -t temp/temp .
-          docker create --name pytest$GITHUB_RUN_NUMBER temp/temp
+          docker create temp/temp --name pytest$GITHUB_RUN_NUMBER 
+          docker run -it --name pytest$GITHUB_RUN_NUMBER -d temp/temp
           docker ps -a
           mkdir ./result
           ls
