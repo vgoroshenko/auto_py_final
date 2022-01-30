@@ -29,7 +29,7 @@ jobs:
           sudo mkdir /allure
           sudo wget https://github.com/allure-framework/allure2/releases/download/2.17.2/allure-2.17.2.tgz
           sudo tar zxf allure-2.17.2.tgz -C /allure
-          sudo export PATH="/allure/allure-2.17.2/bin:${PATH}"
+          export PATH="/allure/allure-2.17.2/bin:${PATH}"
       - name: Generate reports
         run: |          
           allure generate reports
