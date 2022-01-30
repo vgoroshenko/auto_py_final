@@ -25,6 +25,7 @@ jobs:
         run: |
           pytest -v --tb=line --language=en --alluredir=reports
       - name: Generate report
+        if: ${{ always() }}
         run: |
           sudo mkdir /allure
           sudo wget https://github.com/allure-framework/allure2/releases/download/2.17.2/allure-2.17.2.tgz
@@ -33,6 +34,7 @@ jobs:
           allure generate reports
 
       - name: Deploy report🚀
+        if: ${{ always() }}
         uses: JamesIves/github-pages-deploy-action@v4.2.2
         with:
           branch: gh-pages
