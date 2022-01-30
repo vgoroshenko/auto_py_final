@@ -21,4 +21,4 @@ RUN mkdir /reports
 RUN pytest -v --tb=line --language=en -m need_review --alluredir=reports
 
 RUN allure generate reports
-RUN cd allure-report/ && zip -r results.zip ./* -b ./app
+RUN cd allure-report/ && zip -r results.zip ./* -b /app
