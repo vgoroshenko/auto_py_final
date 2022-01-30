@@ -13,3 +13,4 @@ jobs:
           docker cp pytest$GITHUB_RUN_NUMBER:./app/allure-report/results.zip .
           docker rm pytest$GITHUB_RUN_NUMBER --force
           docker rmi temp/temp --force
+          ls
