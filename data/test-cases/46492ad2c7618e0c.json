@@ -1,12 +1,12 @@
 {
-  "uid" : "70549dacbb2815a4",
-  "name" : "test_guest_cant_see_success_message",
-  "fullName" : "test_product_page#test_guest_cant_see_success_message",
-  "historyId" : "732c37275f9f9b35dfa8085ac81d9f2c",
+  "uid" : "46492ad2c7618e0c",
+  "name" : "test_user_cant_see_success_message",
+  "fullName" : "test_product_page.TestUserAddToBasketFromProductPage#test_user_cant_see_success_message",
+  "historyId" : "f839820fadcc5418eef5369a1303f3f4",
   "time" : {
-    "start" : 1643560607675,
-    "stop" : 1643560619506,
-    "duration" : 11831
+    "start" : 1643566541722,
+    "stop" : 1643566552765,
+    "duration" : 11043
   },
   "status" : "passed",
   "flaky" : false,
@@ -18,9 +18,24 @@
   "beforeStages" : [ {
     "name" : "browser",
     "time" : {
-      "start" : 1643560606360,
-      "stop" : 1643560607674,
-      "duration" : 1314
+      "start" : 1643566534483,
+      "stop" : 1643566535602,
+      "duration" : 1119
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1643566535602,
+      "stop" : 1643566541721,
+      "duration" : 6119
     },
     "status" : "passed",
     "steps" : [ ],
@@ -35,9 +50,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "cf029744557a3664",
+      "uid" : "a23033bd9ef5e52",
       "name" : "stdout",
-      "source" : "cf029744557a3664.txt",
+      "source" : "a23033bd9ef5e52.txt",
       "type" : "text/plain",
       "size" : 16
     } ],
@@ -50,9 +65,9 @@
   "afterStages" : [ {
     "name" : "browser::0",
     "time" : {
-      "start" : 1643560619508,
-      "stop" : 1643560619564,
-      "duration" : 56
+      "start" : 1643566552766,
+      "stop" : 1643566552821,
+      "duration" : 55
     },
     "status" : "passed",
     "steps" : [ ],
@@ -64,14 +79,20 @@
     "hasContent" : false
   } ],
   "labels" : [ {
+    "name" : "tag",
+    "value" : "new"
+  }, {
     "name" : "suite",
     "value" : "test_product_page"
   }, {
+    "name" : "subSuite",
+    "value" : "TestUserAddToBasketFromProductPage"
+  }, {
     "name" : "host",
-    "value" : "89bd415268ef"
+    "value" : "fv-az124-999"
   }, {
     "name" : "thread",
-    "value" : "1-MainThread"
+    "value" : "1650-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -93,8 +114,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ ]
+    "tags" : [ "new" ]
   },
-  "source" : "70549dacbb2815a4.json",
+  "source" : "46492ad2c7618e0c.json",
   "parameterValues" : [ ]
 }

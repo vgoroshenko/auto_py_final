@@ -1,12 +1,12 @@
 {
-  "uid" : "7b0d1fe3e63fa9b6",
-  "name" : "test_guest_can_go_to_login_page",
-  "fullName" : "test_main_page.TestLoginFromMainPage#test_guest_can_go_to_login_page",
-  "historyId" : "678e27d6baefbd97a051c8593caf1f4d",
+  "uid" : "b5a7cb5f3b34cfd1",
+  "name" : "test_guest_cant_see_product_in_basket_opened_from_product_page",
+  "fullName" : "test_product_page#test_guest_cant_see_product_in_basket_opened_from_product_page",
+  "historyId" : "bb1b500842a0de7c49716234702d6640",
   "time" : {
-    "start" : 1643560596263,
-    "stop" : 1643560597017,
-    "duration" : 754
+    "start" : 1643566514218,
+    "stop" : 1643566525878,
+    "duration" : 11660
   },
   "status" : "passed",
   "flaky" : false,
@@ -18,9 +18,9 @@
   "beforeStages" : [ {
     "name" : "browser",
     "time" : {
-      "start" : 1643560594955,
-      "stop" : 1643560596262,
-      "duration" : 1307
+      "start" : 1643566513098,
+      "stop" : 1643566514217,
+      "duration" : 1119
     },
     "status" : "passed",
     "steps" : [ ],
@@ -35,9 +35,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "7f20bd46609493f0",
+      "uid" : "5ca6f4af432ee13b",
       "name" : "stdout",
-      "source" : "7f20bd46609493f0.txt",
+      "source" : "5ca6f4af432ee13b.txt",
       "type" : "text/plain",
       "size" : 16
     } ],
@@ -50,9 +50,9 @@
   "afterStages" : [ {
     "name" : "browser::0",
     "time" : {
-      "start" : 1643560597018,
-      "stop" : 1643560597074,
-      "duration" : 56
+      "start" : 1643566525878,
+      "stop" : 1643566525936,
+      "duration" : 58
     },
     "status" : "passed",
     "steps" : [ ],
@@ -65,19 +65,16 @@
   } ],
   "labels" : [ {
     "name" : "tag",
-    "value" : "login_guest"
+    "value" : "need_review"
   }, {
     "name" : "suite",
-    "value" : "test_main_page"
-  }, {
-    "name" : "subSuite",
-    "value" : "TestLoginFromMainPage"
+    "value" : "test_product_page"
   }, {
     "name" : "host",
-    "value" : "89bd415268ef"
+    "value" : "fv-az124-999"
   }, {
     "name" : "thread",
-    "value" : "1-MainThread"
+    "value" : "1650-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -86,7 +83,7 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "test_main_page"
+    "value" : "test_product_page"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -99,8 +96,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "login_guest" ]
+    "tags" : [ "need_review" ]
   },
-  "source" : "7b0d1fe3e63fa9b6.json",
+  "source" : "b5a7cb5f3b34cfd1.json",
   "parameterValues" : [ ]
 }

@@ -1,12 +1,12 @@
 {
-  "uid" : "d92fb7c2580c24bc",
+  "uid" : "88123cb778ed93b7",
   "name" : "test_guest_should_see_login_link",
   "fullName" : "test_main_page.TestLoginFromMainPage#test_guest_should_see_login_link",
   "historyId" : "cfa5e66f6fc7be1333458fd635095aa2",
   "time" : {
-    "start" : 1643560598391,
-    "stop" : 1643560599043,
-    "duration" : 652
+    "start" : 1643566492143,
+    "stop" : 1643566493000,
+    "duration" : 857
   },
   "status" : "passed",
   "flaky" : false,
@@ -18,9 +18,9 @@
   "beforeStages" : [ {
     "name" : "browser",
     "time" : {
-      "start" : 1643560597078,
-      "stop" : 1643560598390,
-      "duration" : 1312
+      "start" : 1643566491024,
+      "stop" : 1643566492143,
+      "duration" : 1119
     },
     "status" : "passed",
     "steps" : [ ],
@@ -35,9 +35,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "5080707da995617c",
+      "uid" : "266031e4f68965f6",
       "name" : "stdout",
-      "source" : "5080707da995617c.txt",
+      "source" : "266031e4f68965f6.txt",
       "type" : "text/plain",
       "size" : 16
     } ],
@@ -50,8 +50,8 @@
   "afterStages" : [ {
     "name" : "browser::0",
     "time" : {
-      "start" : 1643560599044,
-      "stop" : 1643560599099,
+      "start" : 1643566493000,
+      "stop" : 1643566493055,
       "duration" : 55
     },
     "status" : "passed",
@@ -74,10 +74,10 @@
     "value" : "TestLoginFromMainPage"
   }, {
     "name" : "host",
-    "value" : "89bd415268ef"
+    "value" : "fv-az124-999"
   }, {
     "name" : "thread",
-    "value" : "1-MainThread"
+    "value" : "1650-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -101,6 +101,6 @@
     "categories" : [ ],
     "tags" : [ "login_guest" ]
   },
-  "source" : "d92fb7c2580c24bc.json",
+  "source" : "88123cb778ed93b7.json",
   "parameterValues" : [ ]
 }
