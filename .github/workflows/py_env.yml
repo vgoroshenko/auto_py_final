@@ -23,7 +23,7 @@ jobs:
           flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
       - name: Test with pytest
         run: |
-          pytest -v --tb=line --language=en --alluredir=reports
+          pytest -v --tb=line --language=en -m new --alluredir=reports
       - name: Install Allure
         run: |
           sudo mkdir /allure
