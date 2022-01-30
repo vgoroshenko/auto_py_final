@@ -1,12 +1,12 @@
 {
-  "uid" : "88123cb778ed93b7",
-  "name" : "test_guest_should_see_login_link",
-  "fullName" : "test_main_page.TestLoginFromMainPage#test_guest_should_see_login_link",
-  "historyId" : "cfa5e66f6fc7be1333458fd635095aa2",
+  "uid" : "d19f075df3b5b36",
+  "name" : "test_guest_cant_see_product_in_basket_opened_from_main_page",
+  "fullName" : "test_main_page#test_guest_cant_see_product_in_basket_opened_from_main_page",
+  "historyId" : "eaf658ee5fcb91f1fa206befd2fd205f",
   "time" : {
-    "start" : 1643566492143,
-    "stop" : 1643566493000,
-    "duration" : 857
+    "start" : 1643567250353,
+    "stop" : 1643567261547,
+    "duration" : 11194
   },
   "status" : "passed",
   "flaky" : false,
@@ -18,9 +18,9 @@
   "beforeStages" : [ {
     "name" : "browser",
     "time" : {
-      "start" : 1643566491024,
-      "stop" : 1643566492143,
-      "duration" : 1119
+      "start" : 1643567249214,
+      "stop" : 1643567250352,
+      "duration" : 1138
     },
     "status" : "passed",
     "steps" : [ ],
@@ -35,9 +35,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "266031e4f68965f6",
+      "uid" : "4b7540be04ea3eef",
       "name" : "stdout",
-      "source" : "266031e4f68965f6.txt",
+      "source" : "4b7540be04ea3eef.txt",
       "type" : "text/plain",
       "size" : 16
     } ],
@@ -50,9 +50,9 @@
   "afterStages" : [ {
     "name" : "browser::0",
     "time" : {
-      "start" : 1643566493000,
-      "stop" : 1643566493055,
-      "duration" : 55
+      "start" : 1643567261548,
+      "stop" : 1643567261604,
+      "duration" : 56
     },
     "status" : "passed",
     "steps" : [ ],
@@ -64,20 +64,14 @@
     "hasContent" : false
   } ],
   "labels" : [ {
-    "name" : "tag",
-    "value" : "login_guest"
-  }, {
     "name" : "suite",
     "value" : "test_main_page"
   }, {
-    "name" : "subSuite",
-    "value" : "TestLoginFromMainPage"
-  }, {
     "name" : "host",
-    "value" : "fv-az124-999"
+    "value" : "fv-az39-643"
   }, {
     "name" : "thread",
-    "value" : "1650-MainThread"
+    "value" : "1662-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -99,8 +93,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "login_guest" ]
+    "tags" : [ ]
   },
-  "source" : "88123cb778ed93b7.json",
+  "source" : "d19f075df3b5b36.json",
   "parameterValues" : [ ]
 }

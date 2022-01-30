@@ -1,12 +1,12 @@
 {
-  "uid" : "4be0c848ebe5542e",
-  "name" : "test_guest_cant_see_product_in_basket_opened_from_main_page",
-  "fullName" : "test_main_page#test_guest_cant_see_product_in_basket_opened_from_main_page",
-  "historyId" : "eaf658ee5fcb91f1fa206befd2fd205f",
+  "uid" : "875995ddcef7a4c2",
+  "name" : "test_guest_cant_see_success_message",
+  "fullName" : "test_product_page#test_guest_cant_see_success_message",
+  "historyId" : "732c37275f9f9b35dfa8085ac81d9f2c",
   "time" : {
-    "start" : 1643566477276,
-    "stop" : 1643566488796,
-    "duration" : 11520
+    "start" : 1643567271874,
+    "stop" : 1643567282700,
+    "duration" : 10826
   },
   "status" : "passed",
   "flaky" : false,
@@ -18,9 +18,9 @@
   "beforeStages" : [ {
     "name" : "browser",
     "time" : {
-      "start" : 1643566476155,
-      "stop" : 1643566477275,
-      "duration" : 1120
+      "start" : 1643567270739,
+      "stop" : 1643567271874,
+      "duration" : 1135
     },
     "status" : "passed",
     "steps" : [ ],
@@ -35,9 +35,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "dc1134a304f0d2ec",
+      "uid" : "f8e632fadb27a13f",
       "name" : "stdout",
-      "source" : "dc1134a304f0d2ec.txt",
+      "source" : "f8e632fadb27a13f.txt",
       "type" : "text/plain",
       "size" : 16
     } ],
@@ -50,9 +50,9 @@
   "afterStages" : [ {
     "name" : "browser::0",
     "time" : {
-      "start" : 1643566488797,
-      "stop" : 1643566488852,
-      "duration" : 55
+      "start" : 1643567282701,
+      "stop" : 1643567282757,
+      "duration" : 56
     },
     "status" : "passed",
     "steps" : [ ],
@@ -65,13 +65,13 @@
   } ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "test_main_page"
+    "value" : "test_product_page"
   }, {
     "name" : "host",
-    "value" : "fv-az124-999"
+    "value" : "fv-az39-643"
   }, {
     "name" : "thread",
-    "value" : "1650-MainThread"
+    "value" : "1662-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -80,7 +80,7 @@
     "value" : "cpython3"
   }, {
     "name" : "package",
-    "value" : "test_main_page"
+    "value" : "test_product_page"
   }, {
     "name" : "resultFormat",
     "value" : "allure2"
@@ -95,6 +95,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "4be0c848ebe5542e.json",
+  "source" : "875995ddcef7a4c2.json",
   "parameterValues" : [ ]
 }

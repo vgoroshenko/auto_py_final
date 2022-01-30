@@ -1,12 +1,12 @@
 {
-  "uid" : "1518c1ee38cd4ab",
-  "name" : "test_user_can_add_product_to_basket",
-  "fullName" : "test_product_page.TestUserAddToBasketFromProductPage#test_user_can_add_product_to_basket",
-  "historyId" : "9172ddc0d6b907a80ba7befefcba349e",
+  "uid" : "770b00aeb1c24f60",
+  "name" : "test_guest_should_see_login_link_on_product_page",
+  "fullName" : "test_product_page#test_guest_should_see_login_link_on_product_page",
+  "historyId" : "951ca461214fb73e60011e23f01653ef",
   "time" : {
-    "start" : 1643566559495,
-    "stop" : 1643566562499,
-    "duration" : 3004
+    "start" : 1643567296307,
+    "stop" : 1643567296625,
+    "duration" : 318
   },
   "status" : "passed",
   "flaky" : false,
@@ -18,24 +18,9 @@
   "beforeStages" : [ {
     "name" : "browser",
     "time" : {
-      "start" : 1643566552823,
-      "stop" : 1643566553935,
-      "duration" : 1112
-    },
-    "status" : "passed",
-    "steps" : [ ],
-    "attachments" : [ ],
-    "parameters" : [ ],
-    "stepsCount" : 0,
-    "attachmentsCount" : 0,
-    "shouldDisplayMessage" : false,
-    "hasContent" : false
-  }, {
-    "name" : "setup",
-    "time" : {
-      "start" : 1643566553935,
-      "stop" : 1643566559495,
-      "duration" : 5560
+      "start" : 1643567295177,
+      "stop" : 1643567296307,
+      "duration" : 1130
     },
     "status" : "passed",
     "steps" : [ ],
@@ -50,11 +35,11 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "7caa654173f986d7",
+      "uid" : "1d903a7c5cd06da1",
       "name" : "stdout",
-      "source" : "7caa654173f986d7.txt",
+      "source" : "1d903a7c5cd06da1.txt",
       "type" : "text/plain",
-      "size" : 168
+      "size" : 16
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -65,9 +50,9 @@
   "afterStages" : [ {
     "name" : "browser::0",
     "time" : {
-      "start" : 1643566562500,
-      "stop" : 1643566562555,
-      "duration" : 55
+      "start" : 1643567296625,
+      "stop" : 1643567296681,
+      "duration" : 56
     },
     "status" : "passed",
     "steps" : [ ],
@@ -79,23 +64,14 @@
     "hasContent" : false
   } ],
   "labels" : [ {
-    "name" : "tag",
-    "value" : "new"
-  }, {
-    "name" : "tag",
-    "value" : "need_review"
-  }, {
     "name" : "suite",
     "value" : "test_product_page"
   }, {
-    "name" : "subSuite",
-    "value" : "TestUserAddToBasketFromProductPage"
-  }, {
     "name" : "host",
-    "value" : "fv-az124-999"
+    "value" : "fv-az39-643"
   }, {
     "name" : "thread",
-    "value" : "1650-MainThread"
+    "value" : "1662-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -117,8 +93,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "new", "need_review" ]
+    "tags" : [ ]
   },
-  "source" : "1518c1ee38cd4ab.json",
+  "source" : "770b00aeb1c24f60.json",
   "parameterValues" : [ ]
 }

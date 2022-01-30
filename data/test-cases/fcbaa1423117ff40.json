@@ -1,12 +1,12 @@
 {
-  "uid" : "19384f324b71b5e5",
-  "name" : "test_guest_cant_see_success_message_after_adding_product_to_basket",
-  "fullName" : "test_product_page#test_guest_cant_see_success_message_after_adding_product_to_basket",
-  "historyId" : "a6a0d3bb6cb6bc822eaf40d4fb29666d",
+  "uid" : "fcbaa1423117ff40",
+  "name" : "test_message_disappeared_after_adding_product_to_basket",
+  "fullName" : "test_product_page#test_message_disappeared_after_adding_product_to_basket",
+  "historyId" : "778151ff98c7d63a55ee1a4b3d28f6bc",
   "time" : {
-    "start" : 1643566498963,
-    "stop" : 1643566500596,
-    "duration" : 1633
+    "start" : 1643567297819,
+    "stop" : 1643567302561,
+    "duration" : 4742
   },
   "status" : "skipped",
   "statusMessage" : "XFAIL\n\nAssertionError: Success message is presented, but should not be",
@@ -20,9 +20,9 @@
   "beforeStages" : [ {
     "name" : "browser",
     "time" : {
-      "start" : 1643566497843,
-      "stop" : 1643566498962,
-      "duration" : 1119
+      "start" : 1643567296683,
+      "stop" : 1643567297819,
+      "duration" : 1136
     },
     "status" : "passed",
     "steps" : [ ],
@@ -39,9 +39,9 @@
     "statusTrace" : "E   AssertionError: Success message is presented, but should not be",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "c86690f758877e77",
+      "uid" : "336c2863318e24e5",
       "name" : "stdout",
-      "source" : "c86690f758877e77.txt",
+      "source" : "336c2863318e24e5.txt",
       "type" : "text/plain",
       "size" : 16
     } ],
@@ -54,8 +54,8 @@
   "afterStages" : [ {
     "name" : "browser::0",
     "time" : {
-      "start" : 1643566500597,
-      "stop" : 1643566500652,
+      "start" : 1643567302563,
+      "stop" : 1643567302618,
       "duration" : 55
     },
     "status" : "passed",
@@ -75,10 +75,10 @@
     "value" : "test_product_page"
   }, {
     "name" : "host",
-    "value" : "fv-az124-999"
+    "value" : "fv-az39-643"
   }, {
     "name" : "thread",
-    "value" : "1650-MainThread"
+    "value" : "1662-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -102,6 +102,6 @@
     "categories" : [ ],
     "tags" : [ "@pytest.mark.xfail" ]
   },
-  "source" : "19384f324b71b5e5.json",
+  "source" : "fcbaa1423117ff40.json",
   "parameterValues" : [ ]
 }

@@ -1,14 +1,16 @@
 {
-  "uid" : "b5a7cb5f3b34cfd1",
-  "name" : "test_guest_cant_see_product_in_basket_opened_from_product_page",
-  "fullName" : "test_product_page#test_guest_cant_see_product_in_basket_opened_from_product_page",
-  "historyId" : "bb1b500842a0de7c49716234702d6640",
+  "uid" : "6c765c170e8e1428",
+  "name" : "test_guest_cant_see_success_message_after_adding_product_to_basket",
+  "fullName" : "test_product_page#test_guest_cant_see_success_message_after_adding_product_to_basket",
+  "historyId" : "a6a0d3bb6cb6bc822eaf40d4fb29666d",
   "time" : {
-    "start" : 1643566514218,
-    "stop" : 1643566525878,
-    "duration" : 11660
+    "start" : 1643567269942,
+    "stop" : 1643567270679,
+    "duration" : 737
   },
-  "status" : "passed",
+  "status" : "skipped",
+  "statusMessage" : "XFAIL\n\nAssertionError: Success message is presented, but should not be",
+  "statusTrace" : "E   AssertionError: Success message is presented, but should not be",
   "flaky" : false,
   "newFailed" : false,
   "newBroken" : false,
@@ -18,9 +20,9 @@
   "beforeStages" : [ {
     "name" : "browser",
     "time" : {
-      "start" : 1643566513098,
-      "stop" : 1643566514217,
-      "duration" : 1119
+      "start" : 1643567268801,
+      "stop" : 1643567269942,
+      "duration" : 1141
     },
     "status" : "passed",
     "steps" : [ ],
@@ -32,27 +34,29 @@
     "hasContent" : false
   } ],
   "testStage" : {
-    "status" : "passed",
+    "status" : "skipped",
+    "statusMessage" : "XFAIL\n\nAssertionError: Success message is presented, but should not be",
+    "statusTrace" : "E   AssertionError: Success message is presented, but should not be",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "5ca6f4af432ee13b",
+      "uid" : "14b4252b25a066a9",
       "name" : "stdout",
-      "source" : "5ca6f4af432ee13b.txt",
+      "source" : "14b4252b25a066a9.txt",
       "type" : "text/plain",
       "size" : 16
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
     "attachmentsCount" : 1,
-    "shouldDisplayMessage" : false,
+    "shouldDisplayMessage" : true,
     "hasContent" : true
   },
   "afterStages" : [ {
     "name" : "browser::0",
     "time" : {
-      "start" : 1643566525878,
-      "stop" : 1643566525936,
-      "duration" : 58
+      "start" : 1643567270681,
+      "stop" : 1643567270737,
+      "duration" : 56
     },
     "status" : "passed",
     "steps" : [ ],
@@ -65,16 +69,16 @@
   } ],
   "labels" : [ {
     "name" : "tag",
-    "value" : "need_review"
+    "value" : "@pytest.mark.xfail"
   }, {
     "name" : "suite",
     "value" : "test_product_page"
   }, {
     "name" : "host",
-    "value" : "fv-az124-999"
+    "value" : "fv-az39-643"
   }, {
     "name" : "thread",
-    "value" : "1650-MainThread"
+    "value" : "1662-MainThread"
   }, {
     "name" : "framework",
     "value" : "pytest"
@@ -96,8 +100,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "need_review" ]
+    "tags" : [ "@pytest.mark.xfail" ]
   },
-  "source" : "b5a7cb5f3b34cfd1.json",
+  "source" : "6c765c170e8e1428.json",
   "parameterValues" : [ ]
 }
