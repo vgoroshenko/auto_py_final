@@ -1,0 +1,81 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "test_product_page",
+    "children" : [ {
+      "name" : "test_guest_can_add_product_to_basket",
+      "uid" : "8cbd4fbeb2ab796",
+      "parentUid" : "2ac69296d25a79e4a24517462ae8926f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643560079950,
+        "stop" : 1643560082767,
+        "duration" : 2817
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_guest_can_go_to_login_page_from_product_page",
+      "uid" : "11a05cecfe791a1f",
+      "parentUid" : "2ac69296d25a79e4a24517462ae8926f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643560084151,
+        "stop" : 1643560085273,
+        "duration" : 1122
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_guest_cant_see_product_in_basket_opened_from_product_page",
+      "uid" : "dc9e1d9b8d987f05",
+      "parentUid" : "2ac69296d25a79e4a24517462ae8926f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1643560086601,
+        "stop" : 1643560098402,
+        "duration" : 11801
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TestUserAddToBasketFromProductPage",
+      "children" : [ {
+        "name" : "test_user_can_add_product_to_basket",
+        "uid" : "8edf3b61c93d0658",
+        "parentUid" : "05777e6ad26eb32b637602f0fa6be645",
+        "status" : "passed",
+        "time" : {
+          "start" : 1643560106248,
+          "stop" : 1643560109285,
+          "duration" : 3037
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "05777e6ad26eb32b637602f0fa6be645"
+    } ],
+    "uid" : "2ac69296d25a79e4a24517462ae8926f"
+  } ],
+  "name" : "suites"
+}
