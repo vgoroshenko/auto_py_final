@@ -13,7 +13,6 @@ jobs:
           docker run -it --name pytest$GITHUB_RUN_NUMBER -d temp/temp
           docker ps -a
           mkdir ./result
-          ls
           echo "-----------------------"
           docker exec pytest$GITHUB_RUN_NUMBER ls 
           echo "-----------------------"
