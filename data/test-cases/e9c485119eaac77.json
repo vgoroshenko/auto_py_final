@@ -1,12 +1,12 @@
 {
-  "uid" : "f49597f75e238e7f",
-  "name" : "test_guest_can_go_to_login_page_from_product_page",
-  "fullName" : "test_product_page#test_guest_can_go_to_login_page_from_product_page",
-  "historyId" : "5e653e20fe9c29799d1dec592190f2a4",
+  "uid" : "e9c485119eaac77",
+  "name" : "test_user_cant_see_success_message",
+  "fullName" : "test_product_page.TestUserAddToBasketFromProductPage#test_user_cant_see_success_message",
+  "historyId" : "f839820fadcc5418eef5369a1303f3f4",
   "time" : {
-    "start" : 1643560355684,
-    "stop" : 1643560356546,
-    "duration" : 862
+    "start" : 1643560648433,
+    "stop" : 1643560659302,
+    "duration" : 10869
   },
   "status" : "passed",
   "flaky" : false,
@@ -18,9 +18,24 @@
   "beforeStages" : [ {
     "name" : "browser",
     "time" : {
-      "start" : 1643560354399,
-      "stop" : 1643560355682,
-      "duration" : 1283
+      "start" : 1643560641755,
+      "stop" : 1643560643076,
+      "duration" : 1321
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1643560643077,
+      "stop" : 1643560648432,
+      "duration" : 5355
     },
     "status" : "passed",
     "steps" : [ ],
@@ -35,9 +50,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "4a32757cb5ad5c76",
+      "uid" : "7b928e14d3e28655",
       "name" : "stdout",
-      "source" : "4a32757cb5ad5c76.txt",
+      "source" : "7b928e14d3e28655.txt",
       "type" : "text/plain",
       "size" : 16
     } ],
@@ -50,9 +65,9 @@
   "afterStages" : [ {
     "name" : "browser::0",
     "time" : {
-      "start" : 1643560356547,
-      "stop" : 1643560356601,
-      "duration" : 54
+      "start" : 1643560659304,
+      "stop" : 1643560659361,
+      "duration" : 57
     },
     "status" : "passed",
     "steps" : [ ],
@@ -65,13 +80,16 @@
   } ],
   "labels" : [ {
     "name" : "tag",
-    "value" : "need_review"
+    "value" : "new"
   }, {
     "name" : "suite",
     "value" : "test_product_page"
   }, {
+    "name" : "subSuite",
+    "value" : "TestUserAddToBasketFromProductPage"
+  }, {
     "name" : "host",
-    "value" : "de0c3374bd19"
+    "value" : "89bd415268ef"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -96,8 +114,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "tags" : [ "need_review" ]
+    "tags" : [ "new" ]
   },
-  "source" : "f49597f75e238e7f.json",
+  "source" : "e9c485119eaac77.json",
   "parameterValues" : [ ]
 }
