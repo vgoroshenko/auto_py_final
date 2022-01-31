@@ -2,7 +2,7 @@
 
 ### [Test link](http://selenium1py.pythonanywhere.com/)
 
-## [Link to Allure report after run UI tests](https://vgoroshenko.github.io/auto_py_final/)
+## [Link to Allure report after run tests](https://vgoroshenko.github.io/auto_py_final/)
 
 
 
