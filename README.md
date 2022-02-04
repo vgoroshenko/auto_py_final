@@ -2,7 +2,7 @@
 
 [Link to Allure report after run tests](https://vgoroshenko.github.io/auto_py_final/)
 
-# pytest + selenium + allure
+# pytest + allure
 
 Install deps for test `pip3 install -r requirements.txt`
 
