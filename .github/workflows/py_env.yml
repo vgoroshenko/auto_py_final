@@ -1,4 +1,4 @@
-name: Test and Deploy result from Python
+name: Test and Deploy result from PythonParallel + Selenoid
 on:
   workflow_dispatch:
 jobs:
@@ -44,10 +44,10 @@ jobs:
         if: always()
         run: docker-compose -f "docker-compose.yml" down
 
-#      - name: Deploy report🚀
-#        if: always()
-#        uses: JamesIves/github-pages-deploy-action@v4.2.2
-#        with:
-#          branch: gh-pages
-#          folder: allure-report
-#          clean: true
+      - name: Deploy report🚀
+        if: always()
+        uses: JamesIves/github-pages-deploy-action@v4.2.2
+        with:
+          branch: gh-pages
+          folder: allure-report
+          clean: true
