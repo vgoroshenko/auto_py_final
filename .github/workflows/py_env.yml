@@ -1,4 +1,4 @@
-name: Test and Deploy result from PythonParallel + Selenoid
+name: Test and Deploy result from Python
 on:
   workflow_dispatch:
 jobs:
