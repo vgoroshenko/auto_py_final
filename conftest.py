@@ -8,6 +8,8 @@ from selenium.webdriver.support.events import AbstractEventListener
 from allure_commons.types import AttachmentType
 from selenium.webdriver.chrome.options import Options as ChromeOptions
 from selenium.webdriver.firefox.options import Options as FirefoxOptions
+from selenium.webdriver.edge.options import Options as EdgeOptions
+from selenium.webdriver.safari.webdriver import RemoteWebDriver as SafariOptions
 
 import pytest
 from .webdriver_augmented import WebDriverAugmented
@@ -15,11 +17,16 @@ from .settings import config
 
 CHROME_BROWSER_NAME = 'Chrome'
 FIREFOX_BROWSER_NAME = 'Firefox'
+EDGE_BROWSER_NAME = 'Edge'
+SAFARI_BROWSER_NAME = 'Safari'
 
 test_browsers = [CHROME_BROWSER_NAME, FIREFOX_BROWSER_NAME]
+
 browser_options = {
     CHROME_BROWSER_NAME: ChromeOptions, # DesiredCapabilities.CHROME,
     FIREFOX_BROWSER_NAME: FirefoxOptions,  # DesiredCapabilities.FIREFOX
+    EDGE_BROWSER_NAME: EdgeOptions,  # DesiredCapabilities.FIREFOX
+    SAFARI_BROWSER_NAME: SafariOptions,  # DesiredCapabilities.FIREFOX
 }
 
 def desired_caps(browser: str) -> DesiredCapabilities:
@@ -33,7 +40,6 @@ def desired_caps(browser: str) -> DesiredCapabilities:
     options.add_argument('--ignore-certificate-errors')
     options.add_argument("--disable-client-side-phishing-detection")
     caps = options.to_capabilities()
-    caps['platform'] = 'Linux'
     return caps
 
 def get_web_driver(browser_name: str) -> WebDriverAugmented:

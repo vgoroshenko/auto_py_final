@@ -26,3 +26,7 @@ services:
     image: selenoid/chrome:latest
   selenoid-firefox:
     image: selenoid/firefox:latest
+  selenoid-edge:
+    image: browsers/edge
+  selenoid-safari15:
+    image: browsers/safari:15.0

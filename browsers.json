@@ -20,5 +20,27 @@
                 "env" : ["TZ=Europe/Moscow", "LANG=ru_RU.UTF-8", "LANGUAGE=ru:en", "LC_ALL=ru_RU.UTF-8"]
             }
         }
+    },
+    "edge": {
+        "default": "latest",
+        "versions": {
+            "latest": {
+                "image": "browsers/edge",
+                "port": "4444",
+                "path": "/",
+                "env" : ["TZ=Europe/Moscow", "LANG=ru_RU.UTF-8", "LANGUAGE=ru:en", "LC_ALL=ru_RU.UTF-8"]
+            }
+        }
+    },
+    "safari": {
+        "default": "latest",
+        "versions": {
+            "latest": {
+                "image": "browsers/safari:15.0",
+                "port": "4444",
+                "path": "/wd/hub",
+                "env" : ["TZ=Europe/Moscow", "LANG=ru_RU.UTF-8", "LANGUAGE=ru:en", "LC_ALL=ru_RU.UTF-8"]
+            }
+        }
     }
 }
