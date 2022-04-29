@@ -1,0 +1,133 @@
+{
+  "uid" : "cfd0520277496177",
+  "name" : "test_guest_cant_see_product_in_basket_opened_from_main_page[Browser: Chrome]",
+  "fullName" : "test_main_page#test_guest_cant_see_product_in_basket_opened_from_main_page",
+  "historyId" : "aa18cc697b20f540c0f5b4670dbb5610",
+  "time" : {
+    "start" : 1651256428311,
+    "stop" : 1651256434265,
+    "duration" : 5954
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1651256424435,
+      "stop" : 1651256427927,
+      "duration" : 3492
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e39064cbd651b618",
+      "name" : "screenshot",
+      "source" : "e39064cbd651b618.png",
+      "type" : "image/png",
+      "size" : 10592
+    }, {
+      "uid" : "f499ad5668dd2fee",
+      "name" : "js console log:",
+      "source" : "f499ad5668dd2fee.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "1d3e2e9f5ddf9227",
+      "name" : "screenshot",
+      "source" : "1d3e2e9f5ddf9227.png",
+      "type" : "image/png",
+      "size" : 37131
+    }, {
+      "uid" : "4956e1e3347a522e",
+      "name" : "screenshot",
+      "source" : "4956e1e3347a522e.png",
+      "type" : "image/png",
+      "size" : 37131
+    }, {
+      "uid" : "3c158c63e57c07a",
+      "name" : "js console log:",
+      "source" : "3c158c63e57c07a.txt",
+      "type" : "text/plain",
+      "size" : 0
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser::<lambda>",
+    "time" : {
+      "start" : 1651256436619,
+      "stop" : 1651256436873,
+      "duration" : 254
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5b01aaf6c4d55d1e",
+      "name" : "name",
+      "source" : "5b01aaf6c4d55d1e.png",
+      "type" : "image/png",
+      "size" : 203505
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_main_page"
+  }, {
+    "name" : "host",
+    "value" : "fv-az198-50"
+  }, {
+    "name" : "thread",
+    "value" : "2567-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_main_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "'Chrome'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cfd0520277496177.json",
+  "parameterValues" : [ "'Chrome'" ]
+}

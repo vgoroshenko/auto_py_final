@@ -1,0 +1,132 @@
+{
+  "uid" : "f7cb71445cb8f741",
+  "name" : "test_guest_cant_see_product_in_basket_opened_from_product_page[Browser: Firefox]",
+  "fullName" : "test_product_page#test_guest_cant_see_product_in_basket_opened_from_product_page",
+  "historyId" : "b1b6dfe13ae0bf3ee3e7d4e08d44f1db",
+  "time" : {
+    "start" : 1651256515295,
+    "stop" : 1651256516523,
+    "duration" : 1228
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Should not present product",
+  "statusTrace" : "E   AssertionError: Should not present product",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1651256445629,
+      "stop" : 1651256511705,
+      "duration" : 66076
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: Should not present product",
+    "statusTrace" : "E   AssertionError: Should not present product",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "43bdb8d92b68f4aa",
+      "name" : "screenshot",
+      "source" : "43bdb8d92b68f4aa.png",
+      "type" : "image/png",
+      "size" : 96179
+    }, {
+      "uid" : "b5b80d1ba5d35891",
+      "name" : "screenshot",
+      "source" : "b5b80d1ba5d35891.png",
+      "type" : "image/png",
+      "size" : 77314
+    }, {
+      "uid" : "9c1e388c3ee690e3",
+      "name" : "screenshot",
+      "source" : "9c1e388c3ee690e3.png",
+      "type" : "image/png",
+      "size" : 77314
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser::<lambda>",
+    "time" : {
+      "start" : 1651256516657,
+      "stop" : 1651256516756,
+      "duration" : 99
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2ec9c50cf36fe78e",
+      "name" : "name",
+      "source" : "2ec9c50cf36fe78e.png",
+      "type" : "image/png",
+      "size" : 77314
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "need_review"
+  }, {
+    "name" : "suite",
+    "value" : "test_product_page"
+  }, {
+    "name" : "host",
+    "value" : "fv-az198-50"
+  }, {
+    "name" : "thread",
+    "value" : "2571-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_product_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "'Firefox'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "need_review" ]
+  },
+  "source" : "f7cb71445cb8f741.json",
+  "parameterValues" : [ "'Firefox'" ]
+}

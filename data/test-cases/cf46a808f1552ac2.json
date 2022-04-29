@@ -1,0 +1,128 @@
+{
+  "uid" : "cf46a808f1552ac2",
+  "name" : "test_message_disappeared_after_adding_product_to_basket[Browser: Chrome]",
+  "fullName" : "test_product_page#test_message_disappeared_after_adding_product_to_basket",
+  "historyId" : "fe25cfa1b9387aca698c8ca54dfaea91",
+  "time" : {
+    "start" : 1651256431927,
+    "stop" : 1651256437694,
+    "duration" : 5767
+  },
+  "status" : "skipped",
+  "statusMessage" : "XFAIL\n\nAssertionError: Success message is presented, but should not be",
+  "statusTrace" : "E   AssertionError: Success message is presented, but should not be",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1651256424460,
+      "stop" : 1651256427713,
+      "duration" : 3253
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "XFAIL\n\nAssertionError: Success message is presented, but should not be",
+    "statusTrace" : "E   AssertionError: Success message is presented, but should not be",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ee6bf2d879d1defd",
+      "name" : "screenshot",
+      "source" : "ee6bf2d879d1defd.png",
+      "type" : "image/png",
+      "size" : 52557
+    }, {
+      "uid" : "26905881f490b170",
+      "name" : "js console log:",
+      "source" : "26905881f490b170.txt",
+      "type" : "text/plain",
+      "size" : 0
+    }, {
+      "uid" : "6fb7d059bb7e68bc",
+      "name" : "screenshot",
+      "source" : "6fb7d059bb7e68bc.png",
+      "type" : "image/png",
+      "size" : 203202
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser::<lambda>",
+    "time" : {
+      "start" : 1651256437916,
+      "stop" : 1651256438122,
+      "duration" : 206
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c8087420ffd254a2",
+      "name" : "name",
+      "source" : "c8087420ffd254a2.png",
+      "type" : "image/png",
+      "size" : 203202
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.xfail"
+  }, {
+    "name" : "suite",
+    "value" : "test_product_page"
+  }, {
+    "name" : "host",
+    "value" : "fv-az198-50"
+  }, {
+    "name" : "thread",
+    "value" : "2564-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_product_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "'Chrome'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.xfail" ]
+  },
+  "source" : "cf46a808f1552ac2.json",
+  "parameterValues" : [ "'Chrome'" ]
+}
