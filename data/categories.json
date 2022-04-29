@@ -1,18 +1,18 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "children" : [ {
-    "name" : "Product defects",
+    "name" : "Test defects",
     "children" : [ {
-      "name" : "AssertionError: Success message is presented, but should not be",
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".product_main h1\"}\n  (Session info: headless chrome=100.0.4896.60)",
       "children" : [ {
-        "name" : "test_guest_cant_see_success_message_after_adding_product_to_basket",
-        "uid" : "10040d0ac3c9ce78",
-        "parentUid" : "bb98d780e7a24c618b00db42ef2db6e2",
-        "status" : "failed",
+        "name" : "test_guest_can_add_product_to_basket[Browser: Chrome]",
+        "uid" : "df78c2d2af441640",
+        "parentUid" : "dd320318b07e1a015f2948396eae47d8",
+        "status" : "broken",
         "time" : {
-          "start" : 1643567502129,
-          "stop" : 1643567503747,
-          "duration" : 1618
+          "start" : 1651242530265,
+          "stop" : 1651242538406,
+          "duration" : 8141
         },
         "flaky" : false,
         "newFailed" : false,
@@ -20,9 +20,93 @@
         "newBroken" : false,
         "retriesCount" : 0,
         "retriesStatusChange" : false,
-        "parameters" : [ ]
+        "parameters" : [ "'Chrome'" ]
       } ],
-      "uid" : "bb98d780e7a24c618b00db42ef2db6e2"
+      "uid" : "dd320318b07e1a015f2948396eae47d8"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: .btn-add-to-basket",
+      "children" : [ {
+        "name" : "test_guest_can_add_product_to_basket[Browser: Firefox]",
+        "uid" : "6e3d1a1d24118e12",
+        "parentUid" : "1fc95f6a9962e61e6c51113bc07fefbb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1651242543590,
+          "stop" : 1651242548690,
+          "duration" : 5100
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'Firefox'" ]
+      } ],
+      "uid" : "1fc95f6a9962e61e6c51113bc07fefbb"
+    }, {
+      "name" : "selenium.common.exceptions.WebDriverException: Message: Failed to convert data to an object",
+      "children" : [ {
+        "name" : "test_user_can_add_product_to_basket[Browser: Firefox]",
+        "uid" : "2d23bfbc25582a1d",
+        "parentUid" : "3ea44046d8c3c45131d90cae3fffeea4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1651242561515,
+          "stop" : 1651242562369,
+          "duration" : 854
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'Firefox'" ]
+      } ],
+      "uid" : "3ea44046d8c3c45131d90cae3fffeea4"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: User icon is not presented, probably unauthorised user",
+      "children" : [ {
+        "name" : "test_user_can_add_product_to_basket[Browser: Chrome]",
+        "uid" : "d002b9de494913a4",
+        "parentUid" : "dde90a45b663bf4cdbad8410226d692f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651242538756,
+          "stop" : 1651242538756,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'Chrome'" ]
+      }, {
+        "name" : "test_user_cant_see_success_message[Browser: Firefox]",
+        "uid" : "208284ff8fe51480",
+        "parentUid" : "dde90a45b663bf4cdbad8410226d692f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1651242550125,
+          "stop" : 1651242550125,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'Firefox'" ]
+      } ],
+      "uid" : "dde90a45b663bf4cdbad8410226d692f"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ],

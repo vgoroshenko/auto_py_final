@@ -4,12 +4,12 @@
     "uid" : "2ac69296d25a79e4a24517462ae8926f",
     "name" : "test_product_page",
     "statistic" : {
-      "failed" : 1,
-      "broken" : 0,
-      "skipped" : 1,
-      "passed" : 7,
+      "failed" : 2,
+      "broken" : 3,
+      "skipped" : 4,
+      "passed" : 9,
       "unknown" : 0,
-      "total" : 9
+      "total" : 18
     }
   }, {
     "uid" : "606c977bf0ca40a66f32cea9245eb3e6",
@@ -18,9 +18,9 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 4,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 4
+      "total" : 8
     }
   } ]
 }

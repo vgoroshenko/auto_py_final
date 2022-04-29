@@ -1,0 +1,90 @@
+{
+  "uid" : "fc24d47e56d51cd4",
+  "name" : "test_guest_cant_see_product_in_basket_opened_from_product_page[Browser: Firefox]",
+  "fullName" : "test_product_page#test_guest_cant_see_product_in_basket_opened_from_product_page",
+  "historyId" : "b1b6dfe13ae0bf3ee3e7d4e08d44f1db",
+  "time" : {
+    "start" : 1651242549432,
+    "stop" : 1651242555618,
+    "duration" : 6186
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1651242539609,
+      "stop" : 1651242543646,
+      "duration" : 4037
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "browser::<lambda>",
+    "time" : {
+      "start" : 1651242562392,
+      "stop" : 1651242563018,
+      "duration" : 626
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "need_review"
+  }, {
+    "name" : "suite",
+    "value" : "test_product_page"
+  }, {
+    "name" : "host",
+    "value" : "fv-az124-269"
+  }, {
+    "name" : "thread",
+    "value" : "2558-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_product_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "'Firefox'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "need_review" ]
+  },
+  "source" : "fc24d47e56d51cd4.json",
+  "parameterValues" : [ "'Firefox'" ]
+}
