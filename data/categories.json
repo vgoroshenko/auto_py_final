@@ -1,19 +1,18 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "name" : "categories",
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
       "name" : "selenium.common.exceptions.StaleElementReferenceException: Message: The element reference of <h1> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed",
       "children" : [ {
         "name" : "test_guest_can_add_product_to_basket[Browser: Firefox]",
-        "uid" : "a77b695865f61f6f",
+        "uid" : "1d98b9a10038570e",
         "parentUid" : "89e247eb636186d702d2375fa51a0d81",
         "status" : "broken",
         "time" : {
-          "start" : 1651256511838,
-          "stop" : 1651256514860,
-          "duration" : 3022
+          "start" : 1651261970016,
+          "stop" : 1651261973898,
+          "duration" : 3882
         },
         "flaky" : false,
         "newFailed" : false,
@@ -26,30 +25,6 @@
       "uid" : "89e247eb636186d702d2375fa51a0d81"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
-  }, {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "AssertionError: Should not present product",
-      "children" : [ {
-        "name" : "test_guest_cant_see_product_in_basket_opened_from_product_page[Browser: Firefox]",
-        "uid" : "f7cb71445cb8f741",
-        "parentUid" : "c2b7831201a0889114b799bf1d2e337e",
-        "status" : "failed",
-        "time" : {
-          "start" : 1651256515295,
-          "stop" : 1651256516523,
-          "duration" : 1228
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "'Firefox'" ]
-      } ],
-      "uid" : "c2b7831201a0889114b799bf1d2e337e"
-    } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  } ]
+  } ],
+  "name" : "categories"
 }
