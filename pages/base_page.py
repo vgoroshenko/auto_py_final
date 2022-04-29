@@ -1,4 +1,6 @@
 import math
+import time
+
 from selenium.common.exceptions import NoSuchElementException, NoAlertPresentException, TimeoutException
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -53,6 +55,7 @@ class BasePage():
         answer = str(math.log(abs((12 * math.sin(float(x))))))
         alert.send_keys(answer)
         alert.accept()
+        time.sleep(0.4)
         try:
             alert = self.browser.switch_to.alert
             alert_text = alert.text
