@@ -1,0 +1,138 @@
+{
+  "uid" : "ce756a40111c8897",
+  "name" : "test_user_cant_see_success_message[Browser: Firefox]",
+  "fullName" : "test_product_page.TestUserAddToBasketFromProductPage#test_user_cant_see_success_message",
+  "historyId" : "6445830bef52264b35f2af05d6032741",
+  "time" : {
+    "start" : 1651256134287,
+    "stop" : 1651256139824,
+    "duration" : 5537
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1651256060958,
+      "stop" : 1651256122976,
+      "duration" : 62018
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1651256130541,
+      "stop" : 1651256134200,
+      "duration" : 3659
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ecb43b151be0414",
+      "name" : "screenshot",
+      "source" : "ecb43b151be0414.png",
+      "type" : "image/png",
+      "size" : 56651
+    }, {
+      "uid" : "d1c215b3892ec05f",
+      "name" : "screenshot",
+      "source" : "d1c215b3892ec05f.png",
+      "type" : "image/png",
+      "size" : 177069
+    }, {
+      "uid" : "155dd68cb6deb37a",
+      "name" : "screenshot",
+      "source" : "155dd68cb6deb37a.png",
+      "type" : "image/png",
+      "size" : 177069
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser::<lambda>",
+    "time" : {
+      "start" : 1651256146722,
+      "stop" : 1651256146746,
+      "duration" : 24
+    },
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: None\nMessage: Dismissed user prompt dialog: Поздравляем, вы справились! Вставьте это число в поле ответа на Stepik: 27.26980742200108\n\n",
+    "statusTrace" : "  File \"/opt/hostedtoolcache/Python/3.10.4/x64/lib/python3.10/site-packages/allure_commons/_allure.py\", line 200, in __call__\n    return self._fixture_function(*args, **kwargs)\n  File \"/home/runner/work/auto_py_final/auto_py_final/conftest.py\", line 67, in <lambda>\n    request.addfinalizer(lambda *args: allure.attach(browser.get_screenshot_as_png(), name='name', attachment_type=AttachmentType.PNG) and browser.quit())\n  File \"/opt/hostedtoolcache/Python/3.10.4/x64/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 1064, in get_screenshot_as_png\n    return base64.b64decode(self.get_screenshot_as_base64().encode('ascii'))\n  File \"/opt/hostedtoolcache/Python/3.10.4/x64/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 1074, in get_screenshot_as_base64\n    return self.execute(Command.SCREENSHOT)['value']\n  File \"/opt/hostedtoolcache/Python/3.10.4/x64/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 321, in execute\n    self.error_handler.check_response(response)\n  File \"/opt/hostedtoolcache/Python/3.10.4/x64/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py\", line 241, in check_response\n    raise exception_class(message, screen, stacktrace, alert_text)\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "new"
+  }, {
+    "name" : "suite",
+    "value" : "test_product_page"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUserAddToBasketFromProductPage"
+  }, {
+    "name" : "host",
+    "value" : "fv-az38-17"
+  }, {
+    "name" : "thread",
+    "value" : "2521-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_product_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "'Firefox'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "new" ]
+  },
+  "source" : "ce756a40111c8897.json",
+  "parameterValues" : [ "'Firefox'" ]
+}
