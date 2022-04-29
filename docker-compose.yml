@@ -24,3 +24,5 @@ services:
 
   selenoid-chrome:
     image: selenoid/chrome:latest
+  selenoid-firefox:
+    image: selenoid/firefox:latest
