@@ -18,7 +18,7 @@ RUN pip install -r requirements.txt
 COPY . .
 
 RUN mkdir /reports
-RUN pytest -v --tb=line --language=en --alluredir=reports
+RUN pytest -v --tb=line --alluredir=reports -n 3
 
 RUN allure generate reports
 RUN cd allure-report/ && zip -r results.zip ./*

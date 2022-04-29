@@ -4,8 +4,14 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Start containers
+          run: docker-compose -f "docker-compose.yml" up -d --build
+
       - name: Set up Python 3.10
         uses: actions/setup-python@v2
         with:
@@ -21,9 +27,10 @@ jobs:
           flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
           # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
           flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+
       - name: Test with pytest
         run: |
-          pytest -v --tb=line --language=en --alluredir=reports
+          pytest -v --tb=line --alluredir=reports -n 5
       - name: Generate report
         if: always()
         run: |
@@ -33,10 +40,14 @@ jobs:
           export PATH="/allure/allure-2.17.2/bin:${PATH}"
           allure generate reports
 
-      - name: Deploy report🚀
+      - name: Stop containers
         if: always()
-        uses: JamesIves/github-pages-deploy-action@v4.2.2
-        with:
-          branch: gh-pages
-          folder: allure-report
-          clean: true
+        run: docker-compose -f "docker-compose.yml" down
+
+#      - name: Deploy report🚀
+#        if: always()
+#        uses: JamesIves/github-pages-deploy-action@v4.2.2
+#        with:
+#          branch: gh-pages
+#          folder: allure-report
+#          clean: true

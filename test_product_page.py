@@ -1,4 +1,7 @@
+import string
 import time
+import random
+
 import pytest
 from .pages.product_page import ProductPage
 from .pages.login_page import LoginPage
@@ -80,7 +83,8 @@ class TestUserAddToBasketFromProductPage():
         link = "http://selenium1py.pythonanywhere.com/en-gb/accounts/login/"
         page = LoginPage(browser, link)
         page.open()
-        new_email = str(time.time()) + "@fakemail.org"
+        random_string = random.choices(string.ascii_letters, k=10)
+        new_email = ''.join(random_string) + "@fakemail.org"
         new_password = 'Test1234567'
         page.register_new_user(new_email, new_password)
         page.should_be_authorized_user()
