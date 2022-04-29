@@ -64,23 +64,14 @@ def get_web_driver(browser_name: str) -> WebDriverAugmented:
 @pytest.fixture(scope='session', params=test_browsers, ids=lambda x: 'Browser: {}'.format(x))
 def browser(request):
     browser = get_web_driver(request.param)
-    request.addfinalizer(lambda *args: browser.quit())
+    request.addfinalizer(lambda *args: allure.attach(browser.get_screenshot_as_png(), name='name', attachment_type=AttachmentType.PNG) and browser.quit())
     return browser
-
-
-#-------------------------------------------------------------------
-
-class ScreenshotListener(AbstractEventListener):
-    def on_exception(self, exception, browser):
-        name = 'Screenshot' + f'{random.randrange(100)}'
-        allure.attach(browser.get_screenshot_as_png(), name=name, attachment_type=AttachmentType.PNG)
-
 
 @pytest.hookimpl(tryfirst=True, hookwrapper=True)
 def pytest_runtest_makereport(item, call):
     outcome = yield
     rep = outcome.get_result()
-    if rep.when == 'call' and rep.failed:
+    if rep.when == 'call' and rep.failed or 'call' and rep.passed:
         mode = 'a' if os.path.exists('failures') else 'w'
         try:
             with open('failures', mode) as f:
@@ -94,5 +85,12 @@ def pytest_runtest_makereport(item, call):
                 name='screenshot',
                 attachment_type=allure.attachment_type.PNG
             )
+            if web_driver.browser_name != FIREFOX_BROWSER_NAME:
+                # Firefox do not support js logs: https://github.com/SeleniumHQ/selenium/issues/2972
+                allure.attach(
+                    '\n'.join(web_driver.get_log('browser')),
+                    name='js console log:',
+                    attachment_type=allure.attachment_type.TEXT,
+                )
         except Exception as e:
             print('Fail to take screen-shot: {}'.format(e))

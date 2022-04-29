@@ -50,4 +50,4 @@ jobs:
         with:
           branch: gh-pages
           folder: allure-report
-          clean: true
+          clean: false
