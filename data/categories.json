@@ -1,5 +1,89 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".btn-add-to-basket\"}\n  (Session info: MicrosoftEdge=100.0.1185.39)\nStacktrace:\n#0 0x556e11384583 <unknown>\n#1 0x556e110a0c93 <unknown>\n#2 0x556e110d9969 <unknown>\n#3 0x556e110d9b61 <unknown>\n#4 0x556e1110bf64 <unknown>\n#5 0x556e110f74cd <unknown>\n#6 0x556e11109fa6 <unknown>\n#7 0x556e110f7393 <unknown>\n#8 0x556e110cda81 <unknown>\n#9 0x556e110cec45 <unknown>\n#10 0x556e113adea7 <unknown>\n#11 0x556e113bf132 <unknown>\n#12 0x556e113bee5c <unknown>\n#13 0x556e113bf632 <unknown>\n#14 0x556e113af39b <unknown>\n#15 0x556e113bf8f3 <unknown>\n#16 0x556e113a4fa5 <unknown>\n#17 0x556e113d7038 <unknown>\n#18 0x556e113d71e8 <unknown>\n#19 0x556e113f043e <unknown>\n#20 0x7f4b6ab75609 <unknown>",
+      "children" : [ {
+        "name" : "test_guest_can_add_product_to_basket[Browser: MicrosoftEdge]",
+        "uid" : "902f2f95b7bd8d39",
+        "parentUid" : "bd63cc3a15d5538aeb4ca8f494ec21d2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1651608249417,
+          "stop" : 1651608254559,
+          "duration" : 5142
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'MicrosoftEdge'" ]
+      } ],
+      "uid" : "bd63cc3a15d5538aeb4ca8f494ec21d2"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: .alert:nth-child(1) strong\nStacktrace:\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:183:5\nNoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:395:5\nelement.find/</<@chrome://remote/content/marionette/element.js:300:16",
+      "children" : [ {
+        "name" : "test_guest_can_add_product_to_basket[Browser: Firefox]",
+        "uid" : "b29aee942d26eebc",
+        "parentUid" : "1de48d43e903aa3cbd1e1051bc528582",
+        "status" : "broken",
+        "time" : {
+          "start" : 1651608296704,
+          "stop" : 1651608304477,
+          "duration" : 7773
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'Firefox'" ]
+      } ],
+      "uid" : "1de48d43e903aa3cbd1e1051bc528582"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchFrameException: Message: Callback was not called before the unload event.",
+      "children" : [ {
+        "name" : "test_guest_cant_see_product_in_basket_opened_from_product_page[Browser: Safari]",
+        "uid" : "eba85c08fe0e661f",
+        "parentUid" : "505b23cec7aa172fd4d06a5c69d61e0b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1651608312500,
+          "stop" : 1651608314315,
+          "duration" : 1815
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'Safari'" ]
+      }, {
+        "name" : "test_guest_can_add_product_to_basket[Browser: Safari]",
+        "uid" : "99cb05cad9816336",
+        "parentUid" : "505b23cec7aa172fd4d06a5c69d61e0b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1651608316404,
+          "stop" : 1651608324362,
+          "duration" : 7958
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'Safari'" ]
+      } ],
+      "uid" : "505b23cec7aa172fd4d06a5c69d61e0b"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ],
   "name" : "categories"
 }
