@@ -5,8 +5,7 @@
             "latest": {
                 "image": "selenoid/firefox:latest",
                 "port": "4444",
-                "path": "/wd/hub",
-                "env" : ["TZ=Europe/Moscow", "LANG=ru_RU.UTF-8", "LANGUAGE=ru:en", "LC_ALL=ru_RU.UTF-8"]
+                "path": "/wd/hub"
             }
         }
     },
@@ -16,30 +15,37 @@
             "latest": {
                 "image": "selenoid/chrome:latest",
                 "port": "4444",
-                "path": "/",
-                "env" : ["TZ=Europe/Moscow", "LANG=ru_RU.UTF-8", "LANGUAGE=ru:en", "LC_ALL=ru_RU.UTF-8"]
+                "path": "/"
             }
         }
     },
-    "edge": {
+    "MicrosoftEdge": {
         "default": "latest",
         "versions": {
             "latest": {
                 "image": "browsers/edge",
                 "port": "4444",
-                "path": "/",
-                "env" : ["TZ=Europe/Moscow", "LANG=ru_RU.UTF-8", "LANGUAGE=ru:en", "LC_ALL=ru_RU.UTF-8"]
+                "path": "/"
             }
         }
     },
     "safari": {
+        "default": "15.0",
+        "versions": {
+            "15.0": {
+                "image": "browsers/safari:15.0",
+                "port": "4444",
+                "path": "/"
+            }
+        }
+    },
+    "opera": {
         "default": "latest",
         "versions": {
             "latest": {
-                "image": "browsers/safari:15.0",
+                "image": "selenoid/opera",
                 "port": "4444",
-                "path": "/wd/hub",
-                "env" : ["TZ=Europe/Moscow", "LANG=ru_RU.UTF-8", "LANGUAGE=ru:en", "LC_ALL=ru_RU.UTF-8"]
+                "path": "/"
             }
         }
     }

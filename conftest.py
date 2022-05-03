@@ -1,15 +1,13 @@
 import os
-import random
 import allure
 import urllib3
 from selenium.common.exceptions import WebDriverException
-from selenium.webdriver import DesiredCapabilities
-from selenium.webdriver.support.events import AbstractEventListener
 from allure_commons.types import AttachmentType
 from selenium.webdriver.chrome.options import Options as ChromeOptions
-from selenium.webdriver.firefox.options import Options as FirefoxOptions
 from selenium.webdriver.edge.options import Options as EdgeOptions
-from selenium.webdriver.safari.webdriver import RemoteWebDriver as SafariOptions
+from selenium.webdriver.firefox.options import Options as FirefoxOptions
+from selenium.webdriver.opera.options import Options as OperaOptions
+from selenium.webdriver.safari.options import Options as SafariOptions
 
 import pytest
 from .webdriver_augmented import WebDriverAugmented
@@ -17,54 +15,41 @@ from .settings import config
 
 CHROME_BROWSER_NAME = 'Chrome'
 FIREFOX_BROWSER_NAME = 'Firefox'
-EDGE_BROWSER_NAME = 'Edge'
+EDGE_BROWSER_NAME = 'MicrosoftEdge'
 SAFARI_BROWSER_NAME = 'Safari'
+OPERA_BROWSER_NAME = 'Opera'
 
-test_browsers = [CHROME_BROWSER_NAME, FIREFOX_BROWSER_NAME]
+test_browsers = [CHROME_BROWSER_NAME, EDGE_BROWSER_NAME, FIREFOX_BROWSER_NAME, SAFARI_BROWSER_NAME]
 
 browser_options = {
-    CHROME_BROWSER_NAME: ChromeOptions, # DesiredCapabilities.CHROME,
-    FIREFOX_BROWSER_NAME: FirefoxOptions,  # DesiredCapabilities.FIREFOX
-    EDGE_BROWSER_NAME: EdgeOptions,  # DesiredCapabilities.FIREFOX
-    SAFARI_BROWSER_NAME: SafariOptions,  # DesiredCapabilities.FIREFOX
+    CHROME_BROWSER_NAME: ChromeOptions,
+    FIREFOX_BROWSER_NAME: FirefoxOptions,
+    EDGE_BROWSER_NAME: EdgeOptions,
+    SAFARI_BROWSER_NAME: SafariOptions,
+    OPERA_BROWSER_NAME: OperaOptions
 }
 
-def desired_caps(browser: str) -> DesiredCapabilities:
+def desired_caps(browser: str):
     options = browser_options[browser]()
-    options.add_argument("--no-sandbox")
-    options.add_argument("--headless")
-    options.add_argument("--disable-gpu")
-    options.add_argument("--disable-extensions")
     options.add_argument("--disable-dev-shm-usage")
+    options.add_argument("--no-sandbox")
     options.add_argument('--window-size=1920,1080')
-    options.add_argument('--ignore-certificate-errors')
-    options.add_argument("--disable-client-side-phishing-detection")
-    caps = options.to_capabilities()
+    caps = options
     return caps
 
 def get_web_driver(browser_name: str) -> WebDriverAugmented:
-    """
-    Creates remote web driver (located on selenium host) for desired browser.
-    """
-    FAIL_HELP = f'''
-    Fail to connect to selenium webdriver remote host {config.webdriver_host}.
-    To run local selenium hub from tests_e2e folder: 
-        docker-compose up -d
-    To restart freezing local selenium hub:
-        restart_selenium.sh
-    '''
     browser = None
     try:
         browser = WebDriverAugmented(
             command_executor=config.webdriver_host,
-            desired_capabilities=desired_caps(browser_name)
+            options=desired_caps(browser_name)
         )
         browser.browser_name = browser_name
         browser.page_timer.start()
     except WebDriverException as e:
-        pytest.exit(FAIL_HELP + f':\n\n{e}\n')
+        pytest.exit(print(e))
     except (urllib3.exceptions.ReadTimeoutError, urllib3.exceptions.NewConnectionError, urllib3.exceptions.MaxRetryError) as e:
-        pytest.exit(FAIL_HELP + f':\n\n{e}\n')
+        pytest.exit(print(e))
     return browser
 
 @pytest.fixture(scope='session', params=test_browsers, ids=lambda x: 'Browser: {}'.format(x))
@@ -95,8 +80,10 @@ def pytest_runtest_makereport(item, call):
                 # Firefox do not support js logs: https://github.com/SeleniumHQ/selenium/issues/2972
                 allure.attach(
                     '\n'.join(web_driver.get_log('browser')),
-                    name='js console log:',
-                    attachment_type=allure.attachment_type.TEXT,
+                    web_driver.get_screenshot_as_png(),
+                    name='console log:',
+                    attachment_type=allure.attachment_type.TEXT and allure.attachment_type.PNG
+
                 )
         except Exception as e:
             print('Fail to take screen-shot: {}'.format(e))

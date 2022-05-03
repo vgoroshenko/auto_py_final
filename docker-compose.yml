@@ -1,8 +1,6 @@
-version: '3'
+version: '3.9'
 services:
   selenoid:
-    environment:
-      - DOCKER_API_VERSION=1.41
     network_mode: bridge
     image: aerokube/selenoid
     restart: always
@@ -11,9 +9,11 @@ services:
     volumes:
       - ".:/etc/selenoid:ro" # assumed current dir contains browsers.json
       - "/var/run/docker.sock:/var/run/docker.sock"
+    command: ["-limit=10", "-mem=256m", "-cpu=1.0", "-session-delete-timeout=3s", "-timeout=10s"]
+
 
   selenoid-ui:
-    image: aerokube/selenoid-ui
+    image: aerokube/selenoid-ui:latest-release
     network_mode: bridge
     restart: always
     links:
@@ -22,11 +22,15 @@ services:
       - "8080:8080"
     command: [ "--selenoid-uri", "http://selenoid:4444" ]
 
-  selenoid-chrome:
-    image: selenoid/chrome:latest
-  selenoid-firefox:
-    image: selenoid/firefox:latest
-  selenoid-edge:
-    image: browsers/edge
-  selenoid-safari15:
-    image: browsers/safari:15.0
+#  selenoid-chrome:
+#    image: selenoid/chrome:latest
+#    init: true
+#  selenoid-firefox:
+#    image: selenoid/firefox:latest
+#    init: true
+#  selenoid-edge:
+#    image: browsers/edge
+#    init: true
+#  selenoid-safari15:
+#    image: browsers/safari:15.0
+#    init: true

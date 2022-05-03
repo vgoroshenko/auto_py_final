@@ -4,11 +4,11 @@
 
 # Parallel run crossbrowser tests using pytest + selenoid + selenium 
 
-Run selenoid service `docker-compose up -d `
+Run selenoid service `docker-compose up -d `, `make pull` 
 
 Install deps for test `pip3 install -r requirements.txt`
 
-Run tests  `pytest -v --tb=line -m need_review --alluredir=reports -n 5`
+Run tests  `pytest -v --tb=line --alluredir=reports -n 5 --clean-alluredir -q --cache-clear`
 
 
 ## GitHub Actions + GitHub Pages
