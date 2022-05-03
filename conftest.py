@@ -24,6 +24,14 @@ def browser(request):
     options.add_argument('--window-size=1920,1080')
     options.add_experimental_option('prefs', {'intl.accept_languages': f"{language}-us"})
     browser = webdriver.Chrome(options=options)
+    # browser = webdriver.Remote(
+    #     command_executor='http://localhost:4444/wd/hub',
+    #     desired_capabilities={
+    #         "browserName": "chrome",
+    #         "javascriptEnabled": True,
+    #     },
+    #     options=options
+    #     )
     yield browser
     print("\nquit browser..")
     browser.quit()
