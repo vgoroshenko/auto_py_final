@@ -1,26 +1,4 @@
 {
-  "total" : 2,
-  "items" : [ {
-    "uid" : "2ac69296d25a79e4a24517462ae8926f",
-    "name" : "test_product_page",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 4,
-      "skipped" : 11,
-      "passed" : 21,
-      "unknown" : 0,
-      "total" : 36
-    }
-  }, {
-    "uid" : "606c977bf0ca40a66f32cea9245eb3e6",
-    "name" : "test_main_page",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 16,
-      "unknown" : 0,
-      "total" : 16
-    }
-  } ]
+  "total" : 0,
+  "items" : [ ]
 }
