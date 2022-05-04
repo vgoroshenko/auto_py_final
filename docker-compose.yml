@@ -9,7 +9,7 @@ services:
     volumes:
       - ".:/etc/selenoid:ro" # assumed current dir contains browsers.json
       - "/var/run/docker.sock:/var/run/docker.sock"
-    command: ["-limit=10", "-mem=256m", "-cpu=1.0", "-session-delete-timeout=3s", "-timeout=13s"]
+    command: ["-limit=10", "-mem=256m", "-cpu=1.0", "-session-delete-timeout=3s", "-timeout=8s"]
 
 
   selenoid-ui:
