@@ -9,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "dc9e7a0c58597746",
+      "uid" : "7d9fc1bca52743c7",
       "status" : "passed",
       "time" : {
-        "start" : 1651656927479,
-        "stop" : 1651656929110,
-        "duration" : 1631
+        "start" : 1651681981897,
+        "stop" : 1651681984955,
+        "duration" : 3058
       }
     } ]
   },
@@ -28,12 +28,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "363d7a1fbf93fcb8",
+      "uid" : "5fd19da15ddaed9e",
       "status" : "passed",
       "time" : {
-        "start" : 1651656972579,
-        "stop" : 1651656973631,
-        "duration" : 1052
+        "start" : 1651682035678,
+        "stop" : 1651682036509,
+        "duration" : 831
       }
     } ]
   },
@@ -47,32 +47,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "12f830d1c461092e",
+      "uid" : "353e85fca6ac2a08",
       "status" : "passed",
       "time" : {
-        "start" : 1651656894120,
-        "stop" : 1651656900088,
-        "duration" : 5968
+        "start" : 1651681944307,
+        "stop" : 1651681955628,
+        "duration" : 11321
       }
     } ]
   },
   "a94a1e5467d0940697ccd4dcffa265f9" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "391c5cd111c0bbb6",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.NoSuchFrameException: Message: Callback was not called before the unload event.",
+      "uid" : "a2a2a70beb6ac673",
+      "status" : "passed",
       "time" : {
-        "start" : 1651656972395,
-        "stop" : 1651656973613,
-        "duration" : 1218
+        "start" : 1651682024445,
+        "stop" : 1651682036546,
+        "duration" : 12101
       }
     } ]
   },
@@ -86,13 +85,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b90798d3ffa5e6b4",
+      "uid" : "7df51a3fa13c8ba",
       "status" : "passed",
       "statusDetails" : "XPASS",
       "time" : {
-        "start" : 1651656908190,
-        "stop" : 1651656910417,
-        "duration" : 2227
+        "start" : 1651681963647,
+        "stop" : 1651681967971,
+        "duration" : 4324
       }
     } ]
   },
@@ -100,39 +99,38 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 1,
-      "passed" : 0,
+      "skipped" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fcd88b376114c726",
-      "status" : "skipped",
-      "statusDetails" : "XFAIL\n\nselenium.common.exceptions.NoSuchElementException: Message:",
+      "uid" : "867071c9cd2bd9e2",
+      "status" : "passed",
+      "statusDetails" : "XPASS",
       "time" : {
-        "start" : 1651656973583,
-        "stop" : 1651656978963,
-        "duration" : 5380
+        "start" : 1651682031606,
+        "stop" : 1651682039477,
+        "duration" : 7871
       }
     } ]
   },
   "1b127109d486f82c294088949290b17b" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "82788fbd41cd1700",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: invalid login url",
+      "uid" : "269a85a3a53805df",
+      "status" : "passed",
       "time" : {
-        "start" : 1651656967874,
-        "stop" : 1651656968809,
-        "duration" : 935
+        "start" : 1651682019634,
+        "stop" : 1651682024080,
+        "duration" : 4446
       }
     } ]
   },
@@ -146,13 +144,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6664c861708e86be",
+      "uid" : "ffb2ae836e941dd",
       "status" : "skipped",
       "statusDetails" : "XFAIL\n\nAssertionError: Success message is presented, but should not be",
       "time" : {
-        "start" : 1651656952643,
-        "stop" : 1651656962273,
-        "duration" : 9630
+        "start" : 1651682005908,
+        "stop" : 1651682010661,
+        "duration" : 4753
       }
     } ]
   },
@@ -166,12 +164,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "aa9ab14c16abbdd",
+      "uid" : "cf26f92d9749bca1",
       "status" : "passed",
       "time" : {
-        "start" : 1651656971149,
-        "stop" : 1651656972119,
-        "duration" : 970
+        "start" : 1651682015230,
+        "stop" : 1651682016661,
+        "duration" : 1431
       }
     } ]
   },
@@ -185,12 +183,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f123645f8e00feba",
+      "uid" : "1a4e91e39af6b882",
       "status" : "passed",
       "time" : {
-        "start" : 1651656903573,
-        "stop" : 1651656907026,
-        "duration" : 3453
+        "start" : 1651681952438,
+        "stop" : 1651681952973,
+        "duration" : 535
       }
     } ]
   },
@@ -204,12 +202,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "25cec7be0db9464b",
+      "uid" : "927c1f0c41ca212f",
       "status" : "passed",
       "time" : {
-        "start" : 1651656963336,
-        "stop" : 1651656964171,
-        "duration" : 835
+        "start" : 1651682016720,
+        "stop" : 1651682017653,
+        "duration" : 933
       }
     } ]
   },
@@ -223,12 +221,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c23db60e6924fca",
+      "uid" : "e33f2853285e424b",
       "status" : "passed",
       "time" : {
-        "start" : 1651656952871,
-        "stop" : 1651656960923,
-        "duration" : 8052
+        "start" : 1651682014982,
+        "stop" : 1651682017247,
+        "duration" : 2265
       }
     } ]
   },
@@ -242,12 +240,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "40e3a01a69bb83d9",
+      "uid" : "976ec2a3bf6e0f4d",
       "status" : "passed",
       "time" : {
-        "start" : 1651656891398,
-        "stop" : 1651656895244,
-        "duration" : 3846
+        "start" : 1651681941543,
+        "stop" : 1651681945991,
+        "duration" : 4448
       }
     } ]
   },
@@ -261,12 +259,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8081ce82731e1f8b",
+      "uid" : "4a46a2d477d5e3bd",
       "status" : "passed",
       "time" : {
-        "start" : 1651656966447,
-        "stop" : 1651656967677,
-        "duration" : 1230
+        "start" : 1651682017357,
+        "stop" : 1651682019217,
+        "duration" : 1860
       }
     } ]
   },
@@ -280,31 +278,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "48e2f1b6ce3840a5",
+      "uid" : "68c8f095082c600",
       "status" : "passed",
       "time" : {
-        "start" : 1651656891292,
-        "stop" : 1651656894030,
-        "duration" : 2738
-      }
-    } ]
-  },
-  "9b82b4cc71bc588a51bb4bcea43ddb91" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "2520b7aac1d1dae",
-      "status" : "passed",
-      "time" : {
-        "start" : 1651656932004,
-        "stop" : 1651656933158,
-        "duration" : 1154
+        "start" : 1651681942212,
+        "stop" : 1651681945114,
+        "duration" : 2902
       }
     } ]
   },
@@ -318,13 +297,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "79455b5d50f63769",
+      "uid" : "88e735b2a7d574ed",
       "status" : "skipped",
       "statusDetails" : "XFAIL\n\nselenium.common.exceptions.NoSuchFrameException: Message: Callback was not called before the unload event.",
       "time" : {
-        "start" : 1651656969401,
-        "stop" : 1651656970940,
-        "duration" : 1539
+        "start" : 1651682028693,
+        "stop" : 1651682030360,
+        "duration" : 1667
+      }
+    } ]
+  },
+  "9b82b4cc71bc588a51bb4bcea43ddb91" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ebc64d07b6633dcb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651681987204,
+        "stop" : 1651681991811,
+        "duration" : 4607
       }
     } ]
   },
@@ -338,12 +336,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b821eba858160e38",
+      "uid" : "57278cb30970e945",
       "status" : "passed",
       "time" : {
-        "start" : 1651656904209,
-        "stop" : 1651656907753,
-        "duration" : 3544
+        "start" : 1651681958101,
+        "stop" : 1651681964598,
+        "duration" : 6497
       }
     } ]
   },
@@ -357,12 +355,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "50b36729df245a71",
+      "uid" : "aa624c167dbdad38",
       "status" : "passed",
       "time" : {
-        "start" : 1651656894129,
-        "stop" : 1651656895567,
-        "duration" : 1438
+        "start" : 1651681944410,
+        "stop" : 1651681946120,
+        "duration" : 1710
       }
     } ]
   },
@@ -376,12 +374,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "64dfec25c6d9673",
+      "uid" : "20d5748250cbacb3",
       "status" : "passed",
       "time" : {
-        "start" : 1651656971404,
-        "stop" : 1651656972036,
-        "duration" : 632
+        "start" : 1651682036927,
+        "stop" : 1651682037338,
+        "duration" : 411
       }
     } ]
   },
@@ -395,12 +393,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4dead8ba21d7172c",
+      "uid" : "fc3d3a820c0a276a",
       "status" : "passed",
       "time" : {
-        "start" : 1651656891004,
-        "stop" : 1651656892372,
-        "duration" : 1368
+        "start" : 1651681941758,
+        "stop" : 1651681943788,
+        "duration" : 2030
       }
     } ]
   },
@@ -414,12 +412,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e300c708b35c7a74",
+      "uid" : "ea4f142acb477b0f",
       "status" : "passed",
       "time" : {
-        "start" : 1651656894733,
-        "stop" : 1651656899879,
-        "duration" : 5146
+        "start" : 1651681945633,
+        "stop" : 1651681956550,
+        "duration" : 10917
       }
     } ]
   },
@@ -433,13 +431,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5ce4ad4d019dcf0c",
+      "uid" : "44d2163a924414e9",
       "status" : "skipped",
       "statusDetails" : "XFAIL\n\nselenium.common.exceptions.NoSuchFrameException: Message: Callback was not called before the unload event.",
       "time" : {
-        "start" : 1651656978178,
-        "stop" : 1651656980567,
-        "duration" : 2389
+        "start" : 1651682038566,
+        "stop" : 1651682042315,
+        "duration" : 3749
       }
     } ]
   },
@@ -453,32 +451,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "257bae1658b4a4c0",
+      "uid" : "2b39f5bc8ee5b4aa",
       "status" : "passed",
       "time" : {
-        "start" : 1651656951403,
-        "stop" : 1651656964033,
-        "duration" : 12630
-      }
-    } ]
-  },
-  "47fb93388bfc64a2b03c13686b5a7d09" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 1,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "ae9097988a1801ac",
-      "status" : "skipped",
-      "statusDetails" : "XFAIL\n\nAssertionError: Success message is presented, but should not be",
-      "time" : {
-        "start" : 1651656961555,
-        "stop" : 1651656968023,
-        "duration" : 6468
+        "start" : 1651682023358,
+        "stop" : 1651682034215,
+        "duration" : 10857
       }
     } ]
   },
@@ -492,12 +470,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b3a9de8c9777e59c",
+      "uid" : "2e37ec25a662d643",
       "status" : "passed",
       "time" : {
-        "start" : 1651656905254,
-        "stop" : 1651656909882,
-        "duration" : 4628
+        "start" : 1651681954597,
+        "stop" : 1651681964622,
+        "duration" : 10025
+      }
+    } ]
+  },
+  "47fb93388bfc64a2b03c13686b5a7d09" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d865232bdb201728",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL\n\nAssertionError: Success message is presented, but should not be",
+      "time" : {
+        "start" : 1651682006026,
+        "stop" : 1651682012132,
+        "duration" : 6106
       }
     } ]
   },
@@ -511,12 +509,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d4b4e3e188e03f47",
+      "uid" : "9d3752007964040b",
       "status" : "passed",
       "time" : {
-        "start" : 1651656922556,
-        "stop" : 1651656929353,
-        "duration" : 6797
+        "start" : 1651681989333,
+        "stop" : 1651682002069,
+        "duration" : 12736
+      }
+    } ]
+  },
+  "b230991c9271d25583541030af9a4a62" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7bc06eb9c4893ee0",
+      "status" : "passed",
+      "statusDetails" : "XPASS",
+      "time" : {
+        "start" : 1651682022170,
+        "stop" : 1651682026685,
+        "duration" : 4515
       }
     } ]
   },
@@ -530,52 +548,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c73a7047f689d3a1",
+      "uid" : "bb67ceab9ca7a9ab",
       "status" : "passed",
       "time" : {
-        "start" : 1651656974347,
-        "stop" : 1651656982934,
-        "duration" : 8587
-      }
-    } ]
-  },
-  "b230991c9271d25583541030af9a4a62" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 1,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "d2399936966bce74",
-      "status" : "skipped",
-      "statusDetails" : "XFAIL\n\nselenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: #id_registration-email\nStacktrace:\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:183:5\nNoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:395:5\nelement.find/</<@chrome://remote/content/marionette/element.js:300:16",
-      "time" : {
-        "start" : 1651656964399,
-        "stop" : 1651656964399,
-        "duration" : 0
+        "start" : 1651682038652,
+        "stop" : 1651682052167,
+        "duration" : 13515
       }
     } ]
   },
   "391e737d39925bc13b4b940aedc4841e" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8fdc8d03001559a0",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.StaleElementReferenceException: Message: Node with identifier 'node-060B3006-767F-408F-B496-C4B539525FEB' was not found",
+      "uid" : "dc557419c3aa0122",
+      "status" : "passed",
       "time" : {
-        "start" : 1651656971966,
-        "stop" : 1651656977880,
-        "duration" : 5914
+        "start" : 1651682020110,
+        "stop" : 1651682025850,
+        "duration" : 5740
       }
     } ]
   },
@@ -589,12 +586,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7279e9d30c9dd379",
+      "uid" : "2446c66e6ba34ecb",
       "status" : "passed",
       "time" : {
-        "start" : 1651656963957,
-        "stop" : 1651656969254,
-        "duration" : 5297
+        "start" : 1651682004445,
+        "stop" : 1651682015645,
+        "duration" : 11200
       }
     } ]
   },
@@ -608,12 +605,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4073f9357179d3c5",
+      "uid" : "6dec4860c563f471",
       "status" : "passed",
       "time" : {
-        "start" : 1651656919803,
-        "stop" : 1651656930123,
-        "duration" : 10320
+        "start" : 1651681971565,
+        "stop" : 1651681984326,
+        "duration" : 12761
       }
     } ]
   },
@@ -627,13 +624,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2e095e23aaa03e54",
+      "uid" : "7b828abb64f9569d",
       "status" : "skipped",
-      "statusDetails" : "XFAIL\n\nselenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".btn-add-to-basket\"}\n  (Session info: MicrosoftEdge=100.0.1185.39)\nStacktrace:\n#0 0x558eed31e583 <unknown>\n#1 0x558eed03ac93 <unknown>\n#2 0x558eed073969 <unknown>\n#3 0x558eed073b61 <unknown>\n#4 0x558eed0a5f64 <unknown>\n#5 0x558eed0914cd <unknown>\n#6 0x558eed0a3fa6 <unknown>\n#7 0x558eed091393 <unknown>\n#8 0x558eed067a81 <unknown>\n#9 0x558eed068c45 <unknown>\n#10 0x558eed347ea7 <unknown>\n#11 0x558eed359132 <unknown>\n#12 0x558eed358e5c <unknown>\n#13 0x558eed359632 <unknown>\n#14 0x558eed34939b <unknown>\n#15 0x558eed3598f3 <unknown>\n#16 0x558eed33efa5 <unknown>\n#17 0x558eed371038 <unknown>\n#18 0x558eed3711e8 <unknown>\n#19 0x558eed38a43e <unknown>\n#20 0x7f0d8759e609 <unknown>",
+      "statusDetails" : "XFAIL\n\nAssertionError: Success message is presented, but should not be",
       "time" : {
-        "start" : 1651656908646,
-        "stop" : 1651656913181,
-        "duration" : 4535
+        "start" : 1651681977901,
+        "stop" : 1651681987276,
+        "duration" : 9375
       }
     } ]
   },
@@ -647,12 +644,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7d0754fcb6649511",
+      "uid" : "53da4b1a8b9783d1",
       "status" : "passed",
       "time" : {
-        "start" : 1651656891238,
-        "stop" : 1651656898581,
-        "duration" : 7343
+        "start" : 1651681942399,
+        "stop" : 1651681954516,
+        "duration" : 12117
       }
     } ]
   },
@@ -666,12 +663,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ec03c001ef478dc0",
+      "uid" : "abee7854be8af1c9",
       "status" : "passed",
       "time" : {
-        "start" : 1651656899780,
-        "stop" : 1651656902310,
-        "duration" : 2530
+        "start" : 1651681949864,
+        "stop" : 1651681951968,
+        "duration" : 2104
       }
     } ]
   },
@@ -685,12 +682,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "94fd5210dfdfcaf9",
+      "uid" : "74c4c00f41d29e6e",
       "status" : "passed",
       "time" : {
-        "start" : 1651656896194,
-        "stop" : 1651656896863,
-        "duration" : 669
+        "start" : 1651681946695,
+        "stop" : 1651681947622,
+        "duration" : 927
       }
     } ]
   },
@@ -704,12 +701,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "dfa34b8e38daf54d",
+      "uid" : "1dd35dcc5c82da92",
       "status" : "passed",
       "time" : {
-        "start" : 1651656890757,
-        "stop" : 1651656892841,
-        "duration" : 2084
+        "start" : 1651681942434,
+        "stop" : 1651681943575,
+        "duration" : 1141
       }
     } ]
   },
@@ -723,12 +720,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c4c319feded6c0a0",
+      "uid" : "ccc82c03bd2e842",
       "status" : "passed",
       "time" : {
-        "start" : 1651656925296,
-        "stop" : 1651656930926,
-        "duration" : 5630
+        "start" : 1651681958581,
+        "stop" : 1651681974154,
+        "duration" : 15573
       }
     } ]
   },
@@ -742,12 +739,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b7f501c634ffd950",
+      "uid" : "8a77541e1b538654",
       "status" : "passed",
       "time" : {
-        "start" : 1651656977063,
-        "stop" : 1651656982813,
-        "duration" : 5750
+        "start" : 1651682026717,
+        "stop" : 1651682037598,
+        "duration" : 10881
       }
     } ]
   },
@@ -761,12 +758,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "92a9f629ce64e0f6",
+      "uid" : "b0b5d0cb015e5d7b",
       "status" : "passed",
       "time" : {
-        "start" : 1651656910990,
-        "stop" : 1651656912517,
-        "duration" : 1527
+        "start" : 1651681966208,
+        "stop" : 1651681970157,
+        "duration" : 3949
       }
     } ]
   },
@@ -780,12 +777,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1609f52b547665fd",
+      "uid" : "1fb11091a368fb34",
       "status" : "passed",
       "time" : {
-        "start" : 1651656970855,
-        "stop" : 1651656976901,
-        "duration" : 6046
+        "start" : 1651682026507,
+        "stop" : 1651682038075,
+        "duration" : 11568
       }
     } ]
   },
@@ -799,12 +796,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "91735208f5de3b62",
+      "uid" : "c26a591eb7fbf1d2",
       "status" : "passed",
       "time" : {
-        "start" : 1651656937861,
-        "stop" : 1651656942780,
-        "duration" : 4919
+        "start" : 1651682002272,
+        "stop" : 1651682005489,
+        "duration" : 3217
       }
     } ]
   },
@@ -818,12 +815,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "92f5fde1487428e2",
+      "uid" : "775ff11173d92a09",
       "status" : "passed",
       "time" : {
-        "start" : 1651656961979,
-        "stop" : 1651656967919,
-        "duration" : 5940
+        "start" : 1651682011868,
+        "stop" : 1651682024275,
+        "duration" : 12407
       }
     } ]
   },
@@ -837,13 +834,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1593ab8db9842fda",
+      "uid" : "4da30495ac1b1761",
       "status" : "skipped",
       "statusDetails" : "XFAIL\n\nAssertionError: Success message is presented, but should not be",
       "time" : {
-        "start" : 1651656899319,
-        "stop" : 1651656901357,
-        "duration" : 2038
+        "start" : 1651681955101,
+        "stop" : 1651681963684,
+        "duration" : 8583
       }
     } ]
   },
@@ -857,13 +854,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1118eb2229c21a86",
+      "uid" : "211725f133263e07",
       "status" : "skipped",
       "statusDetails" : "XFAIL\n\nAssertionError: Success message is presented, but should not be",
       "time" : {
-        "start" : 1651656916159,
-        "stop" : 1651656924190,
-        "duration" : 8031
+        "start" : 1651681953721,
+        "stop" : 1651681957954,
+        "duration" : 4233
       }
     } ]
   },
@@ -877,13 +874,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e5f47770c9618038",
+      "uid" : "d6484bc0dd37a3c8",
       "status" : "skipped",
       "statusDetails" : "XFAIL\n\nAssertionError: Success message is presented, but should not be",
       "time" : {
-        "start" : 1651656896302,
-        "stop" : 1651656902106,
-        "duration" : 5804
+        "start" : 1651681946841,
+        "stop" : 1651681952556,
+        "duration" : 5715
       }
     } ]
   },
@@ -897,12 +894,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fb79f39f48f2b69e",
+      "uid" : "1dd2e5ad2e299a1e",
       "status" : "passed",
       "time" : {
-        "start" : 1651656929835,
-        "stop" : 1651656936962,
-        "duration" : 7127
+        "start" : 1651681985833,
+        "stop" : 1651682001716,
+        "duration" : 15883
       }
     } ]
   },
@@ -916,12 +913,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9003ee49452571ce",
+      "uid" : "4a4eeaf612d83657",
       "status" : "passed",
       "time" : {
-        "start" : 1651656951606,
-        "stop" : 1651656961300,
-        "duration" : 9694
+        "start" : 1651681997851,
+        "stop" : 1651682003450,
+        "duration" : 5599
       }
     } ]
   },
@@ -935,13 +932,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3a71ba4836e7c4f5",
+      "uid" : "8dc45a987559babd",
       "status" : "passed",
       "statusDetails" : "XPASS",
       "time" : {
-        "start" : 1651656925721,
-        "stop" : 1651656932239,
-        "duration" : 6518
+        "start" : 1651681992877,
+        "stop" : 1651681997856,
+        "duration" : 4979
       }
     } ]
   },
@@ -955,32 +952,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "82b549da000a7bf7",
+      "uid" : "44b69ca4170b844e",
       "status" : "passed",
       "time" : {
-        "start" : 1651656908981,
-        "stop" : 1651656914982,
-        "duration" : 6001
+        "start" : 1651681965285,
+        "stop" : 1651681979669,
+        "duration" : 14384
       }
     } ]
   },
   "ccb6e2d69324a85239c123c4e9316119" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "cd8fe599146d1690",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.StaleElementReferenceException: Message: The element reference of <h1> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed\nStacktrace:\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:183:5\nStaleElementReferenceError@chrome://remote/content/shared/webdriver/Errors.jsm:464:5\nelement.resolveElement@chrome://remote/content/marionette/element.js:681:11\nevaluate.fromJSON@chrome://remote/content/marionette/evaluate.js:254:26\nevaluate.fromJSON@chrome://remote/content/marionette/evaluate.js:262:29\nreceiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:79:29",
+      "uid" : "74d33f48e8552ad6",
+      "status" : "passed",
       "time" : {
-        "start" : 1651656951192,
-        "stop" : 1651656963044,
-        "duration" : 11852
+        "start" : 1651682009203,
+        "stop" : 1651682015783,
+        "duration" : 6580
       }
     } ]
   },
@@ -994,12 +990,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9c595aa71d9b6935",
+      "uid" : "a72b272c99edc283",
       "status" : "passed",
       "time" : {
-        "start" : 1651656906671,
-        "stop" : 1651656912387,
-        "duration" : 5716
+        "start" : 1651681967355,
+        "stop" : 1651681978530,
+        "duration" : 11175
       }
     } ]
   }

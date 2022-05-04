@@ -1,0 +1,122 @@
+{
+  "uid" : "88e735b2a7d574ed",
+  "name" : "test_guest_cant_see_success_message_after_adding_product_to_basket[Browser: Safari]",
+  "fullName" : "test_product_page#test_guest_cant_see_success_message_after_adding_product_to_basket",
+  "historyId" : "129d58288a268e37d2f03d0aa95b37f4",
+  "time" : {
+    "start" : 1651682028693,
+    "stop" : 1651682030360,
+    "duration" : 1667
+  },
+  "status" : "skipped",
+  "statusMessage" : "XFAIL\n\nselenium.common.exceptions.NoSuchFrameException: Message: Callback was not called before the unload event.",
+  "statusTrace" : "E   selenium.common.exceptions.NoSuchFrameException: Message: Callback was not called before the unload event.",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1651682027546,
+      "stop" : 1651682028510,
+      "duration" : 964
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "XFAIL\n\nselenium.common.exceptions.NoSuchFrameException: Message: Callback was not called before the unload event.",
+    "statusTrace" : "E   selenium.common.exceptions.NoSuchFrameException: Message: Callback was not called before the unload event.",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9a9a9b755f6077ae",
+      "name" : "step_screenshot_16:33:48",
+      "source" : "9a9a9b755f6077ae.png",
+      "type" : "image/png",
+      "size" : 3845
+    }, {
+      "uid" : "c83583dc81be67d0",
+      "name" : "step_screenshot_16:33:50",
+      "source" : "c83583dc81be67d0.png",
+      "type" : "image/png",
+      "size" : 164480
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser::<lambda>",
+    "time" : {
+      "start" : 1651682039598,
+      "stop" : 1651682039723,
+      "duration" : 125
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c0d04ffa819abad0",
+      "name" : "name",
+      "source" : "c0d04ffa819abad0.png",
+      "type" : "image/png",
+      "size" : 162926
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.xfail"
+  }, {
+    "name" : "suite",
+    "value" : "test_product_page"
+  }, {
+    "name" : "host",
+    "value" : "fv-az39-158"
+  }, {
+    "name" : "thread",
+    "value" : "2595-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_product_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "'Safari'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.xfail" ]
+  },
+  "source" : "88e735b2a7d574ed.json",
+  "parameterValues" : [ "'Safari'" ]
+}
