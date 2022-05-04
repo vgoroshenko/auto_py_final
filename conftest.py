@@ -18,7 +18,7 @@ EDGE_BROWSER_NAME = 'MicrosoftEdge'
 SAFARI_BROWSER_NAME = 'Safari'
 OPERA_BROWSER_NAME = 'Opera'
 
-test_browsers = [CHROME_BROWSER_NAME, EDGE_BROWSER_NAME, FIREFOX_BROWSER_NAME, SAFARI_BROWSER_NAME]
+test_browsers = [CHROME_BROWSER_NAME, FIREFOX_BROWSER_NAME, EDGE_BROWSER_NAME, SAFARI_BROWSER_NAME]
 
 browser_options = {
     CHROME_BROWSER_NAME: ChromeOptions,
@@ -32,9 +32,10 @@ browser_options = {
 @pytest.fixture(scope='session', params=test_browsers, ids=lambda x: 'Browser: {}'.format(x))
 def browser(request):
     browser = get_web_driver(request.param)
-    request.addfinalizer(lambda *args: allure.attach(browser.get_screenshot_as_png(), name='name',
-                                                     attachment_type=AttachmentType.PNG) and browser.quit())
-    return browser
+    yield browser
+    allure.attach(browser.get_screenshot_as_png(), name='QuitBrowser_' + f'{time.asctime().split()[-2]}',
+                  attachment_type=AttachmentType.PNG)
+    browser.quit()
 
 
 def desired_caps(browser: str):

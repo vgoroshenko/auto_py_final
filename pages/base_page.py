@@ -30,7 +30,6 @@ class BasePage():
                 until_not(EC.presence_of_element_located((how, what)))
         except TimeoutException:
             return False
-
         return True
 
     def is_element_present(self, how, what):
@@ -47,7 +46,7 @@ class BasePage():
             return True
         return False
 
-    def click(self, what, timeout=1):
+    def click(self, what, timeout=4):
         try:
             WebDriverWait(self.browser, timeout).until(EC.element_to_be_clickable((what)))
         except NoSuchElementException:

@@ -20,6 +20,7 @@ links = ["http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?pr
          "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=offer9"]
 
 @pytest.mark.need_review
+@pytest.mark.xfail
 #@pytest.mark.parametrize('link', links)
 def test_guest_can_add_product_to_basket(browser):
     link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/?promo=newYear2019"
@@ -30,6 +31,7 @@ def test_guest_can_add_product_to_basket(browser):
     page.should_be_success_message()
 
 @pytest.mark.need_review
+@pytest.mark.xfail
 def test_guest_can_go_to_login_page_from_product_page(browser):
     link = "http://selenium1py.pythonanywhere.com/en-gb/catalogue/the-city-and-the-stars_95/"
     page = ProductPage(browser, link)
