@@ -6,8 +6,8 @@
     "statistic" : {
       "failed" : 1,
       "broken" : 4,
-      "skipped" : 11,
-      "passed" : 20,
+      "skipped" : 10,
+      "passed" : 21,
       "unknown" : 0,
       "total" : 36
     }
@@ -15,8 +15,8 @@
     "uid" : "606c977bf0ca40a66f32cea9245eb3e6",
     "name" : "test_main_page",
     "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
+      "failed" : 1,
+      "broken" : 0,
       "skipped" : 0,
       "passed" : 15,
       "unknown" : 0,

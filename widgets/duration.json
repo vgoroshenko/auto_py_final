@@ -1,520 +1,520 @@
 [ {
-  "uid" : "ef054d7083a9a0cc",
-  "name" : "test_guest_cant_see_success_message_after_adding_product_to_basket[Browser: Chrome]",
-  "time" : {
-    "start" : 1651654619212,
-    "stop" : 1651654621108,
-    "duration" : 1896
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "db8e41ad88a42242",
-  "name" : "test_user_can_add_product_to_basket[Browser: MicrosoftEdge]",
-  "time" : {
-    "start" : 1651654644515,
-    "stop" : 1651654651928,
-    "duration" : 7413
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "86ecf2592e006fdd",
-  "name" : "test_guest_can_go_to_login_page[Browser: Safari]",
-  "time" : {
-    "start" : 1651654681202,
-    "stop" : 1651654682628,
-    "duration" : 1426
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "fcb0f85f1923bf63",
-  "name" : "test_message_disappeared_after_adding_product_to_basket[Browser: MicrosoftEdge]",
-  "time" : {
-    "start" : 1651654627148,
-    "stop" : 1651654632191,
-    "duration" : 5043
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "feb8a507c4f9b617",
-  "name" : "test_guest_can_add_product_to_basket[Browser: Firefox]",
-  "time" : {
-    "start" : 1651654672454,
-    "stop" : 1651654676974,
-    "duration" : 4520
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "c2c83707ea431529",
-  "name" : "test_login_page_inputs_present[Browser: Safari]",
-  "time" : {
-    "start" : 1651654684937,
-    "stop" : 1651654685768,
-    "duration" : 831
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f66abe4d7fe96bb3",
-  "name" : "test_guest_can_add_product_to_basket[Browser: Safari]",
-  "time" : {
-    "start" : 1651654687981,
-    "stop" : 1651654691791,
-    "duration" : 3810
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "b7f9dd3535d1d90c",
-  "name" : "test_message_disappeared_after_adding_product_to_basket[Browser: Firefox]",
-  "time" : {
-    "start" : 1651654666453,
-    "stop" : 1651654674298,
-    "duration" : 7845
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "442b3b65f12c3a15",
-  "name" : "test_message_disappeared_after_adding_product_to_basket[Browser: Safari]",
-  "time" : {
-    "start" : 1651654692249,
-    "stop" : 1651654696204,
-    "duration" : 3955
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "f19890d0a8d502b6",
-  "name" : "test_guest_cant_see_product_in_basket_opened_from_main_page[Browser: Firefox]",
-  "time" : {
-    "start" : 1651654672319,
-    "stop" : 1651654680052,
-    "duration" : 7733
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "aebc1ffcf0e7e467",
-  "name" : "test_guest_cant_see_product_in_basket_opened_from_main_page[Browser: Safari]",
-  "time" : {
-    "start" : 1651654685430,
-    "stop" : 1651654686892,
-    "duration" : 1462
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "cce359fdfb496162",
-  "name" : "test_guest_can_go_to_login_page[Browser: MicrosoftEdge]",
-  "time" : {
-    "start" : 1651654620627,
-    "stop" : 1651654623906,
-    "duration" : 3279
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "90b456ed25fedb83",
-  "name" : "test_guest_should_see_login_link_on_product_page[Browser: Chrome]",
-  "time" : {
-    "start" : 1651654616429,
-    "stop" : 1651654617113,
-    "duration" : 684
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "74f812178b619458",
-  "name" : "test_guest_cant_see_success_message_after_adding_product_to_basket[Browser: MicrosoftEdge]",
-  "time" : {
-    "start" : 1651654635847,
-    "stop" : 1651654642799,
-    "duration" : 6952
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "d36771e9c1af3f3a",
-  "name" : "test_guest_cant_see_product_in_basket_opened_from_product_page[Browser: Chrome]",
-  "time" : {
-    "start" : 1651654614357,
-    "stop" : 1651654620576,
-    "duration" : 6219
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9dcedc24bdd7a7df",
-  "name" : "test_guest_cant_see_success_message_after_adding_product_to_basket[Browser: Safari]",
-  "time" : {
-    "start" : 1651654686020,
-    "stop" : 1651654687885,
-    "duration" : 1865
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "2be5c759e5e8f5e",
-  "name" : "test_guest_should_see_login_link[Browser: Firefox]",
-  "time" : {
-    "start" : 1651654662813,
-    "stop" : 1651654664968,
-    "duration" : 2155
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2768293ffcd3d501",
-  "name" : "test_guest_can_go_to_login_page[Browser: Chrome]",
-  "time" : {
-    "start" : 1651654610788,
-    "stop" : 1651654613585,
-    "duration" : 2797
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d4bcc440e16e268f",
-  "name" : "test_guest_should_see_login_link_on_product_page[Browser: Firefox]",
-  "time" : {
-    "start" : 1651654678918,
-    "stop" : 1651654679346,
-    "duration" : 428
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "518f7544c9a67036",
-  "name" : "test_guest_cant_see_success_message[Browser: MicrosoftEdge]",
-  "time" : {
-    "start" : 1651654644411,
-    "stop" : 1651654650320,
-    "duration" : 5909
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "68a964d584c91d86",
-  "name" : "test_user_cant_see_success_message[Browser: Chrome]",
-  "time" : {
-    "start" : 1651654628685,
-    "stop" : 1651654633970,
-    "duration" : 5285
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bef148b29d8c0fd2",
-  "name" : "test_guest_cant_see_product_in_basket_opened_from_main_page[Browser: Chrome]",
-  "time" : {
-    "start" : 1651654611105,
-    "stop" : 1651654618400,
-    "duration" : 7295
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "268f010363873564",
-  "name" : "test_message_disappeared_after_adding_product_to_basket[Browser: Chrome]",
-  "time" : {
-    "start" : 1651654616390,
-    "stop" : 1651654622093,
-    "duration" : 5703
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "3dd4cec6d47d6aab",
-  "name" : "test_guest_cant_see_success_message[Browser: Firefox]",
-  "time" : {
-    "start" : 1651654680229,
-    "stop" : 1651654685579,
-    "duration" : 5350
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "def38033851b049a",
-  "name" : "test_user_can_add_product_to_basket[Browser: Chrome]",
-  "time" : {
-    "start" : 1651654625259,
-    "stop" : 1651654630291,
-    "duration" : 5032
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "ce3983671e2d8cbf",
+  "uid" : "82fb37119cd419e7",
   "name" : "test_guest_should_see_login_link[Browser: Safari]",
   "time" : {
-    "start" : 1651654682863,
-    "stop" : 1651654683471,
-    "duration" : 608
+    "start" : 1651656570207,
+    "stop" : 1651656570601,
+    "duration" : 394
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "889397428691478a",
-  "name" : "test_guest_can_go_to_login_page[Browser: Firefox]",
+  "uid" : "8ab6f93f7851e017",
+  "name" : "test_guest_should_see_login_link_on_product_page[Browser: Firefox]",
   "time" : {
-    "start" : 1651654675567,
-    "stop" : 1651654678141,
-    "duration" : 2574
+    "start" : 1651656561737,
+    "stop" : 1651656562256,
+    "duration" : 519
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "ee16da4df219b599",
-  "name" : "test_user_can_add_product_to_basket[Browser: Safari]",
+  "uid" : "2301e563553eaa97",
+  "name" : "test_guest_cant_see_success_message[Browser: Firefox]",
   "time" : {
-    "start" : 1651654693694,
-    "stop" : 1651654697493,
-    "duration" : 3799
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "f8bb0be026a78bc6",
-  "name" : "test_guest_can_go_to_login_page_from_product_page[Browser: Chrome]",
-  "time" : {
-    "start" : 1651654614307,
-    "stop" : 1651654615488,
-    "duration" : 1181
+    "start" : 1651656562423,
+    "stop" : 1651656567692,
+    "duration" : 5269
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "4983ea93c5e7e5aa",
-  "name" : "test_guest_cant_see_success_message[Browser: Safari]",
+  "uid" : "3de70342df39138e",
+  "name" : "test_guest_cant_see_product_in_basket_opened_from_main_page[Browser: Chrome]",
   "time" : {
-    "start" : 1651654687185,
-    "stop" : 1651654692442,
-    "duration" : 5257
+    "start" : 1651656498404,
+    "stop" : 1651656504914,
+    "duration" : 6510
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "7e716a25ac14b9d1",
-  "name" : "test_guest_can_go_to_login_page_from_product_page[Browser: MicrosoftEdge]",
+  "uid" : "d90c50bc2fff47f4",
+  "name" : "test_user_can_add_product_to_basket[Browser: MicrosoftEdge]",
   "time" : {
-    "start" : 1651654634132,
-    "stop" : 1651654638001,
-    "duration" : 3869
+    "start" : 1651656530780,
+    "stop" : 1651656536826,
+    "duration" : 6046
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f4683de182dd6f88",
-  "name" : "test_guest_cant_see_product_in_basket_opened_from_main_page[Browser: MicrosoftEdge]",
-  "time" : {
-    "start" : 1651654627617,
-    "stop" : 1651654633538,
-    "duration" : 5921
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c6106c55a7ad1a2",
-  "name" : "test_guest_can_go_to_login_page_from_product_page[Browser: Firefox]",
-  "time" : {
-    "start" : 1651654675342,
-    "stop" : 1651654678430,
-    "duration" : 3088
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a3ba01f1587a799a",
-  "name" : "test_guest_should_see_login_link_on_product_page[Browser: MicrosoftEdge]",
-  "time" : {
-    "start" : 1651654652234,
-    "stop" : 1651654654075,
-    "duration" : 1841
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "eb046e4d2377fbfc",
-  "name" : "test_user_cant_see_success_message[Browser: Safari]",
-  "time" : {
-    "start" : 1651654689157,
-    "stop" : 1651654696446,
-    "duration" : 7289
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a0a7d6bdccea35c2",
-  "name" : "test_guest_can_add_product_to_basket[Browser: Chrome]",
-  "time" : {
-    "start" : 1651654611391,
-    "stop" : 1651654615257,
-    "duration" : 3866
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e64b3420dc275fdc",
-  "name" : "test_guest_should_see_login_link_on_product_page[Browser: Safari]",
-  "time" : {
-    "start" : 1651654691129,
-    "stop" : 1651654691629,
-    "duration" : 500
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9f0b2e9180cc062e",
-  "name" : "test_guest_cant_see_product_in_basket_opened_from_product_page[Browser: Firefox]",
-  "time" : {
-    "start" : 1651654678689,
-    "stop" : 1651654683193,
-    "duration" : 4504
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "242ac74a82df2b0e",
-  "name" : "test_user_cant_see_success_message[Browser: Firefox]",
-  "time" : {
-    "start" : 1651654681663,
-    "stop" : 1651654686902,
-    "duration" : 5239
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4fecac6a29c6f6b2",
-  "name" : "test_login_page_inputs_present[Browser: Chrome]",
-  "time" : {
-    "start" : 1651654611383,
-    "stop" : 1651654613081,
-    "duration" : 1698
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5978a8bdfdf7183f",
-  "name" : "test_guest_cant_see_product_in_basket_opened_from_product_page[Browser: Safari]",
-  "time" : {
-    "start" : 1651654685402,
-    "stop" : 1651654690895,
-    "duration" : 5493
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "abd9add31d5ea2e8",
+  "uid" : "4fab6ec0b1e8447d",
   "name" : "test_user_can_add_product_to_basket[Browser: Firefox]",
   "time" : {
-    "start" : 1651654687392,
-    "stop" : 1651654687392,
-    "duration" : 0
+    "start" : 1651656567108,
+    "stop" : 1651656571498,
+    "duration" : 4390
   },
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "3bdd073f73b1f1f0",
-  "name" : "test_guest_should_see_login_link[Browser: Chrome]",
+  "uid" : "e1283e94a1114c5",
+  "name" : "test_user_cant_see_success_message[Browser: Safari]",
   "time" : {
-    "start" : 1651654611117,
-    "stop" : 1651654612831,
-    "duration" : 1714
+    "start" : 1651656572554,
+    "stop" : 1651656582788,
+    "duration" : 10234
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "3c149bdbf7f1bbe2",
-  "name" : "test_guest_can_add_product_to_basket[Browser: MicrosoftEdge]",
+  "uid" : "6d419894658cfdfa",
+  "name" : "test_guest_cant_see_product_in_basket_opened_from_product_page[Browser: Safari]",
   "time" : {
-    "start" : 1651654626551,
-    "stop" : 1651654632076,
-    "duration" : 5525
+    "start" : 1651656571631,
+    "stop" : 1651656572203,
+    "duration" : 572
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "181774a8a9b9ddc2",
-  "name" : "test_guest_cant_see_success_message[Browser: Chrome]",
+  "uid" : "b52e76a3aa83aff",
+  "name" : "test_guest_can_go_to_login_page_from_product_page[Browser: MicrosoftEdge]",
   "time" : {
-    "start" : 1651654614501,
-    "stop" : 1651654619859,
-    "duration" : 5358
+    "start" : 1651656519690,
+    "stop" : 1651656523719,
+    "duration" : 4029
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "a2014dc2f3faabf0",
-  "name" : "test_guest_cant_see_product_in_basket_opened_from_product_page[Browser: MicrosoftEdge]",
+  "uid" : "15aebe02c60c04a3",
+  "name" : "test_guest_should_see_login_link[Browser: Firefox]",
   "time" : {
-    "start" : 1651654640779,
-    "stop" : 1651654649007,
-    "duration" : 8228
+    "start" : 1651656553620,
+    "stop" : 1651656554497,
+    "duration" : 877
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "79914cec2c353e44",
-  "name" : "test_guest_cant_see_success_message_after_adding_product_to_basket[Browser: Firefox]",
+  "uid" : "1c4202c0cd441aba",
+  "name" : "test_guest_cant_see_product_in_basket_opened_from_product_page[Browser: Firefox]",
   "time" : {
-    "start" : 1651654678306,
-    "stop" : 1651654682935,
-    "duration" : 4629
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "e0ad6fa0046c115",
-  "name" : "test_login_page_inputs_present[Browser: MicrosoftEdge]",
-  "time" : {
-    "start" : 1651654625278,
-    "stop" : 1651654626895,
-    "duration" : 1617
+    "start" : 1651656561381,
+    "stop" : 1651656567114,
+    "duration" : 5733
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "67da286c2b776ccc",
-  "name" : "test_guest_can_go_to_login_page_from_product_page[Browser: Safari]",
+  "uid" : "83a2275d45538524",
+  "name" : "test_guest_can_go_to_login_page[Browser: Safari]",
   "time" : {
-    "start" : 1651654683826,
-    "stop" : 1651654684863,
-    "duration" : 1037
+    "start" : 1651656569504,
+    "stop" : 1651656570324,
+    "duration" : 820
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "5644425061cf61f8",
-  "name" : "test_user_cant_see_success_message[Browser: MicrosoftEdge]",
-  "time" : {
-    "start" : 1651654641641,
-    "stop" : 1651654648504,
-    "duration" : 6863
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ad292930542d36e2",
+  "uid" : "33acf1e6f89e1b84",
   "name" : "test_login_page_inputs_present[Browser: Firefox]",
   "time" : {
-    "start" : 1651654657850,
-    "stop" : 1651654661339,
-    "duration" : 3489
+    "start" : 1651656552437,
+    "stop" : 1651656554042,
+    "duration" : 1605
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "51feaeb075dac6a",
+  "uid" : "1cea06b81ccaa2db",
+  "name" : "test_guest_should_see_login_link_on_product_page[Browser: Safari]",
+  "time" : {
+    "start" : 1651656570802,
+    "stop" : 1651656571332,
+    "duration" : 530
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "735cef535f86858a",
+  "name" : "test_guest_cant_see_product_in_basket_opened_from_main_page[Browser: MicrosoftEdge]",
+  "time" : {
+    "start" : 1651656514759,
+    "stop" : 1651656520837,
+    "duration" : 6078
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "27dc87af2685fd72",
+  "name" : "test_login_page_inputs_present[Browser: MicrosoftEdge]",
+  "time" : {
+    "start" : 1651656511315,
+    "stop" : 1651656513744,
+    "duration" : 2429
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e760c08638612e16",
+  "name" : "test_guest_can_add_product_to_basket[Browser: Chrome]",
+  "time" : {
+    "start" : 1651656498440,
+    "stop" : 1651656501255,
+    "duration" : 2815
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a49eb9710ef7751f",
+  "name" : "test_guest_cant_see_success_message[Browser: Chrome]",
+  "time" : {
+    "start" : 1651656501830,
+    "stop" : 1651656506704,
+    "duration" : 4874
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "444fdcd31ba0b4cc",
+  "name" : "test_guest_cant_see_success_message[Browser: MicrosoftEdge]",
+  "time" : {
+    "start" : 1651656531797,
+    "stop" : 1651656538739,
+    "duration" : 6942
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "51e8a1677a8da4a8",
+  "name" : "test_message_disappeared_after_adding_product_to_basket[Browser: Firefox]",
+  "time" : {
+    "start" : 1651656555358,
+    "stop" : 1651656564261,
+    "duration" : 8903
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "540bebbf4f2bfced",
+  "name" : "test_guest_cant_see_success_message_after_adding_product_to_basket[Browser: Firefox]",
+  "time" : {
+    "start" : 1651656554767,
+    "stop" : 1651656564072,
+    "duration" : 9305
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7d7692a7d9dbb756",
+  "name" : "test_guest_can_go_to_login_page[Browser: MicrosoftEdge]",
+  "time" : {
+    "start" : 1651656505769,
+    "stop" : 1651656507339,
+    "duration" : 1570
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1db019d5ff40c9ef",
+  "name" : "test_guest_cant_see_success_message_after_adding_product_to_basket[Browser: Safari]",
+  "time" : {
+    "start" : 1651656569635,
+    "stop" : 1651656571306,
+    "duration" : 1671
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "b1ccffef51789dbc",
+  "name" : "test_user_can_add_product_to_basket[Browser: Safari]",
+  "time" : {
+    "start" : 1651656573542,
+    "stop" : 1651656579687,
+    "duration" : 6145
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "c057008c57b36c5a",
+  "name" : "test_guest_should_see_login_link[Browser: Chrome]",
+  "time" : {
+    "start" : 1651656498712,
+    "stop" : 1651656499894,
+    "duration" : 1182
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8345469b6abc329f",
+  "name" : "test_user_cant_see_success_message[Browser: Firefox]",
+  "time" : {
+    "start" : 1651656569659,
+    "stop" : 1651656575006,
+    "duration" : 5347
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e4d8f912fbb64e78",
+  "name" : "test_guest_can_add_product_to_basket[Browser: MicrosoftEdge]",
+  "time" : {
+    "start" : 1651656512718,
+    "stop" : 1651656518100,
+    "duration" : 5382
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "bafdcb1ff8a05854",
+  "name" : "test_guest_can_go_to_login_page_from_product_page[Browser: Safari]",
+  "time" : {
+    "start" : 1651656573322,
+    "stop" : 1651656576009,
+    "duration" : 2687
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3425964c83f407b0",
+  "name" : "test_message_disappeared_after_adding_product_to_basket[Browser: Safari]",
+  "time" : {
+    "start" : 1651656576258,
+    "stop" : 1651656579016,
+    "duration" : 2758
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "b7af51008de70e38",
+  "name" : "test_user_cant_see_success_message[Browser: MicrosoftEdge]",
+  "time" : {
+    "start" : 1651656523297,
+    "stop" : 1651656531325,
+    "duration" : 8028
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "25780d8ad2edb045",
+  "name" : "test_message_disappeared_after_adding_product_to_basket[Browser: MicrosoftEdge]",
+  "time" : {
+    "start" : 1651656510918,
+    "stop" : 1651656516733,
+    "duration" : 5815
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "d7db87b028a21f2e",
+  "name" : "test_guest_should_see_login_link_on_product_page[Browser: MicrosoftEdge]",
+  "time" : {
+    "start" : 1651656531791,
+    "stop" : 1651656534335,
+    "duration" : 2544
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b2cd89169812cff6",
+  "name" : "test_guest_can_go_to_login_page_from_product_page[Browser: Firefox]",
+  "time" : {
+    "start" : 1651656555928,
+    "stop" : 1651656560864,
+    "duration" : 4936
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d9b73c104a0c7094",
+  "name" : "test_guest_cant_see_success_message_after_adding_product_to_basket[Browser: Chrome]",
+  "time" : {
+    "start" : 1651656505570,
+    "stop" : 1651656506584,
+    "duration" : 1014
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "5288c2381851df27",
+  "name" : "test_guest_cant_see_success_message[Browser: Safari]",
+  "time" : {
+    "start" : 1651656570663,
+    "stop" : 1651656575805,
+    "duration" : 5142
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1304a5752731ce46",
+  "name" : "test_guest_can_go_to_login_page[Browser: Firefox]",
+  "time" : {
+    "start" : 1651656556673,
+    "stop" : 1651656561250,
+    "duration" : 4577
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2419f4fc3ec02b89",
+  "name" : "test_guest_can_add_product_to_basket[Browser: Safari]",
+  "time" : {
+    "start" : 1651656576934,
+    "stop" : 1651656580408,
+    "duration" : 3474
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "21286ff3ba2e75fd",
+  "name" : "test_guest_should_see_login_link_on_product_page[Browser: Chrome]",
+  "time" : {
+    "start" : 1651656502331,
+    "stop" : 1651656502985,
+    "duration" : 654
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6fd1cfa7e39fb663",
+  "name" : "test_guest_can_go_to_login_page[Browser: Chrome]",
+  "time" : {
+    "start" : 1651656498802,
+    "stop" : 1651656500887,
+    "duration" : 2085
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "344e66f04c1dd3c5",
+  "name" : "test_guest_cant_see_product_in_basket_opened_from_main_page[Browser: Firefox]",
+  "time" : {
+    "start" : 1651656542984,
+    "stop" : 1651656553258,
+    "duration" : 10274
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "80d47b64f6dfb60f",
+  "name" : "test_login_page_inputs_present[Browser: Safari]",
+  "time" : {
+    "start" : 1651656568878,
+    "stop" : 1651656569381,
+    "duration" : 503
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b36ded50865dee56",
   "name" : "test_guest_should_see_login_link[Browser: MicrosoftEdge]",
   "time" : {
-    "start" : 1651654625089,
-    "stop" : 1651654626053,
-    "duration" : 964
+    "start" : 1651656508736,
+    "stop" : 1651656509489,
+    "duration" : 753
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b07e30f38b0917d3",
+  "name" : "test_message_disappeared_after_adding_product_to_basket[Browser: Chrome]",
+  "time" : {
+    "start" : 1651656502412,
+    "stop" : 1651656507750,
+    "duration" : 5338
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "6760ab6a4f004b73",
+  "name" : "test_guest_cant_see_product_in_basket_opened_from_product_page[Browser: MicrosoftEdge]",
+  "time" : {
+    "start" : 1651656521554,
+    "stop" : 1651656528685,
+    "duration" : 7131
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "46f1f75ce1f890d9",
+  "name" : "test_guest_cant_see_product_in_basket_opened_from_product_page[Browser: Chrome]",
+  "time" : {
+    "start" : 1651656500979,
+    "stop" : 1651656506506,
+    "duration" : 5527
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "acdcea7c4fedd5ff",
+  "name" : "test_guest_can_add_product_to_basket[Browser: Firefox]",
+  "time" : {
+    "start" : 1651656554764,
+    "stop" : 1651656561533,
+    "duration" : 6769
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "27176366e061f097",
+  "name" : "test_user_cant_see_success_message[Browser: Chrome]",
+  "time" : {
+    "start" : 1651656515019,
+    "stop" : 1651656520458,
+    "duration" : 5439
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5175289fe9c8a5b0",
+  "name" : "test_login_page_inputs_present[Browser: Chrome]",
+  "time" : {
+    "start" : 1651656498810,
+    "stop" : 1651656499833,
+    "duration" : 1023
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "571105812a6d99e4",
+  "name" : "test_guest_can_go_to_login_page_from_product_page[Browser: Chrome]",
+  "time" : {
+    "start" : 1651656500670,
+    "stop" : 1651656501710,
+    "duration" : 1040
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ceecef8519a5923b",
+  "name" : "test_user_can_add_product_to_basket[Browser: Chrome]",
+  "time" : {
+    "start" : 1651656512970,
+    "stop" : 1651656517506,
+    "duration" : 4536
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "6f13c261bdc347d1",
+  "name" : "test_guest_cant_see_success_message_after_adding_product_to_basket[Browser: MicrosoftEdge]",
+  "time" : {
+    "start" : 1651656525898,
+    "stop" : 1651656530543,
+    "duration" : 4645
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "2c747d5c64732794",
+  "name" : "test_guest_cant_see_product_in_basket_opened_from_main_page[Browser: Safari]",
+  "time" : {
+    "start" : 1651656564384,
+    "stop" : 1651656569987,
+    "duration" : 5603
   },
   "status" : "passed",
   "severity" : "normal"
