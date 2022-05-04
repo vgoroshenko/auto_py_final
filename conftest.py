@@ -1,3 +1,4 @@
+import time
 import pytest
 import os
 import allure
@@ -41,7 +42,6 @@ def desired_caps(browser: str):
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-extensions")
     options.add_argument("--disable-dev-shm-usage")
-    options.add_argument('--window-size=1920,1080')
     caps = options
     return caps
 
@@ -53,7 +53,6 @@ def get_web_driver(browser_name: str):
             command_executor=config.webdriver_host,
             options=desired_caps(browser_name)
         )
-        browser.implicitly_wait(4)
     except WebDriverException as e:
         pytest.exit(print(e))
     return browser
@@ -71,7 +70,7 @@ def pytest_runtest_makereport(item, call):
                     web_driver = item.funcargs['browser']
                     allure.attach(
                         web_driver.get_screenshot_as_png(),
-                        name='step_screenshot',
+                        name='step_screenshot_' + f'{time.asctime().split()[-2]}',
                         attachment_type=allure.attachment_type.PNG
                     )
                 else:
