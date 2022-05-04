@@ -1,0 +1,121 @@
+{
+  "uid" : "c893322affabe1d5",
+  "name" : "test_guest_cant_see_success_message[Browser: MicrosoftEdge]",
+  "fullName" : "test_product_page#test_guest_cant_see_success_message",
+  "historyId" : "84bc32e4ed2f32f2b619ccd0e2c81c6d",
+  "time" : {
+    "start" : 1651654167968,
+    "stop" : 1651654179941,
+    "duration" : 11973
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1651654155481,
+      "stop" : 1651654159639,
+      "duration" : 4158
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "217ab6a4d9361aa3",
+      "name" : "step_screenshot",
+      "source" : "217ab6a4d9361aa3.png",
+      "type" : "image/png",
+      "size" : 182924
+    }, {
+      "uid" : "789b51e1d281251",
+      "name" : "step_screenshot",
+      "source" : "789b51e1d281251.png",
+      "type" : "image/png",
+      "size" : 191427
+    }, {
+      "uid" : "115495cefc235b2b",
+      "name" : "step_screenshot",
+      "source" : "115495cefc235b2b.png",
+      "type" : "image/png",
+      "size" : 191427
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser::<lambda>",
+    "time" : {
+      "start" : 1651654182457,
+      "stop" : 1651654183779,
+      "duration" : 1322
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "47ebdfce25eaa058",
+      "name" : "name",
+      "source" : "47ebdfce25eaa058.png",
+      "type" : "image/png",
+      "size" : 191427
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_product_page"
+  }, {
+    "name" : "host",
+    "value" : "fv-az128-324"
+  }, {
+    "name" : "thread",
+    "value" : "2611-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_product_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "'MicrosoftEdge'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c893322affabe1d5.json",
+  "parameterValues" : [ "'MicrosoftEdge'" ]
+}
