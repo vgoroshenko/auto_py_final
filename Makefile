@@ -7,6 +7,12 @@ pull:
 	docker pull browsers/edge
 	docker pull browsers/safari:15.0
 
+clean:
+	docker rmi -f selenoid/chrome:latest
+	docker rmi -f selenoid/firefox:latest
+	docker rmi -f browsers/edge
+	docker rmi -f browsers/safari:15.0
+
 # Borrowed from
 #   https://github.com/jfrazelle/dockerfiles/blob/master/kiwi-builder/Makefile
 
