@@ -9,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "95bb8fb5e83b01a1",
+      "uid" : "d44b3707cbb159d1",
       "status" : "passed",
       "time" : {
-        "start" : 1651693404271,
-        "stop" : 1651693406584,
-        "duration" : 2313
+        "start" : 1651693801548,
+        "stop" : 1651693803806,
+        "duration" : 2258
       }
     } ]
   },
@@ -28,12 +28,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f9128ba449cde3c3",
+      "uid" : "de3ae9823049f48d",
       "status" : "passed",
       "time" : {
-        "start" : 1651693451302,
-        "stop" : 1651693452417,
-        "duration" : 1115
+        "start" : 1651693841876,
+        "stop" : 1651693842963,
+        "duration" : 1087
       }
     } ]
   },
@@ -47,13 +47,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "25ecd55148ec8e6e",
+      "uid" : "254158a2d9a5188c",
       "status" : "passed",
       "statusDetails" : "XPASS",
       "time" : {
-        "start" : 1651693387636,
-        "stop" : 1651693397416,
-        "duration" : 9780
+        "start" : 1651693784875,
+        "stop" : 1651693794705,
+        "duration" : 9830
       }
     } ]
   },
@@ -67,13 +67,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "21ab013f0ab12aff",
+      "uid" : "8f384ffb89a1ae05",
       "status" : "passed",
       "statusDetails" : "XPASS",
       "time" : {
-        "start" : 1651693452877,
-        "stop" : 1651693463907,
-        "duration" : 11030
+        "start" : 1651693846524,
+        "stop" : 1651693856938,
+        "duration" : 10414
       }
     } ]
   },
@@ -81,19 +81,19 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
+      "skipped" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6a132d27b45bcc52",
-      "status" : "passed",
-      "statusDetails" : "XPASS",
+      "uid" : "d949bb9212c16a90",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL\n\nselenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".btn-add-to-basket\"}\n  (Session info: chrome=100.0.4896.60)\nStacktrace:\n#0 0x558350624013 <unknown>\n#1 0x558350386a08 <unknown>\n#2 0x5583503bcfb6 <unknown>\n#3 0x5583503bd171 <unknown>\n#4 0x5583503efdd4 <unknown>\n#5 0x5583503da95d <unknown>\n#6 0x5583503edb94 <unknown>\n#7 0x5583503da823 <unknown>\n#8 0x5583503b008a <unknown>\n#9 0x5583503b11e5 <unknown>\n#10 0x558350651e5d <unknown>\n#11 0x55835066b061 <unknown>\n#12 0x558350653bb5 <unknown>\n#13 0x55835066be08 <unknown>\n#14 0x5583506472f0 <unknown>\n#15 0x558350687988 <unknown>\n#16 0x558350687b08 <unknown>\n#17 0x5583506a15dd <unknown>\n#18 0x7fda7a05a609 <unknown>",
       "time" : {
-        "start" : 1651693405389,
-        "stop" : 1651693409481,
-        "duration" : 4092
+        "start" : 1651693800907,
+        "stop" : 1651693805394,
+        "duration" : 4487
       }
     } ]
   },
@@ -101,19 +101,19 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
+      "skipped" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fe98ce1d445dcf6a",
-      "status" : "passed",
-      "statusDetails" : "XPASS",
+      "uid" : "cd23c0193e051a0f",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL\n\nselenium.common.exceptions.NoSuchElementException: Message:",
       "time" : {
-        "start" : 1651693460372,
-        "stop" : 1651693466501,
-        "duration" : 6129
+        "start" : 1651693850186,
+        "stop" : 1651693857062,
+        "duration" : 6876
       }
     } ]
   },
@@ -127,13 +127,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "69c1141122e9b693",
+      "uid" : "10872c666cccbe6e",
       "status" : "passed",
       "statusDetails" : "XPASS",
       "time" : {
-        "start" : 1651693447955,
-        "stop" : 1651693450206,
-        "duration" : 2251
+        "start" : 1651693847675,
+        "stop" : 1651693849966,
+        "duration" : 2291
       }
     } ]
   },
@@ -147,13 +147,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c6dc3dbc580dc84e",
+      "uid" : "fec7528afc61550",
       "status" : "skipped",
       "statusDetails" : "XFAIL\n\nAssertionError: Success message is presented, but should not be",
       "time" : {
-        "start" : 1651693419481,
-        "stop" : 1651693422236,
-        "duration" : 2755
+        "start" : 1651693810474,
+        "stop" : 1651693813065,
+        "duration" : 2591
       }
     } ]
   },
@@ -167,12 +167,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "47b9d38662365a28",
+      "uid" : "ad1ab48499058f3f",
       "status" : "passed",
       "time" : {
-        "start" : 1651693443057,
-        "stop" : 1651693444758,
-        "duration" : 1701
+        "start" : 1651693836563,
+        "stop" : 1651693838743,
+        "duration" : 2180
       }
     } ]
   },
@@ -186,12 +186,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7ec48fcfc5a3d4c8",
+      "uid" : "2c665a7df0fd68a1",
       "status" : "passed",
       "time" : {
-        "start" : 1651693426654,
-        "stop" : 1651693427241,
-        "duration" : 587
+        "start" : 1651693830909,
+        "stop" : 1651693832178,
+        "duration" : 1269
       }
     } ]
   },
@@ -205,12 +205,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1e551578f276e50f",
+      "uid" : "f82eff886544a7a0",
       "status" : "passed",
       "time" : {
-        "start" : 1651693430648,
-        "stop" : 1651693432263,
-        "duration" : 1615
+        "start" : 1651693827998,
+        "stop" : 1651693829574,
+        "duration" : 1576
       }
     } ]
   },
@@ -224,12 +224,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "dde3f4253ae61637",
+      "uid" : "e90bf74d6b390c94",
       "status" : "passed",
       "time" : {
-        "start" : 1651693399771,
-        "stop" : 1651693400658,
-        "duration" : 887
+        "start" : 1651693797250,
+        "stop" : 1651693797981,
+        "duration" : 731
       }
     } ]
   },
@@ -243,13 +243,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3da99021e72af82c",
+      "uid" : "81fb05092f55e24e",
       "status" : "passed",
       "statusDetails" : "XPASS",
       "time" : {
-        "start" : 1651693383264,
-        "stop" : 1651693390123,
-        "duration" : 6859
+        "start" : 1651693781978,
+        "stop" : 1651693787150,
+        "duration" : 5172
       }
     } ]
   },
@@ -263,12 +263,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "862915ca6b0e24f5",
+      "uid" : "486d068fa6055fb3",
       "status" : "passed",
       "time" : {
-        "start" : 1651693445425,
-        "stop" : 1651693447448,
-        "duration" : 2023
+        "start" : 1651693843740,
+        "stop" : 1651693846107,
+        "duration" : 2367
       }
     } ]
   },
@@ -282,12 +282,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7539ccfd1b8eb4b7",
+      "uid" : "5dd78b032836854",
       "status" : "passed",
       "time" : {
-        "start" : 1651693383133,
-        "stop" : 1651693388376,
-        "duration" : 5243
+        "start" : 1651693782247,
+        "stop" : 1651693785712,
+        "duration" : 3465
       }
     } ]
   },
@@ -301,13 +301,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "679d86b1c704f0a2",
+      "uid" : "5d9956a915e02e7b",
       "status" : "skipped",
-      "statusDetails" : "XFAIL\n\nselenium.common.exceptions.NoSuchFrameException: Message: Callback was not called before the unload event.",
+      "statusDetails" : "XFAIL\n\nselenium.common.exceptions.NoSuchElementException: Message:",
       "time" : {
-        "start" : 1651693457382,
-        "stop" : 1651693459228,
-        "duration" : 1846
+        "start" : 1651693843380,
+        "stop" : 1651693847704,
+        "duration" : 4324
       }
     } ]
   },
@@ -321,12 +321,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a3c651929e02686b",
+      "uid" : "f99c1bc069fb1b80",
       "status" : "passed",
       "time" : {
-        "start" : 1651693435869,
-        "stop" : 1651693438520,
-        "duration" : 2651
+        "start" : 1651693838627,
+        "stop" : 1651693839319,
+        "duration" : 692
       }
     } ]
   },
@@ -340,12 +340,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "da3505d72b79c50",
+      "uid" : "16944d172a5a209c",
       "status" : "passed",
       "time" : {
-        "start" : 1651693428701,
-        "stop" : 1651693430942,
-        "duration" : 2241
+        "start" : 1651693822212,
+        "stop" : 1651693824115,
+        "duration" : 1903
       }
     } ]
   },
@@ -359,13 +359,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "67fa3df1bb65956d",
+      "uid" : "4ee2cf2bf85a8b44",
       "status" : "passed",
       "statusDetails" : "XPASS",
       "time" : {
-        "start" : 1651693388439,
-        "stop" : 1651693390213,
-        "duration" : 1774
+        "start" : 1651693785514,
+        "stop" : 1651693787380,
+        "duration" : 1866
       }
     } ]
   },
@@ -379,12 +379,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6c29ea31cd532847",
+      "uid" : "c69d038ac4644711",
       "status" : "passed",
       "time" : {
-        "start" : 1651693460855,
-        "stop" : 1651693462651,
-        "duration" : 1796
+        "start" : 1651693847939,
+        "stop" : 1651693848709,
+        "duration" : 770
       }
     } ]
   },
@@ -398,12 +398,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "521f21acd9731df2",
+      "uid" : "dbde86a275f13fdf",
       "status" : "passed",
       "time" : {
-        "start" : 1651693383342,
-        "stop" : 1651693387762,
-        "duration" : 4420
+        "start" : 1651693781960,
+        "stop" : 1651693784944,
+        "duration" : 2984
       }
     } ]
   },
@@ -417,12 +417,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8344d22127297f9",
+      "uid" : "7e85490dfed10967",
       "status" : "passed",
       "time" : {
-        "start" : 1651693388970,
-        "stop" : 1651693398441,
-        "duration" : 9471
+        "start" : 1651693786258,
+        "stop" : 1651693795824,
+        "duration" : 9566
       }
     } ]
   },
@@ -436,13 +436,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fdfbbb8e781aef3a",
+      "uid" : "87105578f204eac9",
       "status" : "skipped",
       "statusDetails" : "XFAIL\n\nselenium.common.exceptions.NoSuchFrameException: Message: Callback was not called before the unload event.",
       "time" : {
-        "start" : 1651693464204,
-        "stop" : 1651693465786,
-        "duration" : 1582
+        "start" : 1651693850406,
+        "stop" : 1651693853438,
+        "duration" : 3032
       }
     } ]
   },
@@ -456,12 +456,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "75d9dec338d1ba9a",
+      "uid" : "4a724c08f20a3702",
       "status" : "passed",
       "time" : {
-        "start" : 1651693413809,
-        "stop" : 1651693423606,
-        "duration" : 9797
+        "start" : 1651693807659,
+        "stop" : 1651693817262,
+        "duration" : 9603
       }
     } ]
   },
@@ -475,13 +475,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "114c6b270fb6e934",
+      "uid" : "32f949743dcb75d",
       "status" : "skipped",
       "statusDetails" : "XFAIL\n\nselenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: .btn-add-to-basket\nStacktrace:\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:183:5\nNoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:395:5\nelement.find/</<@chrome://remote/content/marionette/element.js:300:16",
       "time" : {
-        "start" : 1651693401367,
-        "stop" : 1651693407194,
-        "duration" : 5827
+        "start" : 1651693798746,
+        "stop" : 1651693804865,
+        "duration" : 6119
       }
     } ]
   },
@@ -495,13 +495,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ee1e44c535e828e",
+      "uid" : "931aa07a11d5b44b",
       "status" : "passed",
       "statusDetails" : "XPASS",
       "time" : {
-        "start" : 1651693438766,
-        "stop" : 1651693443318,
-        "duration" : 4552
+        "start" : 1651693830338,
+        "stop" : 1651693837815,
+        "duration" : 7477
       }
     } ]
   },
@@ -515,12 +515,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ac1f38cc9d2ebb37",
+      "uid" : "8c0ec8afa3be5206",
       "status" : "passed",
       "time" : {
-        "start" : 1651693441980,
-        "stop" : 1651693451916,
-        "duration" : 9936
+        "start" : 1651693847559,
+        "stop" : 1651693857250,
+        "duration" : 9691
       }
     } ]
   },
@@ -534,12 +534,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6f477efdfb36045c",
+      "uid" : "41e48c837fd9f34d",
       "status" : "passed",
       "time" : {
-        "start" : 1651693467259,
-        "stop" : 1651693479481,
-        "duration" : 12222
+        "start" : 1651693858276,
+        "stop" : 1651693872538,
+        "duration" : 14262
       }
     } ]
   },
@@ -553,13 +553,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8919cb58a86db5cc",
+      "uid" : "e5d13345c82c77af",
       "status" : "passed",
       "statusDetails" : "XPASS",
       "time" : {
-        "start" : 1651693420959,
-        "stop" : 1651693425194,
-        "duration" : 4235
+        "start" : 1651693820888,
+        "stop" : 1651693825588,
+        "duration" : 4700
       }
     } ]
   },
@@ -573,13 +573,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3430cd5d46a4e7f3",
+      "uid" : "f25b4ed1d690e40d",
       "status" : "passed",
       "statusDetails" : "XPASS",
       "time" : {
-        "start" : 1651693458175,
-        "stop" : 1651693463049,
-        "duration" : 4874
+        "start" : 1651693849551,
+        "stop" : 1651693853494,
+        "duration" : 3943
       }
     } ]
   },
@@ -593,12 +593,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1e9df737ade34947",
+      "uid" : "3c3cf0a08f63e83b",
       "status" : "passed",
       "time" : {
-        "start" : 1651693422758,
-        "stop" : 1651693432536,
-        "duration" : 9778
+        "start" : 1651693813590,
+        "stop" : 1651693823098,
+        "duration" : 9508
       }
     } ]
   },
@@ -606,19 +606,19 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 1,
-      "passed" : 0,
+      "skipped" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "92b1a88f2b8961bd",
-      "status" : "skipped",
-      "statusDetails" : "XFAIL\n\nselenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".btn-group >a\"}\n  (Session info: MicrosoftEdge=100.0.1185.39)\nStacktrace:\n#0 0x5579f4e80583 <unknown>\n#1 0x5579f4b9cc93 <unknown>\n#2 0x5579f4bd5969 <unknown>\n#3 0x5579f4bd5b61 <unknown>\n#4 0x5579f4c07f64 <unknown>\n#5 0x5579f4bf34cd <unknown>\n#6 0x5579f4c05fa6 <unknown>\n#7 0x5579f4bf3393 <unknown>\n#8 0x5579f4bc9a81 <unknown>\n#9 0x5579f4bcac45 <unknown>\n#10 0x5579f4ea9ea7 <unknown>\n#11 0x5579f4ebb132 <unknown>\n#12 0x5579f4ebae5c <unknown>\n#13 0x5579f4ebb632 <unknown>\n#14 0x5579f4eab39b <unknown>\n#15 0x5579f4ebb8f3 <unknown>\n#16 0x5579f4ea0fa5 <unknown>\n#17 0x5579f4ed3038 <unknown>\n#18 0x5579f4ed31e8 <unknown>\n#19 0x5579f4eec43e <unknown>\n#20 0x7fc8139c8609 <unknown>",
+      "uid" : "60b1a5a2a883b3e7",
+      "status" : "passed",
+      "statusDetails" : "XPASS",
       "time" : {
-        "start" : 1651693447731,
-        "stop" : 1651693453584,
-        "duration" : 5853
+        "start" : 1651693829553,
+        "stop" : 1651693839584,
+        "duration" : 10031
       }
     } ]
   },
@@ -632,13 +632,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f6569c50fc9c2c87",
+      "uid" : "f3be09e216b30b3d",
       "status" : "skipped",
       "statusDetails" : "XFAIL\n\nAssertionError: Success message is presented, but should not be",
       "time" : {
-        "start" : 1651693440776,
-        "stop" : 1651693447289,
-        "duration" : 6513
+        "start" : 1651693839975,
+        "stop" : 1651693845843,
+        "duration" : 5868
       }
     } ]
   },
@@ -652,12 +652,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "bdde26c45b329868",
+      "uid" : "2fc4804b6a93b91e",
       "status" : "passed",
       "time" : {
-        "start" : 1651693383071,
-        "stop" : 1651693396169,
-        "duration" : 13098
+        "start" : 1651693781766,
+        "stop" : 1651693793740,
+        "duration" : 11974
       }
     } ]
   },
@@ -671,12 +671,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fe6afee3f945842e",
+      "uid" : "efd2e9209e9fe897",
       "status" : "passed",
       "time" : {
-        "start" : 1651693433666,
-        "stop" : 1651693438094,
-        "duration" : 4428
+        "start" : 1651693826170,
+        "stop" : 1651693828761,
+        "duration" : 2591
       }
     } ]
   },
@@ -690,12 +690,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "65bfaf166444c932",
+      "uid" : "e18c7db38cdd1d9",
       "status" : "passed",
       "time" : {
-        "start" : 1651693390833,
-        "stop" : 1651693391439,
-        "duration" : 606
+        "start" : 1651693787880,
+        "stop" : 1651693788533,
+        "duration" : 653
       }
     } ]
   },
@@ -709,12 +709,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f2e116fcaa62a305",
+      "uid" : "1f07f8f9fede904d",
       "status" : "passed",
       "time" : {
-        "start" : 1651693383428,
-        "stop" : 1651693386969,
-        "duration" : 3541
+        "start" : 1651693782313,
+        "stop" : 1651693784315,
+        "duration" : 2002
       }
     } ]
   },
@@ -728,12 +728,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "76f4b6dbe5fb4dae",
+      "uid" : "5ff8f1894a471448",
       "status" : "passed",
       "time" : {
-        "start" : 1651693434030,
-        "stop" : 1651693444834,
-        "duration" : 10804
+        "start" : 1651693828311,
+        "stop" : 1651693838309,
+        "duration" : 9998
       }
     } ]
   },
@@ -747,12 +747,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2fc7b28750befa67",
+      "uid" : "f596a9230d76f7bd",
       "status" : "passed",
       "time" : {
-        "start" : 1651693450858,
-        "stop" : 1651693460506,
-        "duration" : 9648
+        "start" : 1651693859142,
+        "stop" : 1651693870929,
+        "duration" : 11787
       }
     } ]
   },
@@ -766,13 +766,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f1898adfc31c5203",
+      "uid" : "dc5c7519bcb156e",
       "status" : "passed",
       "statusDetails" : "XPASS",
       "time" : {
-        "start" : 1651693431798,
-        "stop" : 1651693434289,
-        "duration" : 2491
+        "start" : 1651693824949,
+        "stop" : 1651693827331,
+        "duration" : 2382
       }
     } ]
   },
@@ -786,12 +786,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fdc9ef318544e69a",
+      "uid" : "98cec13737218bac",
       "status" : "passed",
       "time" : {
-        "start" : 1651693456608,
-        "stop" : 1651693466483,
-        "duration" : 9875
+        "start" : 1651693839279,
+        "stop" : 1651693849175,
+        "duration" : 9896
       }
     } ]
   },
@@ -805,13 +805,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f6f0761cbb377f52",
+      "uid" : "35f8c8c530231976",
       "status" : "passed",
       "statusDetails" : "XPASS",
       "time" : {
-        "start" : 1651693413607,
-        "stop" : 1651693416405,
-        "duration" : 2798
+        "start" : 1651693806242,
+        "stop" : 1651693809439,
+        "duration" : 3197
       }
     } ]
   },
@@ -825,13 +825,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "68c4c823f096a7f1",
+      "uid" : "9dec4e68a7083d3f",
       "status" : "passed",
       "statusDetails" : "XPASS",
       "time" : {
-        "start" : 1651693415091,
-        "stop" : 1651693426289,
-        "duration" : 11198
+        "start" : 1651693818429,
+        "stop" : 1651693830709,
+        "duration" : 12280
       }
     } ]
   },
@@ -845,13 +845,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f0b1e1e3c492859e",
+      "uid" : "1e41b5b69dcadd81",
       "status" : "skipped",
       "statusDetails" : "XFAIL\n\nAssertionError: Success message is presented, but should not be",
       "time" : {
-        "start" : 1651693396940,
-        "stop" : 1651693398551,
-        "duration" : 1611
+        "start" : 1651693794205,
+        "stop" : 1651693796277,
+        "duration" : 2072
       }
     } ]
   },
@@ -865,13 +865,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f1c4e2a7c91eafd6",
+      "uid" : "ff7bdaa62c9f7614",
       "status" : "skipped",
       "statusDetails" : "XFAIL\n\nAssertionError: Success message is presented, but should not be",
       "time" : {
-        "start" : 1651693433482,
-        "stop" : 1651693435463,
-        "duration" : 1981
+        "start" : 1651693830312,
+        "stop" : 1651693832871,
+        "duration" : 2559
       }
     } ]
   },
@@ -885,13 +885,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9ce37cbafce11392",
+      "uid" : "adb2ad59178935d4",
       "status" : "skipped",
       "statusDetails" : "XFAIL\n\nAssertionError: Success message is presented, but should not be",
       "time" : {
-        "start" : 1651693390850,
-        "stop" : 1651693396238,
-        "duration" : 5388
+        "start" : 1651693787974,
+        "stop" : 1651693794175,
+        "duration" : 6201
       }
     } ]
   },
@@ -905,12 +905,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e598b35f13eabfa2",
+      "uid" : "2d28c097ede0854a",
       "status" : "passed",
       "time" : {
-        "start" : 1651693406853,
-        "stop" : 1651693417538,
-        "duration" : 10685
+        "start" : 1651693804070,
+        "stop" : 1651693814081,
+        "duration" : 10011
       }
     } ]
   },
@@ -924,12 +924,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3102dd85c0de2fed",
+      "uid" : "4b89776da6e09ffa",
       "status" : "passed",
       "time" : {
-        "start" : 1651693395637,
-        "stop" : 1651693398991,
-        "duration" : 3354
+        "start" : 1651693792907,
+        "stop" : 1651693796554,
+        "duration" : 3647
       }
     } ]
   },
@@ -943,13 +943,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "cb2e2e8db1cda6e7",
+      "uid" : "19d7188d9d444373",
       "status" : "passed",
       "statusDetails" : "XPASS",
       "time" : {
-        "start" : 1651693451277,
-        "stop" : 1651693455595,
-        "duration" : 4318
+        "start" : 1651693837566,
+        "stop" : 1651693841753,
+        "duration" : 4187
       }
     } ]
   },
@@ -963,12 +963,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2c922eba45fb0cce",
+      "uid" : "fb2116d4f2354867",
       "status" : "passed",
       "time" : {
-        "start" : 1651693420633,
-        "stop" : 1651693431390,
-        "duration" : 10757
+        "start" : 1651693813836,
+        "stop" : 1651693824547,
+        "duration" : 10711
       }
     } ]
   },
@@ -982,13 +982,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "51633063f702b97f",
+      "uid" : "d8c999470b7ce5c",
       "status" : "skipped",
-      "statusDetails" : "XFAIL\n\nselenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: .product_main .price_color\nStacktrace:\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:183:5\nNoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:395:5\nelement.find/</<@chrome://remote/content/marionette/element.js:300:16",
+      "statusDetails" : "XFAIL\n\nselenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: .btn-add-to-basket\nStacktrace:\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:183:5\nNoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:395:5\nelement.find/</<@chrome://remote/content/marionette/element.js:300:16",
       "time" : {
-        "start" : 1651693403994,
-        "stop" : 1651693413281,
-        "duration" : 9287
+        "start" : 1651693800732,
+        "stop" : 1651693806116,
+        "duration" : 5384
       }
     } ]
   },
@@ -1002,12 +1002,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a970987311b3c4a6",
+      "uid" : "74654dca3f961ce6",
       "status" : "passed",
       "time" : {
-        "start" : 1651693402717,
-        "stop" : 1651693412072,
-        "duration" : 9355
+        "start" : 1651693803802,
+        "stop" : 1651693813315,
+        "duration" : 9513
       }
     } ]
   }

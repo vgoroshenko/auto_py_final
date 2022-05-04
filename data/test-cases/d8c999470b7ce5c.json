@@ -1,0 +1,125 @@
+{
+  "uid" : "d8c999470b7ce5c",
+  "name" : "test_guest_can_add_product_to_basket[Browser: Firefox]",
+  "fullName" : "test_product_page#test_guest_can_add_product_to_basket",
+  "historyId" : "ccb6e2d69324a85239c123c4e9316119",
+  "time" : {
+    "start" : 1651693800732,
+    "stop" : 1651693806116,
+    "duration" : 5384
+  },
+  "status" : "skipped",
+  "statusMessage" : "XFAIL\n\nselenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: .btn-add-to-basket\nStacktrace:\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:183:5\nNoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:395:5\nelement.find/</<@chrome://remote/content/marionette/element.js:300:16",
+  "statusTrace" : "E   selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: .btn-add-to-basket\n    Stacktrace:\n    WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:183:5\n    NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:395:5\n    element.find/</<@chrome://remote/content/marionette/element.js:300:16",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1651693794657,
+      "stop" : 1651693800604,
+      "duration" : 5947
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "XFAIL\n\nselenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: .btn-add-to-basket\nStacktrace:\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:183:5\nNoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:395:5\nelement.find/</<@chrome://remote/content/marionette/element.js:300:16",
+    "statusTrace" : "E   selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: .btn-add-to-basket\n    Stacktrace:\n    WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:183:5\n    NoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:395:5\n    element.find/</<@chrome://remote/content/marionette/element.js:300:16",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e6892beb837992d",
+      "name" : "step_screenshot_19:50:00",
+      "source" : "e6892beb837992d.png",
+      "type" : "image/png",
+      "size" : 21801
+    }, {
+      "uid" : "daf0ba6f6a413dbe",
+      "name" : "step_screenshot_19:50:06",
+      "source" : "daf0ba6f6a413dbe.png",
+      "type" : "image/png",
+      "size" : 74920
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1651693809851,
+      "stop" : 1651693811915,
+      "duration" : 2064
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "24564a679212c4b0",
+      "name" : "QuitBrowser_19:50:09",
+      "source" : "24564a679212c4b0.png",
+      "type" : "image/png",
+      "size" : 85048
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "need_review"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.xfail"
+  }, {
+    "name" : "suite",
+    "value" : "test_product_page"
+  }, {
+    "name" : "host",
+    "value" : "fv-az124-53"
+  }, {
+    "name" : "thread",
+    "value" : "2565-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_product_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "'Firefox'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.xfail", "need_review" ]
+  },
+  "source" : "d8c999470b7ce5c.json",
+  "parameterValues" : [ "'Firefox'" ]
+}

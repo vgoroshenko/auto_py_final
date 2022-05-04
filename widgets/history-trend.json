@@ -2,8 +2,8 @@
   "data" : {
     "failed" : 0,
     "broken" : 0,
-    "skipped" : 10,
-    "passed" : 42,
+    "skipped" : 11,
+    "passed" : 41,
     "unknown" : 0,
     "total" : 52
   }

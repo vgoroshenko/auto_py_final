@@ -1,0 +1,121 @@
+{
+  "uid" : "16944d172a5a209c",
+  "name" : "test_login_page_inputs_present[Browser: MicrosoftEdge]",
+  "fullName" : "test_main_page#test_login_page_inputs_present",
+  "historyId" : "a36fc7b720010332cfa5b09ce6084b6b",
+  "time" : {
+    "start" : 1651693822212,
+    "stop" : 1651693824115,
+    "duration" : 1903
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1651693819603,
+      "stop" : 1651693822083,
+      "duration" : 2480
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ddf3a290975e3904",
+      "name" : "step_screenshot_19:50:22",
+      "source" : "ddf3a290975e3904.png",
+      "type" : "image/png",
+      "size" : 5587
+    }, {
+      "uid" : "87cceb79c1552545",
+      "name" : "step_screenshot_19:50:24",
+      "source" : "87cceb79c1552545.png",
+      "type" : "image/png",
+      "size" : 51450
+    }, {
+      "uid" : "db42398efe2f3f7b",
+      "name" : "step_screenshot_19:50:24",
+      "source" : "db42398efe2f3f7b.png",
+      "type" : "image/png",
+      "size" : 51450
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1651693846015,
+      "stop" : 1651693846228,
+      "duration" : 213
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "906a26480a223710",
+      "name" : "QuitBrowser_19:50:46",
+      "source" : "906a26480a223710.png",
+      "type" : "image/png",
+      "size" : 183265
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_main_page"
+  }, {
+    "name" : "host",
+    "value" : "fv-az124-53"
+  }, {
+    "name" : "thread",
+    "value" : "2576-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_main_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "'MicrosoftEdge'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "16944d172a5a209c.json",
+  "parameterValues" : [ "'MicrosoftEdge'" ]
+}
