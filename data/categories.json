@@ -1,30 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".btn-group >a\"}\n  (Session info: chrome=100.0.4896.60)\nStacktrace:\n#0 0x5565bf460013 <unknown>\n#1 0x5565bf1c2a08 <unknown>\n#2 0x5565bf1f8fb6 <unknown>\n#3 0x5565bf1f9171 <unknown>\n#4 0x5565bf22bdd4 <unknown>\n#5 0x5565bf21695d <unknown>\n#6 0x5565bf229b94 <unknown>\n#7 0x5565bf216823 <unknown>\n#8 0x5565bf1ec08a <unknown>\n#9 0x5565bf1ed1e5 <unknown>\n#10 0x5565bf48de5d <unknown>\n#11 0x5565bf4a7061 <unknown>\n#12 0x5565bf48fbb5 <unknown>\n#13 0x5565bf4a7e08 <unknown>\n#14 0x5565bf4832f0 <unknown>\n#15 0x5565bf4c3988 <unknown>\n#16 0x5565bf4c3b08 <unknown>\n#17 0x5565bf4dd5dd <unknown>\n#18 0x7f57fb17f609 <unknown>",
-      "children" : [ {
-        "name" : "test_guest_cant_see_product_in_basket_opened_from_product_page[Browser: Chrome]",
-        "uid" : "97b1ffc06b408142",
-        "parentUid" : "c2bd02abfd903fd599a4163535c03b41",
-        "status" : "broken",
-        "time" : {
-          "start" : 1651683104812,
-          "stop" : 1651683115392,
-          "duration" : 10580
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "'Chrome'" ]
-      } ],
-      "uid" : "c2bd02abfd903fd599a4163535c03b41"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ],
+  "children" : [ ],
   "name" : "categories"
 }

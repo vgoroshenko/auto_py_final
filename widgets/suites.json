@@ -5,9 +5,9 @@
     "name" : "test_product_page",
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
-      "skipped" : 9,
-      "passed" : 26,
+      "broken" : 0,
+      "skipped" : 8,
+      "passed" : 28,
       "unknown" : 0,
       "total" : 36
     }

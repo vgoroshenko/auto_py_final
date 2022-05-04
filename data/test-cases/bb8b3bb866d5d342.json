@@ -1,0 +1,122 @@
+{
+  "uid" : "bb8b3bb866d5d342",
+  "name" : "test_guest_cant_see_success_message_after_adding_product_to_basket[Browser: Firefox]",
+  "fullName" : "test_product_page#test_guest_cant_see_success_message_after_adding_product_to_basket",
+  "historyId" : "2bef05a3a54df9d8c732e65b99cd4ddd",
+  "time" : {
+    "start" : 1651692470491,
+    "stop" : 1651692473920,
+    "duration" : 3429
+  },
+  "status" : "skipped",
+  "statusMessage" : "XFAIL\n\nAssertionError: Success message is presented, but should not be",
+  "statusTrace" : "E   AssertionError: Success message is presented, but should not be",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1651692465552,
+      "stop" : 1651692470421,
+      "duration" : 4869
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "XFAIL\n\nAssertionError: Success message is presented, but should not be",
+    "statusTrace" : "E   AssertionError: Success message is presented, but should not be",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f4e0cef58223cc5f",
+      "name" : "step_screenshot_19:27:50",
+      "source" : "f4e0cef58223cc5f.png",
+      "type" : "image/png",
+      "size" : 21801
+    }, {
+      "uid" : "ff8d305c51214de7",
+      "name" : "step_screenshot_19:27:54",
+      "source" : "ff8d305c51214de7.png",
+      "type" : "image/png",
+      "size" : 226693
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1651692486316,
+      "stop" : 1651692488943,
+      "duration" : 2627
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9ea61f32ad45d873",
+      "name" : "QuitBrowser_19:28:06",
+      "source" : "9ea61f32ad45d873.png",
+      "type" : "image/png",
+      "size" : 232720
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.xfail"
+  }, {
+    "name" : "suite",
+    "value" : "test_product_page"
+  }, {
+    "name" : "host",
+    "value" : "fv-az198-457"
+  }, {
+    "name" : "thread",
+    "value" : "2563-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_product_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "'Firefox'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.xfail" ]
+  },
+  "source" : "bb8b3bb866d5d342.json",
+  "parameterValues" : [ "'Firefox'" ]
+}
