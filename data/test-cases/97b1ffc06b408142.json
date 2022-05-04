@@ -1,0 +1,132 @@
+{
+  "uid" : "97b1ffc06b408142",
+  "name" : "test_guest_cant_see_product_in_basket_opened_from_product_page[Browser: Chrome]",
+  "fullName" : "test_product_page#test_guest_cant_see_product_in_basket_opened_from_product_page",
+  "historyId" : "6edc654f228b7933a0453bf222dde719",
+  "time" : {
+    "start" : 1651683104812,
+    "stop" : 1651683115392,
+    "duration" : 10580
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".btn-group >a\"}\n  (Session info: chrome=100.0.4896.60)\nStacktrace:\n#0 0x5565bf460013 <unknown>\n#1 0x5565bf1c2a08 <unknown>\n#2 0x5565bf1f8fb6 <unknown>\n#3 0x5565bf1f9171 <unknown>\n#4 0x5565bf22bdd4 <unknown>\n#5 0x5565bf21695d <unknown>\n#6 0x5565bf229b94 <unknown>\n#7 0x5565bf216823 <unknown>\n#8 0x5565bf1ec08a <unknown>\n#9 0x5565bf1ed1e5 <unknown>\n#10 0x5565bf48de5d <unknown>\n#11 0x5565bf4a7061 <unknown>\n#12 0x5565bf48fbb5 <unknown>\n#13 0x5565bf4a7e08 <unknown>\n#14 0x5565bf4832f0 <unknown>\n#15 0x5565bf4c3988 <unknown>\n#16 0x5565bf4c3b08 <unknown>\n#17 0x5565bf4dd5dd <unknown>\n#18 0x7f57fb17f609 <unknown>",
+  "statusTrace" : "E   selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".btn-group >a\"}\n      (Session info: chrome=100.0.4896.60)\n    Stacktrace:\n    #0 0x5565bf460013 <unknown>\n    #1 0x5565bf1c2a08 <unknown>\n    #2 0x5565bf1f8fb6 <unknown>\n    #3 0x5565bf1f9171 <unknown>\n    #4 0x5565bf22bdd4 <unknown>\n    #5 0x5565bf21695d <unknown>\n    #6 0x5565bf229b94 <unknown>\n    #7 0x5565bf216823 <unknown>\n    #8 0x5565bf1ec08a <unknown>\n    #9 0x5565bf1ed1e5 <unknown>\n    #10 0x5565bf48de5d <unknown>\n    #11 0x5565bf4a7061 <unknown>\n    #12 0x5565bf48fbb5 <unknown>\n    #13 0x5565bf4a7e08 <unknown>\n    #14 0x5565bf4832f0 <unknown>\n    #15 0x5565bf4c3988 <unknown>\n    #16 0x5565bf4c3b08 <unknown>\n    #17 0x5565bf4dd5dd <unknown>\n    #18 0x7f57fb17f609 <unknown>",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1651683098548,
+      "stop" : 1651683102429,
+      "duration" : 3881
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".btn-group >a\"}\n  (Session info: chrome=100.0.4896.60)\nStacktrace:\n#0 0x5565bf460013 <unknown>\n#1 0x5565bf1c2a08 <unknown>\n#2 0x5565bf1f8fb6 <unknown>\n#3 0x5565bf1f9171 <unknown>\n#4 0x5565bf22bdd4 <unknown>\n#5 0x5565bf21695d <unknown>\n#6 0x5565bf229b94 <unknown>\n#7 0x5565bf216823 <unknown>\n#8 0x5565bf1ec08a <unknown>\n#9 0x5565bf1ed1e5 <unknown>\n#10 0x5565bf48de5d <unknown>\n#11 0x5565bf4a7061 <unknown>\n#12 0x5565bf48fbb5 <unknown>\n#13 0x5565bf4a7e08 <unknown>\n#14 0x5565bf4832f0 <unknown>\n#15 0x5565bf4c3988 <unknown>\n#16 0x5565bf4c3b08 <unknown>\n#17 0x5565bf4dd5dd <unknown>\n#18 0x7f57fb17f609 <unknown>",
+    "statusTrace" : "E   selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".btn-group >a\"}\n      (Session info: chrome=100.0.4896.60)\n    Stacktrace:\n    #0 0x5565bf460013 <unknown>\n    #1 0x5565bf1c2a08 <unknown>\n    #2 0x5565bf1f8fb6 <unknown>\n    #3 0x5565bf1f9171 <unknown>\n    #4 0x5565bf22bdd4 <unknown>\n    #5 0x5565bf21695d <unknown>\n    #6 0x5565bf229b94 <unknown>\n    #7 0x5565bf216823 <unknown>\n    #8 0x5565bf1ec08a <unknown>\n    #9 0x5565bf1ed1e5 <unknown>\n    #10 0x5565bf48de5d <unknown>\n    #11 0x5565bf4a7061 <unknown>\n    #12 0x5565bf48fbb5 <unknown>\n    #13 0x5565bf4a7e08 <unknown>\n    #14 0x5565bf4832f0 <unknown>\n    #15 0x5565bf4c3988 <unknown>\n    #16 0x5565bf4c3b08 <unknown>\n    #17 0x5565bf4dd5dd <unknown>\n    #18 0x7f57fb17f609 <unknown>",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5030984179d6ccc1",
+      "name" : "step_screenshot_16:51:44",
+      "source" : "5030984179d6ccc1.png",
+      "type" : "image/png",
+      "size" : 131801
+    }, {
+      "uid" : "1c3c912102ad77e7",
+      "name" : "step_screenshot_16:51:55",
+      "source" : "1c3c912102ad77e7.png",
+      "type" : "image/png",
+      "size" : 49402
+    }, {
+      "uid" : "a891ce7d1fa649e4",
+      "name" : "step_screenshot_16:51:56",
+      "source" : "a891ce7d1fa649e4.png",
+      "type" : "image/png",
+      "size" : 49402
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser::<lambda>",
+    "time" : {
+      "start" : 1651683116425,
+      "stop" : 1651683116939,
+      "duration" : 514
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "23874dea1a8d0b47",
+      "name" : "name",
+      "source" : "23874dea1a8d0b47.png",
+      "type" : "image/png",
+      "size" : 49402
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "need_review"
+  }, {
+    "name" : "suite",
+    "value" : "test_product_page"
+  }, {
+    "name" : "host",
+    "value" : "fv-az38-367"
+  }, {
+    "name" : "thread",
+    "value" : "2579-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_product_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "'Chrome'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "need_review" ]
+  },
+  "source" : "97b1ffc06b408142.json",
+  "parameterValues" : [ "'Chrome'" ]
+}
