@@ -53,6 +53,7 @@ def get_web_driver(browser_name: str):
             command_executor=config.webdriver_host,
             options=desired_caps(browser_name)
         )
+        browser.implicitly_wait(4)
     except WebDriverException as e:
         pytest.exit(print(e))
     return browser
