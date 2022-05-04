@@ -1,0 +1,138 @@
+{
+  "uid" : "feb8a507c4f9b617",
+  "name" : "test_guest_can_add_product_to_basket[Browser: Firefox]",
+  "fullName" : "test_product_page#test_guest_can_add_product_to_basket",
+  "historyId" : "ccb6e2d69324a85239c123c4e9316119",
+  "time" : {
+    "start" : 1651654672454,
+    "stop" : 1651654676974,
+    "duration" : 4520
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.StaleElementReferenceException: Message: The element reference of <h1> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed\nStacktrace:\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:183:5\nStaleElementReferenceError@chrome://remote/content/shared/webdriver/Errors.jsm:464:5\nelement.resolveElement@chrome://remote/content/marionette/element.js:681:11\nevaluate.fromJSON@chrome://remote/content/marionette/evaluate.js:254:26\nevaluate.fromJSON@chrome://remote/content/marionette/evaluate.js:262:29\nreceiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:79:29",
+  "statusTrace" : "E   selenium.common.exceptions.StaleElementReferenceException: Message: The element reference of <h1> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed\n    Stacktrace:\n    WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:183:5\n    StaleElementReferenceError@chrome://remote/content/shared/webdriver/Errors.jsm:464:5\n    element.resolveElement@chrome://remote/content/marionette/element.js:681:11\n    evaluate.fromJSON@chrome://remote/content/marionette/evaluate.js:254:26\n    evaluate.fromJSON@chrome://remote/content/marionette/evaluate.js:262:29\n    receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:79:29",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1651654653610,
+      "stop" : 1651654672131,
+      "duration" : 18521
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.StaleElementReferenceException: Message: The element reference of <h1> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed\nStacktrace:\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:183:5\nStaleElementReferenceError@chrome://remote/content/shared/webdriver/Errors.jsm:464:5\nelement.resolveElement@chrome://remote/content/marionette/element.js:681:11\nevaluate.fromJSON@chrome://remote/content/marionette/evaluate.js:254:26\nevaluate.fromJSON@chrome://remote/content/marionette/evaluate.js:262:29\nreceiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:79:29",
+    "statusTrace" : "E   selenium.common.exceptions.StaleElementReferenceException: Message: The element reference of <h1> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed\n    Stacktrace:\n    WebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:183:5\n    StaleElementReferenceError@chrome://remote/content/shared/webdriver/Errors.jsm:464:5\n    element.resolveElement@chrome://remote/content/marionette/element.js:681:11\n    evaluate.fromJSON@chrome://remote/content/marionette/evaluate.js:254:26\n    evaluate.fromJSON@chrome://remote/content/marionette/evaluate.js:262:29\n    receiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:79:29",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "554c841467ac158b",
+      "name" : "step_screenshot",
+      "source" : "554c841467ac158b.png",
+      "type" : "image/png",
+      "size" : 64897
+    }, {
+      "uid" : "d1021c44fe558237",
+      "name" : "step_screenshot",
+      "source" : "d1021c44fe558237.png",
+      "type" : "image/png",
+      "size" : 195300
+    }, {
+      "uid" : "a65926079c755df9",
+      "name" : "stdout",
+      "source" : "a65926079c755df9.txt",
+      "type" : "text/plain",
+      "size" : 153
+    }, {
+      "uid" : "b5ad4208c347b276",
+      "name" : "step_screenshot",
+      "source" : "b5ad4208c347b276.png",
+      "type" : "image/png",
+      "size" : 195300
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser::<lambda>",
+    "time" : {
+      "start" : 1651654683027,
+      "stop" : 1651654683086,
+      "duration" : 59
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5ffa009e21607ef8",
+      "name" : "name",
+      "source" : "5ffa009e21607ef8.png",
+      "type" : "image/png",
+      "size" : 59658
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "need_review"
+  }, {
+    "name" : "suite",
+    "value" : "test_product_page"
+  }, {
+    "name" : "host",
+    "value" : "fv-az204-445"
+  }, {
+    "name" : "thread",
+    "value" : "2558-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_product_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "'Firefox'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "need_review" ]
+  },
+  "source" : "feb8a507c4f9b617.json",
+  "parameterValues" : [ "'Firefox'" ]
+}

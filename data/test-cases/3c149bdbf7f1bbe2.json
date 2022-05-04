@@ -1,0 +1,132 @@
+{
+  "uid" : "3c149bdbf7f1bbe2",
+  "name" : "test_guest_can_add_product_to_basket[Browser: MicrosoftEdge]",
+  "fullName" : "test_product_page#test_guest_can_add_product_to_basket",
+  "historyId" : "349ad826241aede6fe024b51d652a58d",
+  "time" : {
+    "start" : 1651654626551,
+    "stop" : 1651654632076,
+    "duration" : 5525
+  },
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".btn-add-to-basket\"}\n  (Session info: MicrosoftEdge=100.0.1185.39)\nStacktrace:\n#0 0x559deb637583 <unknown>\n#1 0x559deb353c93 <unknown>\n#2 0x559deb38c969 <unknown>\n#3 0x559deb38cb61 <unknown>\n#4 0x559deb3bef64 <unknown>\n#5 0x559deb3aa4cd <unknown>\n#6 0x559deb3bcfa6 <unknown>\n#7 0x559deb3aa393 <unknown>\n#8 0x559deb380a81 <unknown>\n#9 0x559deb381c45 <unknown>\n#10 0x559deb660ea7 <unknown>\n#11 0x559deb672132 <unknown>\n#12 0x559deb671e5c <unknown>\n#13 0x559deb672632 <unknown>\n#14 0x559deb66239b <unknown>\n#15 0x559deb6728f3 <unknown>\n#16 0x559deb657fa5 <unknown>\n#17 0x559deb68a038 <unknown>\n#18 0x559deb68a1e8 <unknown>\n#19 0x559deb6a343e <unknown>\n#20 0x7f02f7a8d609 <unknown>",
+  "statusTrace" : "E   selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".btn-add-to-basket\"}\n      (Session info: MicrosoftEdge=100.0.1185.39)\n    Stacktrace:\n    #0 0x559deb637583 <unknown>\n    #1 0x559deb353c93 <unknown>\n    #2 0x559deb38c969 <unknown>\n    #3 0x559deb38cb61 <unknown>\n    #4 0x559deb3bef64 <unknown>\n    #5 0x559deb3aa4cd <unknown>\n    #6 0x559deb3bcfa6 <unknown>\n    #7 0x559deb3aa393 <unknown>\n    #8 0x559deb380a81 <unknown>\n    #9 0x559deb381c45 <unknown>\n    #10 0x559deb660ea7 <unknown>\n    #11 0x559deb672132 <unknown>\n    #12 0x559deb671e5c <unknown>\n    #13 0x559deb672632 <unknown>\n    #14 0x559deb66239b <unknown>\n    #15 0x559deb6728f3 <unknown>\n    #16 0x559deb657fa5 <unknown>\n    #17 0x559deb68a038 <unknown>\n    #18 0x559deb68a1e8 <unknown>\n    #19 0x559deb6a343e <unknown>\n    #20 0x7f02f7a8d609 <unknown>",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1651654623080,
+      "stop" : 1651654626225,
+      "duration" : 3145
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".btn-add-to-basket\"}\n  (Session info: MicrosoftEdge=100.0.1185.39)\nStacktrace:\n#0 0x559deb637583 <unknown>\n#1 0x559deb353c93 <unknown>\n#2 0x559deb38c969 <unknown>\n#3 0x559deb38cb61 <unknown>\n#4 0x559deb3bef64 <unknown>\n#5 0x559deb3aa4cd <unknown>\n#6 0x559deb3bcfa6 <unknown>\n#7 0x559deb3aa393 <unknown>\n#8 0x559deb380a81 <unknown>\n#9 0x559deb381c45 <unknown>\n#10 0x559deb660ea7 <unknown>\n#11 0x559deb672132 <unknown>\n#12 0x559deb671e5c <unknown>\n#13 0x559deb672632 <unknown>\n#14 0x559deb66239b <unknown>\n#15 0x559deb6728f3 <unknown>\n#16 0x559deb657fa5 <unknown>\n#17 0x559deb68a038 <unknown>\n#18 0x559deb68a1e8 <unknown>\n#19 0x559deb6a343e <unknown>\n#20 0x7f02f7a8d609 <unknown>",
+    "statusTrace" : "E   selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".btn-add-to-basket\"}\n      (Session info: MicrosoftEdge=100.0.1185.39)\n    Stacktrace:\n    #0 0x559deb637583 <unknown>\n    #1 0x559deb353c93 <unknown>\n    #2 0x559deb38c969 <unknown>\n    #3 0x559deb38cb61 <unknown>\n    #4 0x559deb3bef64 <unknown>\n    #5 0x559deb3aa4cd <unknown>\n    #6 0x559deb3bcfa6 <unknown>\n    #7 0x559deb3aa393 <unknown>\n    #8 0x559deb380a81 <unknown>\n    #9 0x559deb381c45 <unknown>\n    #10 0x559deb660ea7 <unknown>\n    #11 0x559deb672132 <unknown>\n    #12 0x559deb671e5c <unknown>\n    #13 0x559deb672632 <unknown>\n    #14 0x559deb66239b <unknown>\n    #15 0x559deb6728f3 <unknown>\n    #16 0x559deb657fa5 <unknown>\n    #17 0x559deb68a038 <unknown>\n    #18 0x559deb68a1e8 <unknown>\n    #19 0x559deb6a343e <unknown>\n    #20 0x7f02f7a8d609 <unknown>",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "895982d309aca2bc",
+      "name" : "step_screenshot",
+      "source" : "895982d309aca2bc.png",
+      "type" : "image/png",
+      "size" : 9370
+    }, {
+      "uid" : "3358fffb5126dd13",
+      "name" : "step_screenshot",
+      "source" : "3358fffb5126dd13.png",
+      "type" : "image/png",
+      "size" : 49589
+    }, {
+      "uid" : "a894a8112eeb2150",
+      "name" : "step_screenshot",
+      "source" : "a894a8112eeb2150.png",
+      "type" : "image/png",
+      "size" : 49589
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser::<lambda>",
+    "time" : {
+      "start" : 1651654640156,
+      "stop" : 1651654640585,
+      "duration" : 429
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b68c8193c76f225b",
+      "name" : "name",
+      "source" : "b68c8193c76f225b.png",
+      "type" : "image/png",
+      "size" : 51300
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "need_review"
+  }, {
+    "name" : "suite",
+    "value" : "test_product_page"
+  }, {
+    "name" : "host",
+    "value" : "fv-az204-445"
+  }, {
+    "name" : "thread",
+    "value" : "2549-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_product_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "'MicrosoftEdge'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "need_review" ]
+  },
+  "source" : "3c149bdbf7f1bbe2.json",
+  "parameterValues" : [ "'MicrosoftEdge'" ]
+}

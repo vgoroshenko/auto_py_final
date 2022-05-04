@@ -3,16 +3,37 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".btn-add-to-basket\"}\n  (Session info: MicrosoftEdge=100.0.1185.39)\nStacktrace:\n#0 0x559deb637583 <unknown>\n#1 0x559deb353c93 <unknown>\n#2 0x559deb38c969 <unknown>\n#3 0x559deb38cb61 <unknown>\n#4 0x559deb3bef64 <unknown>\n#5 0x559deb3aa4cd <unknown>\n#6 0x559deb3bcfa6 <unknown>\n#7 0x559deb3aa393 <unknown>\n#8 0x559deb380a81 <unknown>\n#9 0x559deb381c45 <unknown>\n#10 0x559deb660ea7 <unknown>\n#11 0x559deb672132 <unknown>\n#12 0x559deb671e5c <unknown>\n#13 0x559deb672632 <unknown>\n#14 0x559deb66239b <unknown>\n#15 0x559deb6728f3 <unknown>\n#16 0x559deb657fa5 <unknown>\n#17 0x559deb68a038 <unknown>\n#18 0x559deb68a1e8 <unknown>\n#19 0x559deb6a343e <unknown>\n#20 0x7f02f7a8d609 <unknown>",
+      "children" : [ {
+        "name" : "test_guest_can_add_product_to_basket[Browser: MicrosoftEdge]",
+        "uid" : "3c149bdbf7f1bbe2",
+        "parentUid" : "dde983cf6843065648b94acd5a84d365",
+        "status" : "broken",
+        "time" : {
+          "start" : 1651654626551,
+          "stop" : 1651654632076,
+          "duration" : 5525
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'MicrosoftEdge'" ]
+      } ],
+      "uid" : "dde983cf6843065648b94acd5a84d365"
+    }, {
       "name" : "selenium.common.exceptions.StaleElementReferenceException: Message: The element reference of <h1> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed\nStacktrace:\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:183:5\nStaleElementReferenceError@chrome://remote/content/shared/webdriver/Errors.jsm:464:5\nelement.resolveElement@chrome://remote/content/marionette/element.js:681:11\nevaluate.fromJSON@chrome://remote/content/marionette/evaluate.js:254:26\nevaluate.fromJSON@chrome://remote/content/marionette/evaluate.js:262:29\nreceiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:79:29",
       "children" : [ {
         "name" : "test_guest_can_add_product_to_basket[Browser: Firefox]",
-        "uid" : "b1b6571cd8080cc6",
+        "uid" : "feb8a507c4f9b617",
         "parentUid" : "7ecd1d13ba4871e565fc7ca45bbba38f",
         "status" : "broken",
         "time" : {
-          "start" : 1651654187271,
-          "stop" : 1651654194063,
-          "duration" : 6792
+          "start" : 1651654672454,
+          "stop" : 1651654676974,
+          "duration" : 4520
         },
         "flaky" : false,
         "newFailed" : false,
@@ -24,16 +45,16 @@
       } ],
       "uid" : "7ecd1d13ba4871e565fc7ca45bbba38f"
     }, {
-      "name" : "selenium.common.exceptions.NoSuchFrameException: Message: Callback was not called before the unload event.",
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: .btn-group >a\nStacktrace:\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:183:5\nNoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:395:5\nelement.find/</<@chrome://remote/content/marionette/element.js:300:16",
       "children" : [ {
-        "name" : "test_guest_cant_see_product_in_basket_opened_from_main_page[Browser: Safari]",
-        "uid" : "6e5e9709d5e9b552",
-        "parentUid" : "505b23cec7aa172fd4d06a5c69d61e0b",
+        "name" : "test_guest_cant_see_product_in_basket_opened_from_product_page[Browser: Firefox]",
+        "uid" : "9f0b2e9180cc062e",
+        "parentUid" : "7f88c0308cf930e2a5e6f4bfe75b16dd",
         "status" : "broken",
         "time" : {
-          "start" : 1651654202852,
-          "stop" : 1651654204114,
-          "duration" : 1262
+          "start" : 1651654678689,
+          "stop" : 1651654683193,
+          "duration" : 4504
         },
         "flaky" : false,
         "newFailed" : false,
@@ -41,16 +62,20 @@
         "newBroken" : false,
         "retriesCount" : 0,
         "retriesStatusChange" : false,
-        "parameters" : [ "'Safari'" ]
-      }, {
-        "name" : "test_guest_cant_see_product_in_basket_opened_from_product_page[Browser: Safari]",
-        "uid" : "b52d500a4686d173",
+        "parameters" : [ "'Firefox'" ]
+      } ],
+      "uid" : "7f88c0308cf930e2a5e6f4bfe75b16dd"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchFrameException: Message: Callback was not called before the unload event.",
+      "children" : [ {
+        "name" : "test_guest_cant_see_product_in_basket_opened_from_main_page[Browser: Safari]",
+        "uid" : "aebc1ffcf0e7e467",
         "parentUid" : "505b23cec7aa172fd4d06a5c69d61e0b",
         "status" : "broken",
         "time" : {
-          "start" : 1651654205162,
-          "stop" : 1651654206193,
-          "duration" : 1031
+          "start" : 1651654685430,
+          "stop" : 1651654686892,
+          "duration" : 1462
         },
         "flaky" : false,
         "newFailed" : false,
@@ -62,16 +87,16 @@
       } ],
       "uid" : "505b23cec7aa172fd4d06a5c69d61e0b"
     }, {
-      "name" : "selenium.common.exceptions.NoSuchElementException: Message:",
+      "name" : "selenium.common.exceptions.StaleElementReferenceException: Message: Node with identifier 'node-02C8BB1D-904E-430C-966F-C1AC9D3B9747' was not found",
       "children" : [ {
         "name" : "test_guest_can_add_product_to_basket[Browser: Safari]",
-        "uid" : "8c7faf0d13589448",
-        "parentUid" : "08761b16e9744429f4fec95302dc11ef",
+        "uid" : "f66abe4d7fe96bb3",
+        "parentUid" : "f3a7e0228f54d8ee69f7b0dcf69cbec4",
         "status" : "broken",
         "time" : {
-          "start" : 1651654208650,
-          "stop" : 1651654214172,
-          "duration" : 5522
+          "start" : 1651654687981,
+          "stop" : 1651654691791,
+          "duration" : 3810
         },
         "flaky" : false,
         "newFailed" : false,
@@ -81,7 +106,7 @@
         "retriesStatusChange" : false,
         "parameters" : [ "'Safari'" ]
       } ],
-      "uid" : "08761b16e9744429f4fec95302dc11ef"
+      "uid" : "f3a7e0228f54d8ee69f7b0dcf69cbec4"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   }, {
@@ -89,31 +114,14 @@
     "children" : [ {
       "name" : "AssertionError: invalid login url",
       "children" : [ {
-        "name" : "test_guest_can_go_to_login_page[Browser: Safari]",
-        "uid" : "8b367888973df5ac",
-        "parentUid" : "71142994685bdcfa4af2d2810cc5dfd0",
-        "status" : "failed",
-        "time" : {
-          "start" : 1651654204062,
-          "stop" : 1651654204854,
-          "duration" : 792
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "newPassed" : false,
-        "newBroken" : false,
-        "retriesCount" : 0,
-        "retriesStatusChange" : false,
-        "parameters" : [ "'Safari'" ]
-      }, {
         "name" : "test_guest_can_go_to_login_page_from_product_page[Browser: Safari]",
-        "uid" : "4b461e74b9eff765",
+        "uid" : "67da286c2b776ccc",
         "parentUid" : "71142994685bdcfa4af2d2810cc5dfd0",
         "status" : "failed",
         "time" : {
-          "start" : 1651654209192,
-          "stop" : 1651654210149,
-          "duration" : 957
+          "start" : 1651654683826,
+          "stop" : 1651654684863,
+          "duration" : 1037
         },
         "flaky" : false,
         "newFailed" : false,

@@ -1,0 +1,121 @@
+{
+  "uid" : "90b456ed25fedb83",
+  "name" : "test_guest_should_see_login_link_on_product_page[Browser: Chrome]",
+  "fullName" : "test_product_page#test_guest_should_see_login_link_on_product_page",
+  "historyId" : "266052e81d8ef8d3803fb432fec52f29",
+  "time" : {
+    "start" : 1651654616429,
+    "stop" : 1651654617113,
+    "duration" : 684
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1651654606064,
+      "stop" : 1651654611173,
+      "duration" : 5109
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3704fefdb4e21b7e",
+      "name" : "step_screenshot",
+      "source" : "3704fefdb4e21b7e.png",
+      "type" : "image/png",
+      "size" : 182881
+    }, {
+      "uid" : "4c67c53a8950440f",
+      "name" : "step_screenshot",
+      "source" : "4c67c53a8950440f.png",
+      "type" : "image/png",
+      "size" : 333916
+    }, {
+      "uid" : "a91f99cd6eac7084",
+      "name" : "step_screenshot",
+      "source" : "a91f99cd6eac7084.png",
+      "type" : "image/png",
+      "size" : 333916
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser::<lambda>",
+    "time" : {
+      "start" : 1651654617672,
+      "stop" : 1651654617942,
+      "duration" : 270
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9e8c0feba5b07d20",
+      "name" : "name",
+      "source" : "9e8c0feba5b07d20.png",
+      "type" : "image/png",
+      "size" : 333916
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_product_page"
+  }, {
+    "name" : "host",
+    "value" : "fv-az204-445"
+  }, {
+    "name" : "thread",
+    "value" : "2560-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_product_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "'Chrome'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "90b456ed25fedb83.json",
+  "parameterValues" : [ "'Chrome'" ]
+}
