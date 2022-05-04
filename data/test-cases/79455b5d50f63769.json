@@ -1,0 +1,118 @@
+{
+  "uid" : "79455b5d50f63769",
+  "name" : "test_guest_cant_see_success_message_after_adding_product_to_basket[Browser: Safari]",
+  "fullName" : "test_product_page#test_guest_cant_see_success_message_after_adding_product_to_basket",
+  "historyId" : "129d58288a268e37d2f03d0aa95b37f4",
+  "time" : {
+    "start" : 1651656969401,
+    "stop" : 1651656970940,
+    "duration" : 1539
+  },
+  "status" : "skipped",
+  "statusMessage" : "XFAIL\n\nselenium.common.exceptions.NoSuchFrameException: Message: Callback was not called before the unload event.",
+  "statusTrace" : "E   selenium.common.exceptions.NoSuchFrameException: Message: Callback was not called before the unload event.",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1651656965032,
+      "stop" : 1651656966266,
+      "duration" : 1234
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "XFAIL\n\nselenium.common.exceptions.NoSuchFrameException: Message: Callback was not called before the unload event.",
+    "statusTrace" : "E   selenium.common.exceptions.NoSuchFrameException: Message: Callback was not called before the unload event.",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7bdf06540f406d1b",
+      "name" : "step_screenshot",
+      "source" : "7bdf06540f406d1b.png",
+      "type" : "image/png",
+      "size" : 37930
+    }, {
+      "uid" : "51ab661007d4f4c4",
+      "name" : "step_screenshot",
+      "source" : "51ab661007d4f4c4.png",
+      "type" : "image/png",
+      "size" : 138137
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser::<lambda>",
+    "time" : {
+      "start" : 1651656978967,
+      "stop" : 1651656979050,
+      "duration" : 83
+    },
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.UnexpectedAlertPresentException: Alert Text: Поздравляем, вы справились! Вставьте это число в поле ответа на Stepik: 27.27005015318697\nMessage: \n\n",
+    "statusTrace" : "  File \"/opt/hostedtoolcache/Python/3.10.4/x64/lib/python3.10/site-packages/allure_commons/_allure.py\", line 200, in __call__\n    return self._fixture_function(*args, **kwargs)\n  File \"/home/runner/work/auto_py_final/auto_py_final/conftest.py\", line 34, in <lambda>\n    request.addfinalizer(lambda *args: allure.attach(browser.get_screenshot_as_png(), name='name',\n  File \"/opt/hostedtoolcache/Python/3.10.4/x64/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 1357, in get_screenshot_as_png\n    return b64decode(self.get_screenshot_as_base64().encode('ascii'))\n  File \"/opt/hostedtoolcache/Python/3.10.4/x64/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 1369, in get_screenshot_as_base64\n    return self.execute(Command.SCREENSHOT)['value']\n  File \"/opt/hostedtoolcache/Python/3.10.4/x64/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py\", line 425, in execute\n    self.error_handler.check_response(response)\n  File \"/opt/hostedtoolcache/Python/3.10.4/x64/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py\", line 246, in check_response\n    raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.xfail"
+  }, {
+    "name" : "suite",
+    "value" : "test_product_page"
+  }, {
+    "name" : "host",
+    "value" : "fv-az200-700"
+  }, {
+    "name" : "thread",
+    "value" : "2601-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_product_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "'Safari'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.xfail" ]
+  },
+  "source" : "79455b5d50f63769.json",
+  "parameterValues" : [ "'Safari'" ]
+}

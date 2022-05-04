@@ -1,0 +1,130 @@
+{
+  "uid" : "40e3a01a69bb83d9",
+  "name" : "test_guest_can_add_product_to_basket[Browser: Chrome]",
+  "fullName" : "test_product_page#test_guest_can_add_product_to_basket",
+  "historyId" : "7644764af555cfd62f6b6e1d0fe89566",
+  "time" : {
+    "start" : 1651656891398,
+    "stop" : 1651656895244,
+    "duration" : 3846
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1651656886386,
+      "stop" : 1651656891036,
+      "duration" : 4650
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b2550301c0a5a60",
+      "name" : "step_screenshot",
+      "source" : "b2550301c0a5a60.png",
+      "type" : "image/png",
+      "size" : 9341
+    }, {
+      "uid" : "3f8ed38cc4d4d92f",
+      "name" : "step_screenshot",
+      "source" : "3f8ed38cc4d4d92f.png",
+      "type" : "image/png",
+      "size" : 182881
+    }, {
+      "uid" : "41a8a89762f24c6",
+      "name" : "stdout",
+      "source" : "41a8a89762f24c6.txt",
+      "type" : "text/plain",
+      "size" : 154
+    }, {
+      "uid" : "7e7b1318fd96f098",
+      "name" : "step_screenshot",
+      "source" : "7e7b1318fd96f098.png",
+      "type" : "image/png",
+      "size" : 182881
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser::<lambda>",
+    "time" : {
+      "start" : 1651656897433,
+      "stop" : 1651656897642,
+      "duration" : 209
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fbeda9b8c60fca67",
+      "name" : "name",
+      "source" : "fbeda9b8c60fca67.png",
+      "type" : "image/png",
+      "size" : 333916
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "need_review"
+  }, {
+    "name" : "suite",
+    "value" : "test_product_page"
+  }, {
+    "name" : "host",
+    "value" : "fv-az200-700"
+  }, {
+    "name" : "thread",
+    "value" : "2606-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_product_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "'Chrome'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "need_review" ]
+  },
+  "source" : "40e3a01a69bb83d9.json",
+  "parameterValues" : [ "'Chrome'" ]
+}

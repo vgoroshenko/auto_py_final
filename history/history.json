@@ -9,12 +9,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "33acf1e6f89e1b84",
+      "uid" : "dc9e7a0c58597746",
       "status" : "passed",
       "time" : {
-        "start" : 1651656552437,
-        "stop" : 1651656554042,
-        "duration" : 1605
+        "start" : 1651656927479,
+        "stop" : 1651656929110,
+        "duration" : 1631
       }
     } ]
   },
@@ -28,12 +28,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "82fb37119cd419e7",
+      "uid" : "363d7a1fbf93fcb8",
       "status" : "passed",
       "time" : {
-        "start" : 1651656570207,
-        "stop" : 1651656570601,
-        "duration" : 394
+        "start" : 1651656972579,
+        "stop" : 1651656973631,
+        "duration" : 1052
       }
     } ]
   },
@@ -47,12 +47,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "46f1f75ce1f890d9",
+      "uid" : "12f830d1c461092e",
       "status" : "passed",
       "time" : {
-        "start" : 1651656500979,
-        "stop" : 1651656506506,
-        "duration" : 5527
+        "start" : 1651656894120,
+        "stop" : 1651656900088,
+        "duration" : 5968
       }
     } ]
   },
@@ -66,13 +66,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6d419894658cfdfa",
+      "uid" : "391c5cd111c0bbb6",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.NoSuchFrameException: Message: Callback was not called before the unload event.",
       "time" : {
-        "start" : 1651656571631,
-        "stop" : 1651656572203,
-        "duration" : 572
+        "start" : 1651656972395,
+        "stop" : 1651656973613,
+        "duration" : 1218
       }
     } ]
   },
@@ -80,19 +80,19 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 1,
-      "passed" : 0,
+      "skipped" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ceecef8519a5923b",
-      "status" : "skipped",
-      "statusDetails" : "XFAIL\n\nselenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".btn-add-to-basket\"}\n  (Session info: chrome=100.0.4896.60)\nStacktrace:\n#0 0x561c346d3013 <unknown>\n#1 0x561c34435a08 <unknown>\n#2 0x561c3446bfb6 <unknown>\n#3 0x561c3446c171 <unknown>\n#4 0x561c3449edd4 <unknown>\n#5 0x561c3448995d <unknown>\n#6 0x561c3449cb94 <unknown>\n#7 0x561c34489823 <unknown>\n#8 0x561c3445f08a <unknown>\n#9 0x561c344601e5 <unknown>\n#10 0x561c34700e5d <unknown>\n#11 0x561c3471a061 <unknown>\n#12 0x561c34702bb5 <unknown>\n#13 0x561c3471ae08 <unknown>\n#14 0x561c346f62f0 <unknown>\n#15 0x561c34736988 <unknown>\n#16 0x561c34736b08 <unknown>\n#17 0x561c347505dd <unknown>\n#18 0x7f8275514609 <unknown>",
+      "uid" : "b90798d3ffa5e6b4",
+      "status" : "passed",
+      "statusDetails" : "XPASS",
       "time" : {
-        "start" : 1651656512970,
-        "stop" : 1651656517506,
-        "duration" : 4536
+        "start" : 1651656908190,
+        "stop" : 1651656910417,
+        "duration" : 2227
       }
     } ]
   },
@@ -106,13 +106,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b1ccffef51789dbc",
+      "uid" : "fcd88b376114c726",
       "status" : "skipped",
-      "statusDetails" : "XFAIL\n\nselenium.common.exceptions.StaleElementReferenceException: Message: Node with identifier 'node-105D7767-C783-4541-870C-92C570E2A4BC' was not found",
+      "statusDetails" : "XFAIL\n\nselenium.common.exceptions.NoSuchElementException: Message:",
       "time" : {
-        "start" : 1651656573542,
-        "stop" : 1651656579687,
-        "duration" : 6145
+        "start" : 1651656973583,
+        "stop" : 1651656978963,
+        "duration" : 5380
       }
     } ]
   },
@@ -126,13 +126,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "bafdcb1ff8a05854",
+      "uid" : "82788fbd41cd1700",
       "status" : "failed",
       "statusDetails" : "AssertionError: invalid login url",
       "time" : {
-        "start" : 1651656573322,
-        "stop" : 1651656576009,
-        "duration" : 2687
+        "start" : 1651656967874,
+        "stop" : 1651656968809,
+        "duration" : 935
       }
     } ]
   },
@@ -140,19 +140,19 @@
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
+      "skipped" : 1,
+      "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "540bebbf4f2bfced",
-      "status" : "passed",
-      "statusDetails" : "XPASS",
+      "uid" : "6664c861708e86be",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL\n\nAssertionError: Success message is presented, but should not be",
       "time" : {
-        "start" : 1651656554767,
-        "stop" : 1651656564072,
-        "duration" : 9305
+        "start" : 1651656952643,
+        "stop" : 1651656962273,
+        "duration" : 9630
       }
     } ]
   },
@@ -166,31 +166,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "80d47b64f6dfb60f",
+      "uid" : "aa9ab14c16abbdd",
       "status" : "passed",
       "time" : {
-        "start" : 1651656568878,
-        "stop" : 1651656569381,
-        "duration" : 503
-      }
-    } ]
-  },
-  "47b1abe97e781acfe3364043d3605218" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "8ab6f93f7851e017",
-      "status" : "passed",
-      "time" : {
-        "start" : 1651656561737,
-        "stop" : 1651656562256,
-        "duration" : 519
+        "start" : 1651656971149,
+        "stop" : 1651656972119,
+        "duration" : 970
       }
     } ]
   },
@@ -204,12 +185,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b36ded50865dee56",
+      "uid" : "f123645f8e00feba",
       "status" : "passed",
       "time" : {
-        "start" : 1651656508736,
-        "stop" : 1651656509489,
-        "duration" : 753
+        "start" : 1651656903573,
+        "stop" : 1651656907026,
+        "duration" : 3453
+      }
+    } ]
+  },
+  "47b1abe97e781acfe3364043d3605218" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "25cec7be0db9464b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651656963336,
+        "stop" : 1651656964171,
+        "duration" : 835
       }
     } ]
   },
@@ -223,12 +223,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "15aebe02c60c04a3",
+      "uid" : "c23db60e6924fca",
       "status" : "passed",
       "time" : {
-        "start" : 1651656553620,
-        "stop" : 1651656554497,
-        "duration" : 877
+        "start" : 1651656952871,
+        "stop" : 1651656960923,
+        "duration" : 8052
       }
     } ]
   },
@@ -242,32 +242,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e760c08638612e16",
+      "uid" : "40e3a01a69bb83d9",
       "status" : "passed",
       "time" : {
-        "start" : 1651656498440,
-        "stop" : 1651656501255,
-        "duration" : 2815
+        "start" : 1651656891398,
+        "stop" : 1651656895244,
+        "duration" : 3846
       }
     } ]
   },
   "18d0f90e4a372033edcf912db93e8154" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "83a2275d45538524",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: invalid login url",
+      "uid" : "8081ce82731e1f8b",
+      "status" : "passed",
       "time" : {
-        "start" : 1651656569504,
-        "stop" : 1651656570324,
-        "duration" : 820
+        "start" : 1651656966447,
+        "stop" : 1651656967677,
+        "duration" : 1230
       }
     } ]
   },
@@ -281,12 +280,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6fd1cfa7e39fb663",
+      "uid" : "48e2f1b6ce3840a5",
       "status" : "passed",
       "time" : {
-        "start" : 1651656498802,
-        "stop" : 1651656500887,
-        "duration" : 2085
+        "start" : 1651656891292,
+        "stop" : 1651656894030,
+        "duration" : 2738
       }
     } ]
   },
@@ -300,12 +299,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d7db87b028a21f2e",
+      "uid" : "2520b7aac1d1dae",
       "status" : "passed",
       "time" : {
-        "start" : 1651656531791,
-        "stop" : 1651656534335,
-        "duration" : 2544
+        "start" : 1651656932004,
+        "stop" : 1651656933158,
+        "duration" : 1154
       }
     } ]
   },
@@ -319,13 +318,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1db019d5ff40c9ef",
+      "uid" : "79455b5d50f63769",
       "status" : "skipped",
       "statusDetails" : "XFAIL\n\nselenium.common.exceptions.NoSuchFrameException: Message: Callback was not called before the unload event.",
       "time" : {
-        "start" : 1651656569635,
-        "stop" : 1651656571306,
-        "duration" : 1671
+        "start" : 1651656969401,
+        "stop" : 1651656970940,
+        "duration" : 1539
       }
     } ]
   },
@@ -339,12 +338,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "27dc87af2685fd72",
+      "uid" : "b821eba858160e38",
       "status" : "passed",
       "time" : {
-        "start" : 1651656511315,
-        "stop" : 1651656513744,
-        "duration" : 2429
+        "start" : 1651656904209,
+        "stop" : 1651656907753,
+        "duration" : 3544
       }
     } ]
   },
@@ -358,12 +357,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "571105812a6d99e4",
+      "uid" : "50b36729df245a71",
       "status" : "passed",
       "time" : {
-        "start" : 1651656500670,
-        "stop" : 1651656501710,
-        "duration" : 1040
+        "start" : 1651656894129,
+        "stop" : 1651656895567,
+        "duration" : 1438
       }
     } ]
   },
@@ -377,12 +376,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1cea06b81ccaa2db",
+      "uid" : "64dfec25c6d9673",
       "status" : "passed",
       "time" : {
-        "start" : 1651656570802,
-        "stop" : 1651656571332,
-        "duration" : 530
+        "start" : 1651656971404,
+        "stop" : 1651656972036,
+        "duration" : 632
       }
     } ]
   },
@@ -396,12 +395,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5175289fe9c8a5b0",
+      "uid" : "4dead8ba21d7172c",
       "status" : "passed",
       "time" : {
-        "start" : 1651656498810,
-        "stop" : 1651656499833,
-        "duration" : 1023
+        "start" : 1651656891004,
+        "stop" : 1651656892372,
+        "duration" : 1368
       }
     } ]
   },
@@ -415,12 +414,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a49eb9710ef7751f",
+      "uid" : "e300c708b35c7a74",
       "status" : "passed",
       "time" : {
-        "start" : 1651656501830,
-        "stop" : 1651656506704,
-        "duration" : 4874
+        "start" : 1651656894733,
+        "stop" : 1651656899879,
+        "duration" : 5146
       }
     } ]
   },
@@ -434,13 +433,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3425964c83f407b0",
+      "uid" : "5ce4ad4d019dcf0c",
       "status" : "skipped",
       "statusDetails" : "XFAIL\n\nselenium.common.exceptions.NoSuchFrameException: Message: Callback was not called before the unload event.",
       "time" : {
-        "start" : 1651656576258,
-        "stop" : 1651656579016,
-        "duration" : 2758
+        "start" : 1651656978178,
+        "stop" : 1651656980567,
+        "duration" : 2389
       }
     } ]
   },
@@ -454,32 +453,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8345469b6abc329f",
+      "uid" : "257bae1658b4a4c0",
       "status" : "passed",
       "time" : {
-        "start" : 1651656569659,
-        "stop" : 1651656575006,
-        "duration" : 5347
-      }
-    } ]
-  },
-  "349ad826241aede6fe024b51d652a58d" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "e4d8f912fbb64e78",
-      "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".btn-add-to-basket\"}\n  (Session info: MicrosoftEdge=100.0.1185.39)\nStacktrace:\n#0 0x56282de77583 <unknown>\n#1 0x56282db93c93 <unknown>\n#2 0x56282dbcc969 <unknown>\n#3 0x56282dbccb61 <unknown>\n#4 0x56282dbfef64 <unknown>\n#5 0x56282dbea4cd <unknown>\n#6 0x56282dbfcfa6 <unknown>\n#7 0x56282dbea393 <unknown>\n#8 0x56282dbc0a81 <unknown>\n#9 0x56282dbc1c45 <unknown>\n#10 0x56282dea0ea7 <unknown>\n#11 0x56282deb2132 <unknown>\n#12 0x56282deb1e5c <unknown>\n#13 0x56282deb2632 <unknown>\n#14 0x56282dea239b <unknown>\n#15 0x56282deb28f3 <unknown>\n#16 0x56282de97fa5 <unknown>\n#17 0x56282deca038 <unknown>\n#18 0x56282deca1e8 <unknown>\n#19 0x56282dee343e <unknown>\n#20 0x7f3156a65609 <unknown>",
-      "time" : {
-        "start" : 1651656512718,
-        "stop" : 1651656518100,
-        "duration" : 5382
+        "start" : 1651656951403,
+        "stop" : 1651656964033,
+        "duration" : 12630
       }
     } ]
   },
@@ -493,13 +472,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "51e8a1677a8da4a8",
+      "uid" : "ae9097988a1801ac",
       "status" : "skipped",
       "statusDetails" : "XFAIL\n\nAssertionError: Success message is presented, but should not be",
       "time" : {
-        "start" : 1651656555358,
-        "stop" : 1651656564261,
-        "duration" : 8903
+        "start" : 1651656961555,
+        "stop" : 1651656968023,
+        "duration" : 6468
+      }
+    } ]
+  },
+  "349ad826241aede6fe024b51d652a58d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b3a9de8c9777e59c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1651656905254,
+        "stop" : 1651656909882,
+        "duration" : 4628
       }
     } ]
   },
@@ -513,32 +511,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b7af51008de70e38",
+      "uid" : "d4b4e3e188e03f47",
       "status" : "passed",
       "time" : {
-        "start" : 1651656523297,
-        "stop" : 1651656531325,
-        "duration" : 8028
-      }
-    } ]
-  },
-  "b230991c9271d25583541030af9a4a62" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 1,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "4fab6ec0b1e8447d",
-      "status" : "skipped",
-      "statusDetails" : "XFAIL\n\nselenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: .btn-add-to-basket\nStacktrace:\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:183:5\nNoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:395:5\nelement.find/</<@chrome://remote/content/marionette/element.js:300:16",
-      "time" : {
-        "start" : 1651656567108,
-        "stop" : 1651656571498,
-        "duration" : 4390
+        "start" : 1651656922556,
+        "stop" : 1651656929353,
+        "duration" : 6797
       }
     } ]
   },
@@ -552,12 +530,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e1283e94a1114c5",
+      "uid" : "c73a7047f689d3a1",
       "status" : "passed",
       "time" : {
-        "start" : 1651656572554,
-        "stop" : 1651656582788,
-        "duration" : 10234
+        "start" : 1651656974347,
+        "stop" : 1651656982934,
+        "duration" : 8587
+      }
+    } ]
+  },
+  "b230991c9271d25583541030af9a4a62" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d2399936966bce74",
+      "status" : "skipped",
+      "statusDetails" : "XFAIL\n\nselenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: #id_registration-email\nStacktrace:\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:183:5\nNoSuchElementError@chrome://remote/content/shared/webdriver/Errors.jsm:395:5\nelement.find/</<@chrome://remote/content/marionette/element.js:300:16",
+      "time" : {
+        "start" : 1651656964399,
+        "stop" : 1651656964399,
+        "duration" : 0
       }
     } ]
   },
@@ -571,13 +569,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2419f4fc3ec02b89",
+      "uid" : "8fdc8d03001559a0",
       "status" : "broken",
-      "statusDetails" : "selenium.common.exceptions.StaleElementReferenceException: Message: Node with identifier 'node-D836B46F-9F6F-4965-BBB6-2DA64E07BF57' was not found",
+      "statusDetails" : "selenium.common.exceptions.StaleElementReferenceException: Message: Node with identifier 'node-060B3006-767F-408F-B496-C4B539525FEB' was not found",
       "time" : {
-        "start" : 1651656576934,
-        "stop" : 1651656580408,
-        "duration" : 3474
+        "start" : 1651656971966,
+        "stop" : 1651656977880,
+        "duration" : 5914
       }
     } ]
   },
@@ -591,12 +589,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2301e563553eaa97",
+      "uid" : "7279e9d30c9dd379",
       "status" : "passed",
       "time" : {
-        "start" : 1651656562423,
-        "stop" : 1651656567692,
-        "duration" : 5269
+        "start" : 1651656963957,
+        "stop" : 1651656969254,
+        "duration" : 5297
       }
     } ]
   },
@@ -610,12 +608,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6760ab6a4f004b73",
+      "uid" : "4073f9357179d3c5",
       "status" : "passed",
       "time" : {
-        "start" : 1651656521554,
-        "stop" : 1651656528685,
-        "duration" : 7131
+        "start" : 1651656919803,
+        "stop" : 1651656930123,
+        "duration" : 10320
       }
     } ]
   },
@@ -629,13 +627,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "25780d8ad2edb045",
+      "uid" : "2e095e23aaa03e54",
       "status" : "skipped",
-      "statusDetails" : "XFAIL\n\nselenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".btn-add-to-basket\"}\n  (Session info: MicrosoftEdge=100.0.1185.39)\nStacktrace:\n#0 0x55921b6c6583 <unknown>\n#1 0x55921b3e2c93 <unknown>\n#2 0x55921b41b969 <unknown>\n#3 0x55921b41bb61 <unknown>\n#4 0x55921b44df64 <unknown>\n#5 0x55921b4394cd <unknown>\n#6 0x55921b44bfa6 <unknown>\n#7 0x55921b439393 <unknown>\n#8 0x55921b40fa81 <unknown>\n#9 0x55921b410c45 <unknown>\n#10 0x55921b6efea7 <unknown>\n#11 0x55921b701132 <unknown>\n#12 0x55921b700e5c <unknown>\n#13 0x55921b701632 <unknown>\n#14 0x55921b6f139b <unknown>\n#15 0x55921b7018f3 <unknown>\n#16 0x55921b6e6fa5 <unknown>\n#17 0x55921b719038 <unknown>\n#18 0x55921b7191e8 <unknown>\n#19 0x55921b73243e <unknown>\n#20 0x7f0063703609 <unknown>",
+      "statusDetails" : "XFAIL\n\nselenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\".btn-add-to-basket\"}\n  (Session info: MicrosoftEdge=100.0.1185.39)\nStacktrace:\n#0 0x558eed31e583 <unknown>\n#1 0x558eed03ac93 <unknown>\n#2 0x558eed073969 <unknown>\n#3 0x558eed073b61 <unknown>\n#4 0x558eed0a5f64 <unknown>\n#5 0x558eed0914cd <unknown>\n#6 0x558eed0a3fa6 <unknown>\n#7 0x558eed091393 <unknown>\n#8 0x558eed067a81 <unknown>\n#9 0x558eed068c45 <unknown>\n#10 0x558eed347ea7 <unknown>\n#11 0x558eed359132 <unknown>\n#12 0x558eed358e5c <unknown>\n#13 0x558eed359632 <unknown>\n#14 0x558eed34939b <unknown>\n#15 0x558eed3598f3 <unknown>\n#16 0x558eed33efa5 <unknown>\n#17 0x558eed371038 <unknown>\n#18 0x558eed3711e8 <unknown>\n#19 0x558eed38a43e <unknown>\n#20 0x7f0d8759e609 <unknown>",
       "time" : {
-        "start" : 1651656510918,
-        "stop" : 1651656516733,
-        "duration" : 5815
+        "start" : 1651656908646,
+        "stop" : 1651656913181,
+        "duration" : 4535
       }
     } ]
   },
@@ -649,12 +647,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3de70342df39138e",
+      "uid" : "7d0754fcb6649511",
       "status" : "passed",
       "time" : {
-        "start" : 1651656498404,
-        "stop" : 1651656504914,
-        "duration" : 6510
+        "start" : 1651656891238,
+        "stop" : 1651656898581,
+        "duration" : 7343
       }
     } ]
   },
@@ -668,12 +666,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7d7692a7d9dbb756",
+      "uid" : "ec03c001ef478dc0",
       "status" : "passed",
       "time" : {
-        "start" : 1651656505769,
-        "stop" : 1651656507339,
-        "duration" : 1570
+        "start" : 1651656899780,
+        "stop" : 1651656902310,
+        "duration" : 2530
       }
     } ]
   },
@@ -687,12 +685,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "21286ff3ba2e75fd",
+      "uid" : "94fd5210dfdfcaf9",
       "status" : "passed",
       "time" : {
-        "start" : 1651656502331,
-        "stop" : 1651656502985,
-        "duration" : 654
+        "start" : 1651656896194,
+        "stop" : 1651656896863,
+        "duration" : 669
       }
     } ]
   },
@@ -706,12 +704,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c057008c57b36c5a",
+      "uid" : "dfa34b8e38daf54d",
       "status" : "passed",
       "time" : {
-        "start" : 1651656498712,
-        "stop" : 1651656499894,
-        "duration" : 1182
+        "start" : 1651656890757,
+        "stop" : 1651656892841,
+        "duration" : 2084
       }
     } ]
   },
@@ -725,12 +723,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "444fdcd31ba0b4cc",
+      "uid" : "c4c319feded6c0a0",
       "status" : "passed",
       "time" : {
-        "start" : 1651656531797,
-        "stop" : 1651656538739,
-        "duration" : 6942
+        "start" : 1651656925296,
+        "stop" : 1651656930926,
+        "duration" : 5630
       }
     } ]
   },
@@ -744,12 +742,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5288c2381851df27",
+      "uid" : "b7f501c634ffd950",
       "status" : "passed",
       "time" : {
-        "start" : 1651656570663,
-        "stop" : 1651656575805,
-        "duration" : 5142
+        "start" : 1651656977063,
+        "stop" : 1651656982813,
+        "duration" : 5750
       }
     } ]
   },
@@ -763,12 +761,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b52e76a3aa83aff",
+      "uid" : "92a9f629ce64e0f6",
       "status" : "passed",
       "time" : {
-        "start" : 1651656519690,
-        "stop" : 1651656523719,
-        "duration" : 4029
+        "start" : 1651656910990,
+        "stop" : 1651656912517,
+        "duration" : 1527
       }
     } ]
   },
@@ -782,12 +780,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2c747d5c64732794",
+      "uid" : "1609f52b547665fd",
       "status" : "passed",
       "time" : {
-        "start" : 1651656564384,
-        "stop" : 1651656569987,
-        "duration" : 5603
+        "start" : 1651656970855,
+        "stop" : 1651656976901,
+        "duration" : 6046
       }
     } ]
   },
@@ -801,12 +799,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b2cd89169812cff6",
+      "uid" : "91735208f5de3b62",
       "status" : "passed",
       "time" : {
-        "start" : 1651656555928,
-        "stop" : 1651656560864,
-        "duration" : 4936
+        "start" : 1651656937861,
+        "stop" : 1651656942780,
+        "duration" : 4919
       }
     } ]
   },
@@ -820,12 +818,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1c4202c0cd441aba",
+      "uid" : "92f5fde1487428e2",
       "status" : "passed",
       "time" : {
-        "start" : 1651656561381,
-        "stop" : 1651656567114,
-        "duration" : 5733
+        "start" : 1651656961979,
+        "stop" : 1651656967919,
+        "duration" : 5940
       }
     } ]
   },
@@ -839,13 +837,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d9b73c104a0c7094",
+      "uid" : "1593ab8db9842fda",
       "status" : "skipped",
       "statusDetails" : "XFAIL\n\nAssertionError: Success message is presented, but should not be",
       "time" : {
-        "start" : 1651656505570,
-        "stop" : 1651656506584,
-        "duration" : 1014
+        "start" : 1651656899319,
+        "stop" : 1651656901357,
+        "duration" : 2038
       }
     } ]
   },
@@ -859,13 +857,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6f13c261bdc347d1",
+      "uid" : "1118eb2229c21a86",
       "status" : "skipped",
       "statusDetails" : "XFAIL\n\nAssertionError: Success message is presented, but should not be",
       "time" : {
-        "start" : 1651656525898,
-        "stop" : 1651656530543,
-        "duration" : 4645
+        "start" : 1651656916159,
+        "stop" : 1651656924190,
+        "duration" : 8031
       }
     } ]
   },
@@ -879,13 +877,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b07e30f38b0917d3",
+      "uid" : "e5f47770c9618038",
       "status" : "skipped",
       "statusDetails" : "XFAIL\n\nAssertionError: Success message is presented, but should not be",
       "time" : {
-        "start" : 1651656502412,
-        "stop" : 1651656507750,
-        "duration" : 5338
+        "start" : 1651656896302,
+        "stop" : 1651656902106,
+        "duration" : 5804
       }
     } ]
   },
@@ -899,12 +897,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "344e66f04c1dd3c5",
+      "uid" : "fb79f39f48f2b69e",
       "status" : "passed",
       "time" : {
-        "start" : 1651656542984,
-        "stop" : 1651656553258,
-        "duration" : 10274
+        "start" : 1651656929835,
+        "stop" : 1651656936962,
+        "duration" : 7127
       }
     } ]
   },
@@ -918,12 +916,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1304a5752731ce46",
+      "uid" : "9003ee49452571ce",
       "status" : "passed",
       "time" : {
-        "start" : 1651656556673,
-        "stop" : 1651656561250,
-        "duration" : 4577
+        "start" : 1651656951606,
+        "stop" : 1651656961300,
+        "duration" : 9694
       }
     } ]
   },
@@ -937,13 +935,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d90c50bc2fff47f4",
+      "uid" : "3a71ba4836e7c4f5",
       "status" : "passed",
       "statusDetails" : "XPASS",
       "time" : {
-        "start" : 1651656530780,
-        "stop" : 1651656536826,
-        "duration" : 6046
+        "start" : 1651656925721,
+        "stop" : 1651656932239,
+        "duration" : 6518
       }
     } ]
   },
@@ -957,12 +955,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "735cef535f86858a",
+      "uid" : "82b549da000a7bf7",
       "status" : "passed",
       "time" : {
-        "start" : 1651656514759,
-        "stop" : 1651656520837,
-        "duration" : 6078
+        "start" : 1651656908981,
+        "stop" : 1651656914982,
+        "duration" : 6001
       }
     } ]
   },
@@ -976,13 +974,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "acdcea7c4fedd5ff",
+      "uid" : "cd8fe599146d1690",
       "status" : "broken",
       "statusDetails" : "selenium.common.exceptions.StaleElementReferenceException: Message: The element reference of <h1> is stale; either the element is no longer attached to the DOM, it is not in the current frame context, or the document has been refreshed\nStacktrace:\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.jsm:183:5\nStaleElementReferenceError@chrome://remote/content/shared/webdriver/Errors.jsm:464:5\nelement.resolveElement@chrome://remote/content/marionette/element.js:681:11\nevaluate.fromJSON@chrome://remote/content/marionette/evaluate.js:254:26\nevaluate.fromJSON@chrome://remote/content/marionette/evaluate.js:262:29\nreceiveMessage@chrome://remote/content/marionette/actors/MarionetteCommandsChild.jsm:79:29",
       "time" : {
-        "start" : 1651656554764,
-        "stop" : 1651656561533,
-        "duration" : 6769
+        "start" : 1651656951192,
+        "stop" : 1651656963044,
+        "duration" : 11852
       }
     } ]
   },
@@ -996,12 +994,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "27176366e061f097",
+      "uid" : "9c595aa71d9b6935",
       "status" : "passed",
       "time" : {
-        "start" : 1651656515019,
-        "stop" : 1651656520458,
-        "duration" : 5439
+        "start" : 1651656906671,
+        "stop" : 1651656912387,
+        "duration" : 5716
       }
     } ]
   }

@@ -5,9 +5,9 @@
     "name" : "test_product_page",
     "statistic" : {
       "failed" : 1,
-      "broken" : 4,
+      "broken" : 3,
       "skipped" : 10,
-      "passed" : 21,
+      "passed" : 22,
       "unknown" : 0,
       "total" : 36
     }
@@ -15,10 +15,10 @@
     "uid" : "606c977bf0ca40a66f32cea9245eb3e6",
     "name" : "test_main_page",
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 15,
+      "passed" : 16,
       "unknown" : 0,
       "total" : 16
     }
