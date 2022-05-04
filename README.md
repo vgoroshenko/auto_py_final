@@ -2,7 +2,12 @@
 
 [Link to Allure report after run tests](https://vgoroshenko.github.io/auto_py_final/)
 
-# Parallel crossbrowser tests pytest + selenoid + selenium 
+# Parallel crossbrowser tests
+
+Used `Pytest + Selenium + Selenoid + Allure`
+
+4 browsers `Chrome, Safari, Firefox, EDGE`
+
 
 Run selenoid service `docker-compose up -d `, `make pull` 
 
