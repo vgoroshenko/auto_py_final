@@ -1,0 +1,127 @@
+{
+  "uid" : "cce3e16714e539eb",
+  "name" : "test_guest_can_go_to_login_page[Browser: Chrome]",
+  "fullName" : "test_main_page.TestLoginFromMainPage#test_guest_can_go_to_login_page",
+  "historyId" : "f16076f9c14bf0069b26e355cc3518f1",
+  "time" : {
+    "start" : 1651771739142,
+    "stop" : 1651771741368,
+    "duration" : 2226
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1651771734714,
+      "stop" : 1651771738930,
+      "duration" : 4216
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b37713a993bedc06",
+      "name" : "step_screenshot_17:28:59",
+      "source" : "b37713a993bedc06.png",
+      "type" : "image/png",
+      "size" : 5569
+    }, {
+      "uid" : "6fb1cdd5f355c447",
+      "name" : "step_screenshot_17:29:01",
+      "source" : "6fb1cdd5f355c447.png",
+      "type" : "image/png",
+      "size" : 51420
+    }, {
+      "uid" : "270d01097ea2711",
+      "name" : "step_screenshot_17:29:02",
+      "source" : "270d01097ea2711.png",
+      "type" : "image/png",
+      "size" : 51420
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1651771748530,
+      "stop" : 1651771748844,
+      "duration" : 314
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "2e9f7bdfdb0ccf70",
+      "name" : "QuitBrowser_17:29:08",
+      "source" : "2e9f7bdfdb0ccf70.png",
+      "type" : "image/png",
+      "size" : 34947
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "login_guest"
+  }, {
+    "name" : "suite",
+    "value" : "test_main_page"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLoginFromMainPage"
+  }, {
+    "name" : "host",
+    "value" : "fv-az135-486"
+  }, {
+    "name" : "thread",
+    "value" : "2456-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_main_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "'Chrome'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "login_guest" ]
+  },
+  "source" : "cce3e16714e539eb.json",
+  "parameterValues" : [ "'Chrome'" ]
+}

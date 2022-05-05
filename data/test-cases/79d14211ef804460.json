@@ -1,0 +1,104 @@
+{
+  "uid" : "79d14211ef804460",
+  "name" : "test_user_cant_see_success_message[Browser: MicrosoftEdge]",
+  "fullName" : "test_product_page.TestUserAddToBasketFromProductPage#test_user_cant_see_success_message",
+  "historyId" : "85f233b19866eca5faf3559fe47ec8bf",
+  "time" : {
+    "start" : 1651771784148,
+    "stop" : 1651771784148,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "statusMessage" : "Skipped: unconditional skip",
+  "statusTrace" : "('/home/runner/work/auto_py_final/auto_py_final/test_product_page.py', 84, 'Skipped: unconditional skip')",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1651771762410,
+      "stop" : 1651771765181,
+      "duration" : 2771
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1651771784152,
+      "stop" : 1651771785525,
+      "duration" : 1373
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6297e5d0d05e47d5",
+      "name" : "QuitBrowser_17:29:45",
+      "source" : "6297e5d0d05e47d5.png",
+      "type" : "image/png",
+      "size" : 34976
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.skip"
+  }, {
+    "name" : "tag",
+    "value" : "new"
+  }, {
+    "name" : "suite",
+    "value" : "test_product_page"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUserAddToBasketFromProductPage"
+  }, {
+    "name" : "host",
+    "value" : "fv-az135-486"
+  }, {
+    "name" : "thread",
+    "value" : "2462-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_product_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "'MicrosoftEdge'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "new", "@pytest.mark.skip" ]
+  },
+  "source" : "79d14211ef804460.json",
+  "parameterValues" : [ "'MicrosoftEdge'" ]
+}
