@@ -1,3 +1,4 @@
+import pytest
 from selenium.webdriver.common.by import By
 
 
@@ -31,4 +32,20 @@ class BasePageLocators():
     LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_link_inc")
     USER_ICON = (By.CSS_SELECTOR, ".icon-user")
     SUCCESS_MESSAGE = (By.CSS_SELECTOR, ".alert-success")
+
+class UrlLocators():
+    MAIN_URL = "http://selenium1py.pythonanywhere.com/en-gb/"
+    LOGIN_URL = "http://selenium1py.pythonanywhere.com/en-gb/accounts/login/"
+    PRODUCT_URL = "http://selenium1py.pythonanywhere.com/en-gb/catalogue/the-city-and-the-stars_95/"
+    PROMO_URLS = ["http://selenium1py.pythonanywhere.com/en-gb/catalogue/coders-at-work_207/?promo=offer0",
+                 "http://selenium1py.pythonanywhere.com/en-gb/catalogue/coders-at-work_207/?promo=offer1",
+                 "http://selenium1py.pythonanywhere.com/en-gb/catalogue/coders-at-work_207/?promo=offer2",
+                 "http://selenium1py.pythonanywhere.com/en-gb/catalogue/coders-at-work_207/?promo=offer3",
+                 "http://selenium1py.pythonanywhere.com/en-gb/catalogue/coders-at-work_207/?promo=offer4",
+                 "http://selenium1py.pythonanywhere.com/en-gb/catalogue/coders-at-work_207/?promo=offer5",
+                 "http://selenium1py.pythonanywhere.com/en-gb/catalogue/coders-at-work_207/?promo=offer6",
+                 pytest.param("http://selenium1py.pythonanywhere.com/en-gb/catalogue/coders-at-work_207/?promo=offer7",
+                              marks=pytest.mark.xfail),
+                 "http://selenium1py.pythonanywhere.com/en-gb/catalogue/coders-at-work_207/?promo=offer8",
+                 "http://selenium1py.pythonanywhere.com/en-gb/catalogue/coders-at-work_207/?promo=offer9"]
 
