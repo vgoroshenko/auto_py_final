@@ -1,0 +1,122 @@
+{
+  "uid" : "2f2bdeba869784a3",
+  "name" : "test_message_disappeared_after_adding_product_to_basket[Browser: MicrosoftEdge]",
+  "fullName" : "test_product_page#test_message_disappeared_after_adding_product_to_basket",
+  "historyId" : "79786adee50cfb7ac610570f4e20dd39",
+  "time" : {
+    "start" : 1651759591414,
+    "stop" : 1651759597303,
+    "duration" : 5889
+  },
+  "status" : "skipped",
+  "statusMessage" : "XFAIL\n\nAssertionError: Success message is presented, but should not be",
+  "statusTrace" : "E   AssertionError: Success message is presented, but should not be",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1651759583843,
+      "stop" : 1651759586296,
+      "duration" : 2453
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "skipped",
+    "statusMessage" : "XFAIL\n\nAssertionError: Success message is presented, but should not be",
+    "statusTrace" : "E   AssertionError: Success message is presented, but should not be",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "376a453e106b4599",
+      "name" : "step_screenshot_14:06:31",
+      "source" : "376a453e106b4599.png",
+      "type" : "image/png",
+      "size" : 133169
+    }, {
+      "uid" : "92025e05f26bcd36",
+      "name" : "step_screenshot_14:06:37",
+      "source" : "92025e05f26bcd36.png",
+      "type" : "image/png",
+      "size" : 313124
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1651759597918,
+      "stop" : 1651759599219,
+      "duration" : 1301
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "683b76311b2a6720",
+      "name" : "QuitBrowser_14:06:39",
+      "source" : "683b76311b2a6720.png",
+      "type" : "image/png",
+      "size" : 313124
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.xfail"
+  }, {
+    "name" : "suite",
+    "value" : "test_product_page"
+  }, {
+    "name" : "host",
+    "value" : "fv-az39-740"
+  }, {
+    "name" : "thread",
+    "value" : "2533-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_product_page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "'MicrosoftEdge'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.xfail" ]
+  },
+  "source" : "2f2bdeba869784a3.json",
+  "parameterValues" : [ "'MicrosoftEdge'" ]
+}
